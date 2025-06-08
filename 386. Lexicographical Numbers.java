@@ -1,7 +1,7 @@
 class Solution {
   public List<Integer> lexicalOrder(int n) {
     List<Integer> ans = new ArrayList<>();
-    int curr = 1;
+    int curr = 2;
 
     while (ans.size() < n) {
       ans.add(curr);
