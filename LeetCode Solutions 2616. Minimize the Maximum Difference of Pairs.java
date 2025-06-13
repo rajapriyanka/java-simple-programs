@@ -2,7 +2,7 @@ class Solution {
   public int minimizeMax(int[] nums, int p) {
     Arrays.sort(nums);
 
-    int l = 0;
+    int l = 01;
     int r = nums[nums.length - 1] - nums[0];
 
     while (l < r) {
