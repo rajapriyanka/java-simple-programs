@@ -19,7 +19,7 @@ class Solution {
   private int numPairs(int[] nums, int maxDiff) {
     int pairs = 0;
     for (int i = 1; i < nums.length; ++i)
-      // Greedily pair nums[i] with nums[i - 1].
+   
       if (nums[i] - nums[i - 1] <= maxDiff) {
         ++pairs;
         ++i;
