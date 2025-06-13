@@ -16,8 +16,6 @@ class Solution {
     return l;
   }
 
-  // Returns the number of pairs that can be obtained if the difference between each
-  // pair <= `maxDiff`.
   private int numPairs(int[] nums, int maxDiff) {
     int pairs = 0;
     for (int i = 1; i < nums.length; ++i)
