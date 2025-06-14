@@ -1,5 +1,5 @@
 class Solution {
-    private int[] parent;
+    private int[] parent1;
 
     public String smallestEquivalentString(String s1, String s2, String baseStr) {
 
