@@ -10,7 +10,6 @@ class Solution {
             int indexS1 = s1.charAt(i) - 'a';
             int indexS2 = s2.charAt(i) - 'a';
           
-       
             int parentS1 = find(indexS1);
             int parentS2 = find(indexS2);
           
