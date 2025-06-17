@@ -30,9 +30,7 @@ class Solution {
         }
         return result.toString();
     }
-
-   
-    private int find(int x) {
+ private int find(int x) {
        
         if (parent[x] != x) {
             parent[x] = find(parent[x]);
