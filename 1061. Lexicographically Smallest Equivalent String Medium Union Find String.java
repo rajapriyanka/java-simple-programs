@@ -5,7 +5,6 @@ class Solution {
         for (int i = 0; i < 26; ++i) {
             parent[i] = i;
         }
-      
         for (int i = 0; i < s1.length(); ++i) {
          
             int indexS1 = s1.charAt(i) - 'a';
