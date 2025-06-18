@@ -19,7 +19,6 @@ class Solution {
 
     return ans;
   }
-
   private void pushBoxesIfPossible(int[] boxes, int[] status, Queue<Integer> q,
                                    boolean[] reachedClosedBoxes) {
     for (final int box : boxes)
