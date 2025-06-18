@@ -4,13 +4,11 @@ class Solution {
     int ans = 0;
     Queue<Integer> q = new ArrayDeque<>();
     boolean[] reachedClosedBoxes = new boolean[status.length];
-
     pushBoxesIfPossible(initialBoxes, status, q, reachedClosedBoxes);
-
     while (!q.isEmpty()) {
       final int currBox = q.poll();
 
-      // Add the candies.
+     
       ans += candies[currBox];
 
       // Push `reachedClosedBoxes` by `key` obtained in this turn and change
