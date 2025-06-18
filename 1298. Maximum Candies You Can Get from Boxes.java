@@ -11,11 +11,10 @@ class Solution {
       for (final int key : keys[currBox]) {
         if (status[key] == 0 && reachedClosedBoxes[key])
           q.offer(key);
-        status[key] = 1; // boxes[key] is now open.
+        status[key] = 1; 
       }
 
-      // Push the boxes contained in `currBox`.
-      pushBoxesIfPossible(containedBoxes[currBox], status, q, reachedClosedBoxes);
+            pushBoxesIfPossible(containedBoxes[currBox], status, q, reachedClosedBoxes);
     }
 
     return ans;
