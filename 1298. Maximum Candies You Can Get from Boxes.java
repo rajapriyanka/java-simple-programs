@@ -7,8 +7,7 @@ class Solution {
     pushBoxesIfPossible(initialBoxes, status, q, reachedClosedBoxes);
     while (!q.isEmpty()) {
       final int currBox = q.poll();
-     
-      ans += candies[currBox];
+           ans += candies[currBox];
 
       // Push `reachedClosedBoxes` by `key` obtained in this turn and change
       // their statuses.
