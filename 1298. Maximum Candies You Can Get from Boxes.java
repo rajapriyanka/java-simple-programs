@@ -8,9 +8,6 @@ class Solution {
     while (!q.isEmpty()) {
       final int currBox = q.poll();
            ans += candies[currBox];
-
-      // Push `reachedClosedBoxes` by `key` obtained in this turn and change
-      // their statuses.
       for (final int key : keys[currBox]) {
         if (status[key] == 0 && reachedClosedBoxes[key])
           q.offer(key);
