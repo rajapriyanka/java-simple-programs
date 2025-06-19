@@ -1,7 +1,6 @@
 class Solution {
   public int partitionArray(int[] nums, int k) {
     Arrays.sort(nums);
-
     int ans = 1;
     int mn = nums[0];
 
