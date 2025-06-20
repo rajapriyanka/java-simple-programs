@@ -7,7 +7,6 @@ class Solution {
     int res = 0;
     int pos = 0;
     int opposite = 0;
-
     for (final char c : s.toCharArray()) {
       if (direction.indexOf(c) >= 0) {
         ++pos;
