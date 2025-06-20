@@ -4,6 +4,7 @@ class Solution {
     return Math.max(Math.max(flip(s, k, "NE"), flip(s, k, "NW")),
                     Math.max(flip(s, k, "SE"), flip(s, k, "SW")));
   }
+  
   private int flip(String s, int k, String direction) {
     int res = 0;
     int pos = 0;
