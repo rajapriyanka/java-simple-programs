@@ -18,6 +18,7 @@ class Solution {
       res = Math.max(res, pos + 2 * Math.min(k, opposite));
     }
 
+    
     return res;
   }
 }
