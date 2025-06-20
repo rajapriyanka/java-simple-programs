@@ -1,3 +1,4 @@
+
 class Solution {
   public int maxDistance(String s, int k) {
     return Math.max(Math.max(flip(s, k, "NE"), flip(s, k, "NW")),
