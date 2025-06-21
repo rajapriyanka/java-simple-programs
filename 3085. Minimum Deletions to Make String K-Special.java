@@ -3,6 +3,7 @@ class Solution {
     int ans = Integer.MAX_VALUE;
     int count[] = new int[26];
 
+    
     for (final char c : word.toCharArray())
       ++count[c - 'a'];
 
