@@ -10,7 +10,7 @@ class Solution {
     for (final int minFreq : count) {
       int deletions = 0;
       for (final int freq : count)
-        if (freq < minFreq) // Delete all the letters with smaller frequency.
+        if (freq < minFreq) 
           deletions += freq;
         else // Delete letters with exceeding frequency.
           deletions += Math.max(0, freq - (minFreq + k));
