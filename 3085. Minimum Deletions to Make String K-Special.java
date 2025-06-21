@@ -1,4 +1,3 @@
-
 class Solution {
   public int minimumDeletions(String word, int k) {
     int ans = Integer.MAX_VALUE;
