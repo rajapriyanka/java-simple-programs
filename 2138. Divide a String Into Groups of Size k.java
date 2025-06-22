@@ -6,7 +6,6 @@ class Solution {
       ans[j++] = i + k > s.length()
                      ? s.substring(i) + String.valueOf(fill).repeat(i + k - s.length())
                      : s.substring(i, i + k);
-
     return ans;
   }
 }
