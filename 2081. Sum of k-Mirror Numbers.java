@@ -1,7 +1,6 @@
 class Solution {
 
-    // This method returns the sum of the first n k-mirror numbers.
-    public long kMirror(int base, int count) {
+      public long kMirror(int base, int count) {
         long sum = 0; // Initialize sum of k-mirror numbers
 
         // Loops indefinitely until 'count' number of k-mirror numbers are found
