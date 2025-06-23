@@ -3,7 +3,7 @@ class Solution {
       public long kMirror(int base, int count) {
         long sum = 0; 
         for (int length = 1; ; ++length) {
-            // Find the start and end range based on the half-length to construct palindrome prefixes
+           
             int start = (int) Math.pow(10, (length - 1) / 2);
             int end = (int) Math.pow(10, (length + 1) / 2);
 
