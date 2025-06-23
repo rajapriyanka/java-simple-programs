@@ -10,10 +10,8 @@ class Solution {
             for (int i = start; i < end; i++) {
                 long palindrome = i;
             for (int j = length % 2 == 0 ? i : i / 10; j > 0; j /= 10) {
-                    palindrome = palindrome * 10 + j % 10; // Append digits in reverse order to form the palindrome
+                    palindrome = palindrome * 10 + j % 10; 
                 }
-
-                // Convert palindrome to its representation in the given base
                 String baseRepresentation = Long.toString(palindrome, base);
               
                 // Check if the base representation is a palindrome
