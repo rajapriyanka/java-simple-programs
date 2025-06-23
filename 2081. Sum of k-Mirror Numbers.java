@@ -7,7 +7,6 @@ class Solution {
             int start = (int) Math.pow(10, (length - 1) / 2);
             int end = (int) Math.pow(10, (length + 1) / 2);
 
-            // Loop to generate all palindrome numbers of the current length
             for (int i = start; i < end; i++) {
                 long palindrome = i;
 
