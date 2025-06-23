@@ -9,9 +9,7 @@ class Solution {
 
             for (int i = start; i < end; i++) {
                 long palindrome = i;
-
-                // Construct the second half of the palindrome number based on the length's parity
-                for (int j = length % 2 == 0 ? i : i / 10; j > 0; j /= 10) {
+            for (int j = length % 2 == 0 ? i : i / 10; j > 0; j /= 10) {
                     palindrome = palindrome * 10 + j % 10; // Append digits in reverse order to form the palindrome
                 }
 
