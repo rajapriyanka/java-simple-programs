@@ -10,7 +10,6 @@ class Solution {
       if (Math.abs(i - j) <= k)
         ans.add(i);
     }
-
     return ans;
   }
 }
