@@ -4,7 +4,7 @@ class Solution {
     List<Integer> ans = new ArrayList<>();
 
     for (int i = 0, j = 0; i < n; ++i) {
-      // the first index j s.t. nums[j] == key and j >= i - k
+
       while (j < n && (nums[j] != key || j < i - k))
         ++j;
       if (j == n)
