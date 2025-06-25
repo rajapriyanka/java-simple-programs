@@ -45,7 +45,7 @@ class Solution {
   private long numProductNoGreaterThan(List<Integer> A, List<Integer> B, long m) {
     long count = 0;
     int j = B.size() - 1;
-    // For each a, find the first index j s.t. a * B[j] <= m
+    
     // So numProductNoGreaterThan m for this row will be j + 1
     for (final long a : A) {
       while (j >= 0 && a * B.get(j) > m)
