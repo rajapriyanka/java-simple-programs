@@ -32,7 +32,6 @@ class Solution {
 
     return sign * l;
   }
-
   private void seperate(int[] arr, List<Integer> A1, List<Integer> A2) {
     for (final int a : arr)
       if (a < 0)
@@ -41,7 +40,6 @@ class Solution {
         A2.add(a);
     Collections.reverse(A1);
   }
-
   private long numProductNoGreaterThan(List<Integer> A, List<Integer> B, long m) {
     long count = 0;
     int j = B.size() - 1;
