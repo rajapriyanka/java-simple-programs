@@ -39,7 +39,7 @@ class Solution {
         A1.add(-a);
       else
         A2.add(a);
-    Collections.reverse(A1); // Reverse to sort ascending
+    Collections.reverse(A1);
   }
 
   private long numProductNoGreaterThan(List<Integer> A, List<Integer> B, long m) {
