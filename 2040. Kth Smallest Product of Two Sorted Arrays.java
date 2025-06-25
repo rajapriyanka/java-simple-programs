@@ -4,17 +4,15 @@ class Solution {
     List<Integer> A2 = new ArrayList<>();
     List<Integer> B1 = new ArrayList<>();
     List<Integer> B2 = new ArrayList<>();
-
     seperate(nums1, A1, A2);
     seperate(nums2, B1, B2);
-
     final long negCount = A1.size() * B2.size() + A2.size() * B1.size();
     int sign = 1;
 
     if (k > negCount) {
-      k -= negCount; //  Find the (k - negCount)-th positive.
+      k -= negCount; 
     } else {
-      k = negCount - k + 1; // Find the (negCount - k + 1)-th abs(negative).
+      k = negCount - k + 1;
       sign = -1;
       List<Integer> temp = B1;
       B1 = B2;
