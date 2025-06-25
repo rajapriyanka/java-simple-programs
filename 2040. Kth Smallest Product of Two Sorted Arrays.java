@@ -46,8 +46,7 @@ class Solution {
     long count = 0;
     int j = B.size() - 1;
     
-    // So numProductNoGreaterThan m for this row will be j + 1
-    for (final long a : A) {
+   for (final long a : A) {
       while (j >= 0 && a * B.get(j) > m)
         --j;
       count += j + 1;
