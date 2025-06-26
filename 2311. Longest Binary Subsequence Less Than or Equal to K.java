@@ -10,7 +10,6 @@ class Solution {
       }
       pow *= 2;
     }
-
     return (int) s.chars().filter(c -> c == '0').count() + oneCount;
   }
 }
