@@ -1,3 +1,4 @@
+
 class Solution {
   public int longestSubsequence(String s, int k) {
     int oneCount = 0;
