@@ -3,7 +3,6 @@ class Solution {
     String ans = "";
     int[] count = new int[26];
     List<Character> possibleChars = new ArrayList<>();
-    // Stores subsequences, where the length grows by 1 each time.
     Queue<String> q = new ArrayDeque<>(List.of(""));
 
     for (final char c : s.toCharArray())
