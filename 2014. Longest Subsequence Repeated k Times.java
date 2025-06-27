@@ -9,7 +9,6 @@ class Solution {
     for (char c = 'a'; c <= 'z'; ++c)
       if (count[c - 'a'] >= k)
         possibleChars.add(c);
-
     while (!q.isEmpty()) {
       final String currSubseq = q.poll();
       if (currSubseq.length() * k > s.length())
