@@ -4,7 +4,6 @@ class Solution {
     int[] count = new int[26];
     List<Character> possibleChars = new ArrayList<>();
     Queue<String> q = new ArrayDeque<>(List.of(""));
-
     for (final char c : s.toCharArray())
       ++count[c - 'a'];
 
