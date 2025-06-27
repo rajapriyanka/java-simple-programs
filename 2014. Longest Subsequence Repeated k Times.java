@@ -25,7 +25,7 @@ class Solution {
     return ans;
   }
   private boolean isSubsequence(final String subseq, final String s, int k) {
-    int i = 0; // subseq's index
+    int i = 0;
     for (final char c : s.toCharArray())
       if (c == subseq.charAt(i))
         if (++i == subseq.length()) {
