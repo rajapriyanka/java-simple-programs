@@ -6,7 +6,6 @@ class Solution {
     Queue<String> q = new ArrayDeque<>(List.of(""));
     for (final char c : s.toCharArray())
       ++count[c - 'a'];
-
     for (char c = 'a'; c <= 'z'; ++c)
       if (count[c - 'a'] >= k)
         possibleChars.add(c);
