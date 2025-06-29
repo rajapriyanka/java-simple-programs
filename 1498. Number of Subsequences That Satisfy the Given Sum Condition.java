@@ -8,7 +8,6 @@ class Solution {
     for (int i = 1; i < n; ++i)
       pows[i] = pows[i - 1] * 2 % MOD;
     Arrays.sort(nums);
-
     for (int l = 0, r = n - 1; l <= r;)
       if (nums[l] + nums[r] <= target) {
         ans += pows[r - l];
