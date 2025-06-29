@@ -5,7 +5,6 @@ class Solution {
     int ans = 0;
     int[] pows = new int[n]; 
     pows[0] = 1;
-
     for (int i = 1; i < n; ++i)
       pows[i] = pows[i - 1] * 2 % MOD;
 
