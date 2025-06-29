@@ -3,7 +3,7 @@ class Solution {
     final int MOD = 1_000_000_007;
     final int n = nums.length;
     int ans = 0;
-    int[] pows = new int[n]; // pows[i] = 2^i % MOD
+    int[] pows = new int[n]; 
     pows[0] = 1;
 
     for (int i = 1; i < n; ++i)
