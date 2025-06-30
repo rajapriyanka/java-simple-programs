@@ -2,7 +2,6 @@ class Solution {
   public int findLHS(int[] nums) {
     int ans = 0;
     Map<Integer, Integer> count = new HashMap<>();
-
     for (final int num : nums)
       count.merge(num, 1, Integer::sum);
 
