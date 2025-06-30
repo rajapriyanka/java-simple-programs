@@ -7,7 +7,6 @@ class Solution {
     for (final int num : count.keySet())
       if (count.containsKey(num + 1))
         ans = Math.max(ans, count.get(num) + count.get(num + 1));
-
     return ans;
   }
 }
