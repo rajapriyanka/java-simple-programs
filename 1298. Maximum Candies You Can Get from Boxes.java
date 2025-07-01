@@ -13,7 +13,6 @@ class Solution {
           q.offer(key);
         status[key] = 1; 
       }
-
             pushBoxesIfPossible(containedBoxes[currBox], status, q, reachedClosedBoxes);
     }
 
