@@ -5,7 +5,6 @@ class Solution {
         (int) groups.stream().mapToLong(Integer::longValue).reduce(1L, (a, b) -> a * b % MOD);
     if (k <= groups.size())
       return totalCombinations;
-
   
     int[] dp = new int[k];
     dp[0] = 1; 
