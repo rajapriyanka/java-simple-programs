@@ -6,8 +6,7 @@ class Solution {
     if (k <= groups.size())
       return totalCombinations;
 
-    // dp[j] := the number of ways to form strings of length j using
-    // groups[0..i]
+  
     int[] dp = new int[k];
     dp[0] = 1; // Base case: empty string
 
