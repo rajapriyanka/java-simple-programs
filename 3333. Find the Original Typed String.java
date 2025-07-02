@@ -29,8 +29,7 @@ class Solution {
 
   private static final int MOD = 1_000_000_007;
 
-  // Returns consecutive identical letters in the input string.
-  // e.g. "aabbbc" -> [2, 3, 1].
+ 
   private List<Integer> getConsecutiveLetters(final String word) {
     List<Integer> groups = new ArrayList<>();
     int group = 1;
