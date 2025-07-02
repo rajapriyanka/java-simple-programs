@@ -8,7 +8,7 @@ class Solution {
 
   
     int[] dp = new int[k];
-    dp[0] = 1; // Base case: empty string
+    dp[0] = 1; 
 
     for (int i = 0; i < groups.size(); ++i) {
       int[] newDp = new int[k];
