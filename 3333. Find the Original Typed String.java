@@ -26,7 +26,6 @@ class Solution {
     return (totalCombinations - invalidCombinations + MOD) % MOD;
   }
   private static final int MOD = 1_000_000_007;
- 
   private List<Integer> getConsecutiveLetters(final String word) {
     List<Integer> groups = new ArrayList<>();
     int group = 1;
