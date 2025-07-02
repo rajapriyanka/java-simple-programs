@@ -25,7 +25,6 @@ class Solution {
     final int invalidCombinations = Arrays.stream(dp).reduce(0, (a, b) -> (a + b) % MOD);
     return (totalCombinations - invalidCombinations + MOD) % MOD;
   }
-
   private static final int MOD = 1_000_000_007;
  
   private List<Integer> getConsecutiveLetters(final String word) {
