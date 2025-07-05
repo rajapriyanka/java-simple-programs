@@ -10,7 +10,7 @@ class Solution {
       
         k--;
         while (k > 0) {
-            // Determine the count of numbers prefixed with 'current'.
+            
             int count = getCount(current);
             // If k is larger than or equal to the count, skip this prefix.
             if (k >= count) {
