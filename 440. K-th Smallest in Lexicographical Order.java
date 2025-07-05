@@ -15,7 +15,7 @@ class Solution {
            
             if (k >= count) {
                 k -= count; 
-                current++; // Move to the next number.
+                current++; 
             } else {
                 // If k is smaller than the count, go deeper into the next level.
                 k--; // We're considering a number (current * 10) in next step, hence decrement k.
