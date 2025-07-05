@@ -2,7 +2,6 @@ class Solution {
   
     private int upperLimit;
 
-    // Method to find k-th smallest number in the range of 1 to n inclusive.
     public int findKthNumber(int n, int k) {
         // Assign the upper limit.
         this.upperLimit = n;
