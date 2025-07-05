@@ -9,8 +9,6 @@ class Solution {
         long current = 1;
       
         k--;
-
-        // Loop until we find the k-th number.
         while (k > 0) {
             // Determine the count of numbers prefixed with 'current'.
             int count = getCount(current);
