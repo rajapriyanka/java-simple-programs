@@ -3,7 +3,7 @@ class Solution {
     private int upperLimit;
 
     public int findKthNumber(int n, int k) {
-        // Assign the upper limit.
+      
         this.upperLimit = n;
         // Start with the smallest number 1.
         long current = 1;
