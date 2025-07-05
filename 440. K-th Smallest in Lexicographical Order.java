@@ -12,7 +12,7 @@ class Solution {
         while (k > 0) {
             
             int count = getCount(current);
-            // If k is larger than or equal to the count, skip this prefix.
+           
             if (k >= count) {
                 k -= count; // Decrement k by the count of numbers.
                 current++; // Move to the next number.
