@@ -14,7 +14,7 @@ class Solution {
             int count = getCount(current);
            
             if (k >= count) {
-                k -= count; // Decrement k by the count of numbers.
+                k -= count; 
                 current++; // Move to the next number.
             } else {
                 // If k is smaller than the count, go deeper into the next level.
