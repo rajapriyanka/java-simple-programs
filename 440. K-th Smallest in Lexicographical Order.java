@@ -7,7 +7,7 @@ class Solution {
         this.upperLimit = n;
      
         long current = 1;
-        // Decrement k as we start with number 1 already considered.
+      
         k--;
 
         // Loop until we find the k-th number.
