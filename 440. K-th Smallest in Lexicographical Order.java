@@ -5,7 +5,7 @@ class Solution {
     public int findKthNumber(int n, int k) {
       
         this.upperLimit = n;
-        // Start with the smallest number 1.
+     
         long current = 1;
         // Decrement k as we start with number 1 already considered.
         k--;
