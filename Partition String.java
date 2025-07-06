@@ -18,4 +18,4 @@ class Solution {
         return result;
         
     }
-}©leetcode
+}
