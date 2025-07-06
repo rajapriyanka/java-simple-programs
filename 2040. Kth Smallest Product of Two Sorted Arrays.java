@@ -1,4 +1,5 @@
-class Solution {
+class Solution 
+{
   public long kthSmallestProduct(int[] nums1, int[] nums2, long k) {
     List<Integer> A1 = new ArrayList<>();
     List<Integer> A2 = new ArrayList<>();
