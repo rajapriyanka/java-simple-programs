@@ -1,3 +1,4 @@
+
 class Solution {
   public int findLucky(int[] arr) {
     int[] count = new int[arr.length + 1];
