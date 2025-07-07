@@ -2,7 +2,7 @@ class Solution {
   public int maxEvents(int[][] events) {
     int ans = 0;
     int d = 0;
-    int i = 0; // events' index
+    int i = 0; 
     Queue<Integer> minHeap = new PriorityQueue<>();
 
     Arrays.sort(events, Comparator.comparingInt(event -> event[0]));
