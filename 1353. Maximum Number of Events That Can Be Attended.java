@@ -11,7 +11,7 @@ class Solution {
     
       if (minHeap.isEmpty())
         d = events[i][0];
-      // All the events starting from today are newly available.
+     
       while (i < events.length && events[i][0] == d)
         minHeap.offer(events[i++][1]);
       // Greedily attend the event that'll end the earliest since it has higher
