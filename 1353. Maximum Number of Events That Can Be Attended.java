@@ -8,8 +8,7 @@ class Solution {
     Arrays.sort(events, Comparator.comparingInt(event -> event[0]));
 
     while (!minHeap.isEmpty() || i < events.length) {
-      // If no events are available to attend today, let time flies to the next
-      // available event.
+    
       if (minHeap.isEmpty())
         d = events[i][0];
       // All the events starting from today are newly available.
