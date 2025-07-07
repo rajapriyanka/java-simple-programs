@@ -1,7 +1,7 @@
 class Solution {
   public int maxEvents(int[][] events) {
     int ans = 0;
-    int d = 0; // the current day
+    int d = 0;
     int i = 0; // events' index
     Queue<Integer> minHeap = new PriorityQueue<>();
 
