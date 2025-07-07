@@ -17,7 +17,7 @@ class Solution {
         minHeap.poll();
       ++ans;
       ++d;
-      // Pop the events that can't be attended.
+    
       while (!minHeap.isEmpty() && minHeap.peek() < d)
         minHeap.poll();
     }
