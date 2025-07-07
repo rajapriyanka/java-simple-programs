@@ -14,9 +14,7 @@ class Solution {
      
       while (i < events.length && events[i][0] == d)
         minHeap.offer(events[i++][1]);
-      // Greedily attend the event that'll end the earliest since it has higher
-      // chance can't be attended in the future.
-      minHeap.poll();
+        minHeap.poll();
       ++ans;
       ++d;
       // Pop the events that can't be attended.
