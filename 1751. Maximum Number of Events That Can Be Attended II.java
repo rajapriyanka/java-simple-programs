@@ -17,7 +17,6 @@ class Solution {
                                 maxValue(events, i + 1, k, mem));
   }
 
-  // Finds the first index l s.t events[l][0] >= target.
   private int firstGreaterEqual(int[][] events, int l, int target) {
     int r = events.length;
     while (l < r) {
