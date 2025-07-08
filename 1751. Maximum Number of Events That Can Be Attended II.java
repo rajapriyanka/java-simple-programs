@@ -12,8 +12,6 @@ class Solution {
     if (mem[i][k] != null)
       return mem[i][k];
 
-    // Binary search `events` to find the first index j
-    // s.t. events[j][0] > events[i][1].
     final int j = firstGreaterEqual(events, i + 1, events[i][1] + 1);
     return mem[i][k] = Math.max(events[i][2] + maxValue(events, j, k - 1, mem),
                                 maxValue(events, i + 1, k, mem));
