@@ -1,3 +1,4 @@
+
 class Solution {
   public String clearStars(String s) {
     StringBuilder sb = new StringBuilder(s);
