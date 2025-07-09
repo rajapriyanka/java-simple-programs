@@ -7,7 +7,6 @@ class Solution {
       windowSum += gaps[i] - gaps[i - k - 1];
       ans = Math.max(ans, windowSum);
     }
-
     return ans;
   }
 
