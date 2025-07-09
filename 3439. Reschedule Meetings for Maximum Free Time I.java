@@ -3,7 +3,6 @@ class Solution {
     int[] gaps = getGaps(eventTime, startTime, endTime);
     int windowSum = Arrays.stream(gaps, 0, k + 1).sum();
     int ans = windowSum;
-
     for (int i = k + 1; i < gaps.length; i++) {
       windowSum += gaps[i] - gaps[i - k - 1];
       ans = Math.max(ans, windowSum);
