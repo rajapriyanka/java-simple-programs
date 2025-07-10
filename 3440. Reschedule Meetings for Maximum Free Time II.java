@@ -11,7 +11,6 @@ class Solution {
       maxLeft[i] = Math.max(gaps[i], maxLeft[i - 1]);
     for (int i = n - 1; i >= 0; --i)
       maxRight[i] = Math.max(gaps[i], maxRight[i + 1]);
-
     for (int i = 0; i < n; ++i) {
       final int currMeetingTime = endTime[i] - startTime[i];
       final int adjacentGapsSum = gaps[i] + gaps[i + 1];
