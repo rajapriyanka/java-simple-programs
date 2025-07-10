@@ -19,7 +19,6 @@ class Solution {
                                       i + 2 < n + 1 ? maxRight[i + 2] : 0);
       ans = Math.max(ans, adjacentGapsSum + (canMoveMeeting ? currMeetingTime : 0));
     }
-
     return ans;
   }
 
