@@ -5,7 +5,6 @@ class Solution {
     int ans = 0;
     int[] maxLeft = new int[n + 1]; 
     int[] maxRight = new int[n + 1]; 
-
     maxLeft[0] = gaps[0];
     maxRight[n] = gaps[n];
 
