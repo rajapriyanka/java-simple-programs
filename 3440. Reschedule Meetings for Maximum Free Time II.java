@@ -4,7 +4,7 @@ class Solution {
     final int[] gaps = getGaps(eventTime, startTime, endTime);
     int ans = 0;
     int[] maxLeft = new int[n + 1]; 
-    int[] maxRight = new int[n + 1]; // maxRight[i] := max(gaps[i..n])
+    int[] maxRight = new int[n + 1]; 
 
     maxLeft[0] = gaps[0];
     maxRight[n] = gaps[n];
