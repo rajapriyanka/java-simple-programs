@@ -7,7 +7,6 @@ class Solution {
     int[] maxRight = new int[n + 1]; 
     maxLeft[0] = gaps[0];
     maxRight[n] = gaps[n];
-
     for (int i = 1; i < n + 1; ++i)
       maxLeft[i] = Math.max(gaps[i], maxLeft[i - 1]);
 
