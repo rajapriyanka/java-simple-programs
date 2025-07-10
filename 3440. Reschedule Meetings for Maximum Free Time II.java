@@ -3,7 +3,7 @@ class Solution {
     final int n = startTime.length;
     final int[] gaps = getGaps(eventTime, startTime, endTime);
     int ans = 0;
-    int[] maxLeft = new int[n + 1];  // maxLeft[i] := max(gaps[0..i])
+    int[] maxLeft = new int[n + 1]; 
     int[] maxRight = new int[n + 1]; // maxRight[i] := max(gaps[i..n])
 
     maxLeft[0] = gaps[0];
