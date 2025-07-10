@@ -21,7 +21,6 @@ class Solution {
     }
     return ans;
   }
-
   private int[] getGaps(int eventTime, int[] startTime, int[] endTime) {
     int[] gaps = new int[startTime.length + 1];
     gaps[0] = startTime[0];
