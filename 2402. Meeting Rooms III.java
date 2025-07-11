@@ -3,7 +3,6 @@ class Solution {
     record T(long endTime, int roomId) {}
     int[] count = new int[n];
     Arrays.sort(meetings, Comparator.comparingInt(meeting -> meeting[0]));
-
     Queue<T> occupied =
         new PriorityQueue<>(Comparator.comparingLong(T::endTime).thenComparingInt(T::roomId));
     Queue<Integer> availableRoomIds = new PriorityQueue<>();
