@@ -8,7 +8,6 @@ class Solution {
     Queue<Integer> availableRoomIds = new PriorityQueue<>();
     for (int i = 0; i < n; ++i)
       availableRoomIds.offer(i);
-
     for (int[] meeting : meetings) {
       final int start = meeting[0];
       final int end = meeting[1];
