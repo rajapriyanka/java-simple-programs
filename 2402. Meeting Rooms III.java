@@ -23,7 +23,6 @@ class Solution {
         occupied.offer(new T(end, roomId));
       }
     }
-
     int maxIndex = 0;
     for (int i = 0; i < n; ++i)
       if (count[i] > count[maxIndex])
