@@ -12,7 +12,6 @@ class Solution {
       return mem[l][r][k];
     int a = Integer.MAX_VALUE;
     int b = Integer.MIN_VALUE;
-
     for (int i = 1; i <= l; ++i)
       for (int j = l - i + 1; j <= r - i; ++j) {
         if (i + j > (k + 1) / 2 || i + j < l + r - k / 2)
