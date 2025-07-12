@@ -22,7 +22,6 @@ class Solution {
         a = Math.min(a, res[0] + 1);
         b = Math.max(b, res[1] + 1);
       }
-
     return mem[l][r][k] = new int[] {a, b};
   }
 }
