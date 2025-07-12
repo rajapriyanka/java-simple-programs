@@ -3,10 +3,6 @@ class Solution {
     int[][][][] mem = new int[n + 1][n + 1][n + 1][2];
     return solve(firstPlayer, n - secondPlayer + 1, n, mem);
   }
-
-  // Returns the (earliest, latest) pair, the first player is the l-th player
-  // from the front, the second player is the r-th player from the end, and
-  // there're k people.
   private int[] solve(int l, int r, int k, int[][][][] mem) {
     if (l == r)
       return new int[] {1, 1};
