@@ -10,7 +10,6 @@ class Solution {
       return solve(r, l, k, mem);
     if (!Arrays.equals(mem[l][r][k], new int[] {0, 0}))
       return mem[l][r][k];
-
     int a = Integer.MAX_VALUE;
     int b = Integer.MIN_VALUE;
 
