@@ -1,3 +1,4 @@
+
 class Solution {
   public boolean isValid(String word) {
     return word.length() >= 3 && word.chars().allMatch(Character::isLetterOrDigit) &&
