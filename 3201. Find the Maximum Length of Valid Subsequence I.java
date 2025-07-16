@@ -3,7 +3,7 @@ class Solution {
 
     int[][] dp = new int[k][k];
 
-    // Extend the pattern xyxyxy...xy.
+  
     for (final int x : nums)
       for (int y = 0; y < 2; ++y)
         dp[x % 2][y] = dp[y][x % 2] + 1;
