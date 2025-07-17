@@ -15,7 +15,7 @@ class Solution {
                
                 subarrayLengths[modValue][requiredMod] = subarrayLengths[requiredMod][modValue] + 1;
 
-                // Update the maximum length found so far
+              
                 maxLength = Math.max(maxLength, subarrayLengths[modValue][requiredMod]);
             }
         }
