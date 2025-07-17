@@ -2,7 +2,7 @@ class Solution {
     public int maximumLength(int[] nums, int k) {
 
         int[][] subarrayLengths = new int[k][k];  
-        int maxLength = 0;  // Variable to store the maximum length found
+        int maxLength = 0; 
 
         // Iterate over each element in nums
         for (int num : nums) {
