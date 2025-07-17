@@ -4,7 +4,7 @@ class Solution {
         int[][] subarrayLengths = new int[k][k];  
         int maxLength = 0; 
 
-        // Iterate over each element in nums
+       
         for (int num : nums) {
             int modValue = num % k;  // Compute the current number's modulo with k
           
