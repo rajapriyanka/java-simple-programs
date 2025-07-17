@@ -1,6 +1,6 @@
 class Solution {
     public int maximumLength(int[] nums, int k) {
-        // Initialize a 2D array to keep track of subarray lengths with modulo value
+
         int[][] subarrayLengths = new int[k][k];  
         int maxLength = 0;  // Variable to store the maximum length found
 
