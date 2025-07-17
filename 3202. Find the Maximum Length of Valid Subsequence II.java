@@ -12,7 +12,7 @@ class Solution {
             for (int j = 0; j < k; ++j) {
                 int requiredMod = (j - modValue + k) % k; 
 
-                // Update the subarray length by 1 for the current modulo configuration
+               
                 subarrayLengths[modValue][requiredMod] = subarrayLengths[requiredMod][modValue] + 1;
 
                 // Update the maximum length found so far
