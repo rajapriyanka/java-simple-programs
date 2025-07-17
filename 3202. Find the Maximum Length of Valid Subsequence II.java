@@ -6,7 +6,7 @@ class Solution {
 
        
         for (int num : nums) {
-            int modValue = num % k;  // Compute the current number's modulo with k
+            int modValue = num % k;  
           
             // Iterate over all possible modulo values from 0 to k-1
             for (int j = 0; j < k; ++j) {
