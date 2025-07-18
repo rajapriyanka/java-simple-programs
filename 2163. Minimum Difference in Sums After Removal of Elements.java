@@ -23,7 +23,7 @@ class Solution {
         sum = 0;
        
         long[] suffixSums = new long[totalLength + 1];
-        // Initialize a min heap to find the smallest elements in order.
+       
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         for (int i = totalLength; i > subsetSize; --i) {
             int element = nums[i - 1];
