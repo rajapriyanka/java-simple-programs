@@ -2,9 +2,9 @@ class Solution {
     public long minimumDifference(int[] nums) {
         int totalLength = nums.length; 
         int subsetSize = totalLength / 3; 
-        long sum = 0; // Used to store the running sum.
+        long sum = 0; 
       
-        // Array to store the prefix sum for the first 2/3 of the array.
+      
         long[] prefixSums = new long[totalLength + 1];
         // Initialize a max heap to find the largest elements in reverse order.
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b) -> b - a);
