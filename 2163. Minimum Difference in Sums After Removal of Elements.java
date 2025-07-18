@@ -33,7 +33,7 @@ class Solution {
             if (minHeap.size() > subsetSize) {
                 sum -= minHeap.poll();
             }
-            // Store the running sum in suffixSums for the last 2/3 of the array.
+           
             suffixSums[i] = sum;
         }
       
