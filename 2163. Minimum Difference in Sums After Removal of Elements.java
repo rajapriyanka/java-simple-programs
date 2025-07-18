@@ -37,7 +37,7 @@ class Solution {
             suffixSums[i] = sum;
         }
       
-        // Initialize answer with a very large value.
+  
         long answer = Long.MAX_VALUE;
         // Go through the middle 1/3 of the array to find the minimum sum difference.
         for (int i = subsetSize; i <= subsetSize * 2; ++i) {
