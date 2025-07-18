@@ -6,7 +6,7 @@ class Solution {
       
       
         long[] prefixSums = new long[totalLength + 1];
-        // Initialize a max heap to find the largest elements in reverse order.
+       
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b) -> b - a);
         for (int i = 1; i <= subsetSize * 2; ++i) {
             int element = nums[i - 1];
