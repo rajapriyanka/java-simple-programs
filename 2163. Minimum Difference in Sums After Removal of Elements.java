@@ -1,7 +1,7 @@
 class Solution {
     public long minimumDifference(int[] nums) {
-        int totalLength = nums.length; // Total number of elements in nums.
-        int subsetSize = totalLength / 3; // Size of the subsets to be created.
+        int totalLength = nums.length; 
+        int subsetSize = totalLength / 3; 
         long sum = 0; // Used to store the running sum.
       
         // Array to store the prefix sum for the first 2/3 of the array.
