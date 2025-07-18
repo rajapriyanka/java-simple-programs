@@ -12,7 +12,7 @@ class Solution {
             int element = nums[i - 1];
             sum += element;
             maxHeap.offer(element);
-            // If the max heap size exceeds the subset size, remove the largest element.
+          
             if (maxHeap.size() > subsetSize) {
                 sum -= maxHeap.poll();
             }
