@@ -16,7 +16,7 @@ class Solution {
             if (maxHeap.size() > subsetSize) {
                 sum -= maxHeap.poll();
             }
-            // Store the running sum in prefixSums for the first 2/3 of the array.
+           
             prefixSums[i] = sum;
         }
       
