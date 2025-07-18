@@ -29,7 +29,7 @@ class Solution {
             int element = nums[i - 1];
             sum += element;
             minHeap.offer(element);
-            // If the min heap size exceeds the subset size, remove the smallest element.
+           
             if (minHeap.size() > subsetSize) {
                 sum -= minHeap.poll();
             }
