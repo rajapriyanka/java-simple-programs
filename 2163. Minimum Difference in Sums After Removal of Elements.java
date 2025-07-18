@@ -43,7 +43,7 @@ class Solution {
         for (int i = subsetSize; i <= subsetSize * 2; ++i) {
             answer = Math.min(answer, prefixSums[i] - suffixSums[i + 1]);
         }
-        // Return the minimum sum difference.
+       
         return answer;
     }
 }
