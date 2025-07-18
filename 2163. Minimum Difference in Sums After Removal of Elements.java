@@ -21,7 +21,7 @@ class Solution {
         }
       
         sum = 0;
-        // Array to store the suffix sum for the last 2/3 of the array.
+       
         long[] suffixSums = new long[totalLength + 1];
         // Initialize a min heap to find the smallest elements in order.
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
