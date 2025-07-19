@@ -11,7 +11,6 @@ class Solution {
         else if (ans[i - 1] < ans[i] && ans[i] > ans[i + 1])
           --arr[i];
     }
-
     return Arrays.stream(ans).boxed().toList();
   }
 }
