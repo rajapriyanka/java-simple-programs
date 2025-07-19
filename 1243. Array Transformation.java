@@ -2,7 +2,6 @@ class Solution {
   public List<Integer> transformArray(int[] arr) {
     if (arr.length < 3)
       return Arrays.stream(arr).boxed().toList();
-
     int[] ans = new int[0];
 
     while (!Arrays.equals(ans, arr)) {
