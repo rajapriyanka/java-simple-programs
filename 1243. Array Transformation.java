@@ -3,7 +3,6 @@ class Solution {
     if (arr.length < 3)
       return Arrays.stream(arr).boxed().toList();
     int[] ans = new int[0];
-
     while (!Arrays.equals(ans, arr)) {
       ans = arr.clone();
       for (int i = 1; i < arr.length - 1; ++i)
