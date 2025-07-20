@@ -10,7 +10,6 @@ class Solution {
       tree[u].add(v);
       tree[v].add(u);
     }
-
     maxDepth(tree, 0, -1);
     return ans;
   }
