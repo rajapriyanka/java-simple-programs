@@ -2,7 +2,6 @@ class Solution {
   public int treeDiameter(int[][] edges) {
     final int n = edges.length;
     List<Integer>[] tree = new List[n + 1];
-
     for (int i = 0; i < tree.length; ++i)
       tree[i] = new ArrayList<>();
     for (int[] edge : edges) {
