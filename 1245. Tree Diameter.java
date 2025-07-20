@@ -13,7 +13,6 @@ class Solution {
     maxDepth(tree, 0, -1);
     return ans;
   }
-
   private int ans = 0;
 
   private int maxDepth(List<Integer>[] tree, int u, int prev) {
