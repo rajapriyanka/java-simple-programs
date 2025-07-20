@@ -14,7 +14,6 @@ class Solution {
     return ans;
   }
   private int ans = 0;
-
   private int maxDepth(List<Integer>[] tree, int u, int prev) {
     int maxDepth1 = 0; 
     int maxDepth2 = -1; 
