@@ -17,7 +17,6 @@ class Solution {
   private int maxDepth(List<Integer>[] tree, int u, int prev) {
     int maxDepth1 = 0; 
     int maxDepth2 = -1; 
-
     for (final int v : tree[u]) {
       if (v == prev)
         continue;
