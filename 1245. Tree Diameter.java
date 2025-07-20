@@ -5,7 +5,6 @@ class Solution {
 
     for (int i = 0; i < tree.length; ++i)
       tree[i] = new ArrayList<>();
-
     for (int[] edge : edges) {
       final int u = edge[0];
       final int v = edge[1];
