@@ -1,6 +1,7 @@
 
 
 
+
 class Solution {
   public String makeFancyString(String s) {
     StringBuilder sb = new StringBuilder();
