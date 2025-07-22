@@ -3,7 +3,6 @@ class Solution {
     int ans = 0;
     int score = 0;
     Set<Integer> seen = new HashSet<>();
-
     for (int l = 0, r = 0; r < nums.length; ++r) {
       while (!seen.add(nums[r])) {
         score -= nums[l];
