@@ -12,7 +12,6 @@ class Solution {
       score += nums[r];
       ans = Math.max(ans, score);
     }
-
     return ans;
   }
 }
