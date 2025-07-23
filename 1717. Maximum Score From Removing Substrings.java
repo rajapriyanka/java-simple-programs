@@ -1,10 +1,6 @@
 class Solution {
   public int maximumGain(String s, int x, int y) {
-    // The assumption that gain("ab") > gain("ba") while removing "ba" first is
-    // optimal is contradicted. Only "b(ab)a" satisfies the condition of
-    // preventing two "ba" removals, but after removing "ab", we can still
-    // remove one "ba", resulting in a higher gain. Thus, removing "ba" first is
-    // not optimal.
+ 
     return x > y ? gain(s, "ab", x, "ba", y) : gain(s, "ba", y, "ab", x);
   }
 
