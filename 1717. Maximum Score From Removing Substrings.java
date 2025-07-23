@@ -24,7 +24,6 @@ class Solution {
       } else {
         stack2.push(c);
       }
-
     return points;
   }
 }
