@@ -8,8 +8,7 @@ class Solution {
     int points = 0;
     Stack<Character> stack1 = new Stack<>();
     Stack<Character> stack2 = new Stack<>();
-
-   
+  
     for (final char c : s.toCharArray())
       if (!stack1.isEmpty() && stack1.peek() == sub1.charAt(0) && c == sub1.charAt(1)) {
         stack1.pop();
