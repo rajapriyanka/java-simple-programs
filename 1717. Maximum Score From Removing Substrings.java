@@ -18,7 +18,6 @@ class Solution {
         stack1.push(c);
       }
 
-    // Remove "sub2" from s with point2 gain.
     for (final char c : stack1)
       if (!stack2.isEmpty() && stack2.peek() == sub2.charAt(0) && c == sub2.charAt(1)) {
         stack2.pop();
