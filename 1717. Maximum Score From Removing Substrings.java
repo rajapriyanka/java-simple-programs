@@ -4,8 +4,6 @@ class Solution {
     return x > y ? gain(s, "ab", x, "ba", y) : gain(s, "ba", y, "ab", x);
   }
 
-  // Returns the points gained by first removing sub1 ("ab" | "ba") from s with
-  // point1, then removing sub2 ("ab" | "ba") from s with point2.
   private int gain(final String s, final String sub1, int point1, final String sub2, int point2) {
     int points = 0;
     Stack<Character> stack1 = new Stack<>();
