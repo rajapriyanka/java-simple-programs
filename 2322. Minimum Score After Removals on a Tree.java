@@ -46,7 +46,6 @@ class Solution {
     }
     return ans;
   }
-
   private Pair<Integer, Set<Integer>> dfs(List<Integer>[] tree, int u, int prev, int[] subXors,
                                           Set<Integer>[] children) {
     for (final int v : tree[u]) {
