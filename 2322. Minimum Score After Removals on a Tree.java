@@ -9,7 +9,6 @@ class Solution {
       tree[i] = new ArrayList<>();
     for (int i = 0; i < n; ++i)
       children[i] = new HashSet<>(Arrays.asList(i));
-
     for (int[] edge : edges) {
       final int u = edge[0];
       final int v = edge[1];
