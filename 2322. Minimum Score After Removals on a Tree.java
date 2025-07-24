@@ -5,7 +5,6 @@ class Solution {
     int[] subXors = nums.clone();
     List<Integer>[] tree = new List[n];
     Set<Integer>[] children = new Set[n];
-
     for (int i = 0; i < n; ++i)
       tree[i] = new ArrayList<>();
 
