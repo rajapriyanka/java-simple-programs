@@ -15,7 +15,6 @@ class Solution {
       tree[u].add(v);
       tree[v].add(u);
     }
-
     dfs(tree, 0, -1, subXors, children);
 
     int ans = Integer.MAX_VALUE;
