@@ -44,7 +44,6 @@ class Solution {
                                 Arrays.stream(cands).min().getAsInt());
       }
     }
-
     return ans;
   }
 
