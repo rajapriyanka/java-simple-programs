@@ -60,7 +60,6 @@ class Solution {
     }
     return new Pair<>(subXors[u], children[u]);
   }
-
   private int getXors(int[] nums) {
     int xors = 0;
     for (final int num : nums)
