@@ -17,7 +17,6 @@ class Solution {
     }
     dfs(tree, 0, -1, subXors, children);
     int ans = Integer.MAX_VALUE;
-
     for (int i = 0; i < edges.length; ++i) {
       int a = edges[i][0];
       int b = edges[i][1];
