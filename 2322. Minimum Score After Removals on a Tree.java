@@ -7,7 +7,6 @@ class Solution {
     Set<Integer>[] children = new Set[n];
     for (int i = 0; i < n; ++i)
       tree[i] = new ArrayList<>();
-
     for (int i = 0; i < n; ++i)
       children[i] = new HashSet<>(Arrays.asList(i));
 
