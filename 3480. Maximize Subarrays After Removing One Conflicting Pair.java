@@ -29,12 +29,7 @@ class Solution {
       }
      
       validSubarrays += right - maxLeft;
-      // If we remove `maxLeft` (the most restrictive conflict), we gain
-      // `maxLeft - secondMaxLeft` new subarrays:
-      // [secondMaxLeft + 1..right],
-      // [secondMaxLeft + 2..right],
-      // ...
-      // [maxLeft..right].
+     
       gains[maxLeft] += maxLeft - secondMaxLeft;
     }
 
