@@ -3,7 +3,7 @@ class Solution {
     long validSubarrays = 0;
     int maxLeft = 0;
     int secondMaxLeft = 0;
-    // gains[i] := the number of additional valid subarrays we can gain if the
+   
     // restriction at index `i` is removed
     long[] gains = new long[n + 1];
     // conflicts[r] := left endpoints that conflict with subarrays ending in r
