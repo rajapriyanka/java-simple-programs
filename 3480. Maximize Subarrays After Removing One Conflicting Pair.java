@@ -4,7 +4,7 @@ class Solution {
     int maxLeft = 0;
     int secondMaxLeft = 0;
    
-    // restriction at index `i` is removed
+   
     long[] gains = new long[n + 1];
     // conflicts[r] := left endpoints that conflict with subarrays ending in r
     List<Integer>[] conflicts = new List[n + 1];
