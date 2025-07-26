@@ -3,10 +3,7 @@ class Solution {
     long validSubarrays = 0;
     int maxLeft = 0;
     int secondMaxLeft = 0;
-   
-   
     long[] gains = new long[n + 1];
-   
     List<Integer>[] conflicts = new List[n + 1];
 
     for (int i = 0; i <= n; ++i)
