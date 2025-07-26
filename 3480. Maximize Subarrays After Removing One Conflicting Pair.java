@@ -6,7 +6,7 @@ class Solution {
    
    
     long[] gains = new long[n + 1];
-    // conflicts[r] := left endpoints that conflict with subarrays ending in r
+   
     List<Integer>[] conflicts = new List[n + 1];
 
     for (int i = 0; i <= n; ++i)
