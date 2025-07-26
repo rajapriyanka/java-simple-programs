@@ -27,10 +27,7 @@ class Solution {
           secondMaxLeft = left;
         }
       }
-      // Subarrays [maxLeft + 1..right],
-      //           [maxLeft + 2..right],
-      //           ...
-      //           [right..right] are valid.
+     
       validSubarrays += right - maxLeft;
       // If we remove `maxLeft` (the most restrictive conflict), we gain
       // `maxLeft - secondMaxLeft` new subarrays:
