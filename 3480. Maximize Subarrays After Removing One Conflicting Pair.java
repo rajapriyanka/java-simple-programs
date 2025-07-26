@@ -25,7 +25,6 @@ class Solution {
      
       gains[maxLeft] += maxLeft - secondMaxLeft;
     }
-
     return validSubarrays + Arrays.stream(gains).max().getAsLong();
   }
 }
