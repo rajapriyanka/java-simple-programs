@@ -12,7 +12,6 @@ class Solution {
       final int b = pair[1];
       conflicts[Math.max(a, b)].add(Math.min(a, b));
     }
-
     for (int right = 1; right <= n; ++right) {
       for (int left : conflicts[right]) {
         if (left > maxLeft) {
