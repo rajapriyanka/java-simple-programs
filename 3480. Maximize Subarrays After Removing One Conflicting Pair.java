@@ -21,7 +21,7 @@ class Solution {
           secondMaxLeft = left;
         }
       }
-     
+   
       validSubarrays += right - maxLeft;
      
       gains[maxLeft] += maxLeft - secondMaxLeft;
