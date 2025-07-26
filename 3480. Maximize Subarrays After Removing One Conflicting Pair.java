@@ -7,7 +7,6 @@ class Solution {
     List<Integer>[] conflicts = new List[n + 1];
     for (int i = 0; i <= n; ++i)
       conflicts[i] = new ArrayList<>();
-
     for (int[] pair : conflictingPairs) {
       final int a = pair[0];
       final int b = pair[1];
