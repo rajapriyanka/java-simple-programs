@@ -8,7 +8,6 @@ class Solution {
         ++ans;
         left = nums[i];
       }
-
     return ans;
   }
 }
