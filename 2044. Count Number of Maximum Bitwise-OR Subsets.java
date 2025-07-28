@@ -5,7 +5,6 @@ class Solution {
     return ans;
   }
   private int ans = 0;
-
   private void dfs(int[] nums, int i, int path, final int ors) {
     if (i == nums.length) {
       if (path == ors)
