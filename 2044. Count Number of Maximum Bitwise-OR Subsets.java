@@ -14,3 +14,4 @@ class Solution {
     dfs(nums, i + 1, path, ors);
     dfs(nums, i + 1, path | nums[i], ors);
   }
+}
