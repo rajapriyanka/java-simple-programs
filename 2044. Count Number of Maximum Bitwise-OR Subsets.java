@@ -1,4 +1,3 @@
-
 class Solution {
   public int countMaxOrSubsets(int[] nums) {
     final int ors = Arrays.stream(nums).reduce((a, b) -> a | b).getAsInt();
