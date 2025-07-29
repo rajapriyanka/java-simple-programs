@@ -11,7 +11,6 @@ class Solution {
           closest[j] = i;
         ans[i] = Math.max(ans[i], closest[j] - i + 1);
       }
-
     return ans;
   }
 }
