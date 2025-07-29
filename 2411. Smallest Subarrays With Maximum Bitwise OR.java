@@ -2,7 +2,6 @@ class Solution {
   public int[] smallestSubarrays(int[] nums) {
     final int MAX_BIT = 30;
     int[] ans = new int[nums.length];
-    // closest[j] := the closest index i s.t. the j-th bit of nums[i] is 1
     int[] closest = new int[MAX_BIT];
 
     Arrays.fill(ans, 1);
