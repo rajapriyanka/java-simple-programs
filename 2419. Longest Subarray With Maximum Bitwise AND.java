@@ -13,7 +13,6 @@ class Solution {
       } else {
         sameNumLength = 0;
       }
-
     return ans;
   }
 }
