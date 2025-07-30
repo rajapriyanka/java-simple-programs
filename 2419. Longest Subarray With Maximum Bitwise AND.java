@@ -3,7 +3,6 @@ class Solution {
     int ans = 0;
     int maxIndex = 0;
     int sameNumLength = 0;
-
     for (int i = 0; i < nums.length; ++i)
       if (nums[i] == nums[maxIndex]) {
         ans = Math.max(ans, ++sameNumLength);
