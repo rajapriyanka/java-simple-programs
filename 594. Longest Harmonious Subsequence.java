@@ -1,4 +1,3 @@
-
 class Solution {
   public int findLHS(int[] nums) {
     int ans = 0;
