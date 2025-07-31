@@ -6,7 +6,7 @@ class Solution {
     for (final int a : arr) {
       final int r = s.size();
       s.add(a);
-      // s[l..r) are values generated in the previous iteration
+
       for (int i = l; i < r; ++i)
         if (s.get(s.size() - 1) != (s.get(i) | a))
           s.add(s.get(i) | a);
