@@ -10,7 +10,6 @@ class Solution {
           s.add(s.get(i) | a);
       l = r;
     }
-
     return new HashSet<>(s).size();
   }
 }
