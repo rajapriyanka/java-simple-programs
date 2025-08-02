@@ -3,7 +3,6 @@ class Solution {
     long ans = 0;
     List<Integer> swapped = new ArrayList<>();
     Map<Integer, Integer> count = new HashMap<>();
-
     for (final int b : basket1)
       count.merge(b, 1, Integer::sum);
 
