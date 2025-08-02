@@ -7,7 +7,6 @@ class Solution {
       count.merge(b, 1, Integer::sum);
     for (final int b : basket2)
       count.merge(b, -1, Integer::sum);
-
     for (Map.Entry<Integer, Integer> entry : count.entrySet()) {
       final Integer num = entry.getKey();
       final Integer freq = entry.getValue();
