@@ -5,7 +5,6 @@ class Solution {
     Map<Integer, Integer> count = new HashMap<>();
     for (final int b : basket1)
       count.merge(b, 1, Integer::sum);
-
     for (final int b : basket2)
       count.merge(b, -1, Integer::sum);
 
