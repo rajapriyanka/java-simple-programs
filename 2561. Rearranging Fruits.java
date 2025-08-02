@@ -18,7 +18,6 @@ class Solution {
     final int minNum =
         Math.min(Arrays.stream(basket1).min().getAsInt(), Arrays.stream(basket2).min().getAsInt());
     Collections.sort(swapped);
-
     for (int i = 0; i < swapped.size() / 2; ++i)
       ans += Math.min(minNum * 2, swapped.get(i));
     return ans;
