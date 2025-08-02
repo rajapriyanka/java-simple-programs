@@ -15,7 +15,6 @@ class Solution {
       for (int i = 0; i < Math.abs(freq) / 2; ++i)
         swapped.add(num);
     }
-
     final int minNum =
         Math.min(Arrays.stream(basket1).min().getAsInt(), Arrays.stream(basket2).min().getAsInt());
     Collections.sort(swapped);
