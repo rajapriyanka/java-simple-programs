@@ -4,7 +4,6 @@ class Solution {
     int ans = 0;
     int[] amounts = new int[1 + maxRight];
     int[] prefix = new int[2 + maxRight];
-
     for (int[] f : fruits)
       amounts[f[0]] = f[1];
 
