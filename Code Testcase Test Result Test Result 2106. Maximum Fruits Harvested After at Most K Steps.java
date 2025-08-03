@@ -6,7 +6,6 @@ class Solution {
     int[] prefix = new int[2 + maxRight];
     for (int[] f : fruits)
       amounts[f[0]] = f[1];
-
     for (int i = 0; i + 1 < prefix.length; ++i)
       prefix[i + 1] = prefix[i] + amounts[i];
 
