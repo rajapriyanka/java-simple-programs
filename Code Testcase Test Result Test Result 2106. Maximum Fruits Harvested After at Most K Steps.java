@@ -21,7 +21,6 @@ class Solution {
 
     return ans;
   }
-
   private int getFruits(int startPos, int maxRight, int leftSteps, int rightSteps, int[] prefix) {
     final int l = Math.max(0, startPos - leftSteps);
     final int r = Math.min(maxRight, startPos + rightSteps);
