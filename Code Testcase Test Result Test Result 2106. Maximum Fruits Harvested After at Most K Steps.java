@@ -8,8 +8,6 @@ class Solution {
       amounts[f[0]] = f[1];
     for (int i = 0; i + 1 < prefix.length; ++i)
       prefix[i + 1] = prefix[i] + amounts[i];
-
-    // Go right first.
     final int maxRightSteps = Math.min(maxRight - startPos, k);
     for (int rightSteps = 0; rightSteps <= maxRightSteps; ++rightSteps) {
       final int leftSteps = Math.max(0, k - 2 * rightSteps); // Turn left
