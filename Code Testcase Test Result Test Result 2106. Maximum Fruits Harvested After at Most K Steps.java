@@ -13,8 +13,6 @@ class Solution {
       final int leftSteps = Math.max(0, k - 2 * rightSteps); // Turn left
       ans = Math.max(ans, getFruits(startPos, maxRight, leftSteps, rightSteps, prefix));
     }
-
-    // Go left first.
     final int maxLeftSteps = Math.min(startPos, k);
     for (int leftSteps = 0; leftSteps <= maxLeftSteps; ++leftSteps) {
       final int rightSteps = Math.max(0, k - 2 * leftSteps); // Turn right
