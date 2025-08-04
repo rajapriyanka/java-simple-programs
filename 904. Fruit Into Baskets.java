@@ -16,7 +16,7 @@ class Solution {
                 if (fruitCount.get(tree[start]) == 0) {
                     fruitCount.remove(tree[start]);
                 }
-                start++; // Move the start of the window forward
+                start++;
             }
 
             // Calculate the maximum number of fruits in the current window
