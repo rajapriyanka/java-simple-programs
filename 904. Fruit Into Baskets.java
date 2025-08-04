@@ -1,6 +1,5 @@
 class Solution {
     public int totalFruit(int[] tree) {
-
         HashMap<Integer, Integer> fruitCount = new HashMap<>();
         int start = 0; 
         int maxFruits = 0; 
