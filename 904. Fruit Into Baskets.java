@@ -5,7 +5,7 @@ class Solution {
         int start = 0; 
         int maxFruits = 0; 
 
-        // Iterate through the array of fruits using the end of the sliding window
+
         for (int end = 0; end < tree.length; end++) {
             // Add the current fruit to the fruitCount map or update its count
             fruitCount.put(tree[end], fruitCount.getOrDefault(tree[end], 0) + 1);
