@@ -14,7 +14,6 @@ class Solution {
             }
             maxFruits = Math.max(maxFruits, end - start + 1);
         }
-
         return maxFruits;
     }
 }
