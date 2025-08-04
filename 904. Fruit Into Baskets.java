@@ -10,7 +10,6 @@ class Solution {
 
             fruitCount.put(tree[end], fruitCount.getOrDefault(tree[end], 0) + 1);
 
-            // If the map contains more than 2 types of fruit, shrink the window from the start
             while (fruitCount.size() > 2) {
                 fruitCount.put(tree[start], fruitCount.get(tree[start]) - 1);
                 // If the count of a fruit at the start of the window becomes 0, remove it
