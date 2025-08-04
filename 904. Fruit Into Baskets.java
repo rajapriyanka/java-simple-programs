@@ -7,7 +7,6 @@ class Solution {
             fruitCount.put(tree[end], fruitCount.getOrDefault(tree[end], 0) + 1);
             while (fruitCount.size() > 2) {
                 fruitCount.put(tree[start], fruitCount.get(tree[start]) - 1);
-
                 if (fruitCount.get(tree[start]) == 0) {
                     fruitCount.remove(tree[start]);
                 }
