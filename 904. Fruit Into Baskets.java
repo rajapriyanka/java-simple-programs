@@ -3,7 +3,7 @@ class Solution {
 
         HashMap<Integer, Integer> fruitCount = new HashMap<>();
         int start = 0; 
-        int maxFruits = 0; // Maximum number of fruits collected
+        int maxFruits = 0; 
 
         // Iterate through the array of fruits using the end of the sliding window
         for (int end = 0; end < tree.length; end++) {
