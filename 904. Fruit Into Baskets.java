@@ -21,7 +21,7 @@ class Solution {
 
             maxFruits = Math.max(maxFruits, end - start + 1);
         }
-        // Return the size of the largest contiguous subarray with 2 types of fruits
+
         return maxFruits;
     }
 }
