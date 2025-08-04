@@ -4,7 +4,6 @@ class Solution {
         int start = 0; 
         int maxFruits = 0; 
         for (int end = 0; end < tree.length; end++) {
-
             fruitCount.put(tree[end], fruitCount.getOrDefault(tree[end], 0) + 1);
 
             while (fruitCount.size() > 2) {
