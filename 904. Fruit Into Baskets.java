@@ -1,6 +1,6 @@
 class Solution {
     public int totalFruit(int[] tree) {
-        // Create a HashMap to keep track of the count of each type of fruit
+
         HashMap<Integer, Integer> fruitCount = new HashMap<>();
         int start = 0; // Start of the sliding window
         int maxFruits = 0; // Maximum number of fruits collected
