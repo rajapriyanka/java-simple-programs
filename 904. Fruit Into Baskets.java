@@ -2,7 +2,7 @@ class Solution {
     public int totalFruit(int[] tree) {
 
         HashMap<Integer, Integer> fruitCount = new HashMap<>();
-        int start = 0; // Start of the sliding window
+        int start = 0; 
         int maxFruits = 0; // Maximum number of fruits collected
 
         // Iterate through the array of fruits using the end of the sliding window
