@@ -7,7 +7,7 @@ class Solution {
 
 
         for (int end = 0; end < tree.length; end++) {
-            // Add the current fruit to the fruitCount map or update its count
+
             fruitCount.put(tree[end], fruitCount.getOrDefault(tree[end], 0) + 1);
 
             // If the map contains more than 2 types of fruit, shrink the window from the start
