@@ -12,7 +12,6 @@ class Solution {
                 }
                 start++;
             }
-
             maxFruits = Math.max(maxFruits, end - start + 1);
         }
 
