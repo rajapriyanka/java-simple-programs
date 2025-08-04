@@ -19,7 +19,6 @@ class Solution {
                 start++;
             }
 
-            // Calculate the maximum number of fruits in the current window
             maxFruits = Math.max(maxFruits, end - start + 1);
         }
         // Return the size of the largest contiguous subarray with 2 types of fruits
