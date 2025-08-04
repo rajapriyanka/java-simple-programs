@@ -12,7 +12,7 @@ class Solution {
 
             while (fruitCount.size() > 2) {
                 fruitCount.put(tree[start], fruitCount.get(tree[start]) - 1);
-                // If the count of a fruit at the start of the window becomes 0, remove it
+
                 if (fruitCount.get(tree[start]) == 0) {
                     fruitCount.remove(tree[start]);
                 }
