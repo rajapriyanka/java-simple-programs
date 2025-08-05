@@ -6,7 +6,6 @@ class Solution {
       ++count[num % 2];
     for (int i = 0; i < count[0]; ++i)
       ans[i] = 0;
-
     for (int i = count[0]; i < nums.length; ++i)
       ans[i] = 1;
 
