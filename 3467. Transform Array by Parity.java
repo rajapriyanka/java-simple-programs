@@ -8,7 +8,6 @@ class Solution {
       ans[i] = 0;
     for (int i = count[0]; i < nums.length; ++i)
       ans[i] = 1;
-
     return ans;
   }
 }
