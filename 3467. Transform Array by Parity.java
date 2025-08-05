@@ -2,7 +2,6 @@ class Solution {
   public int[] transformArray(int[] nums) {
     int[] ans = new int[nums.length];
     int[] count = new int[2];
-
     for (final int num : nums)
       ++count[num % 2];
 
