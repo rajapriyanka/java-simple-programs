@@ -12,7 +12,6 @@ class SegmentTree {
     public int queryFirst(int target) {
         return queryFirst(0, 0, n - 1, target);
     }
-
     private void build(List<Integer> nums, int treeIndex, int lo, int hi) {
         if (lo == hi) {
             tree[treeIndex] = nums.get(lo);
