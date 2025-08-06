@@ -17,7 +17,6 @@ class SegmentTree {
             tree[treeIndex] = nums.get(lo);
             return;
         }
-
         int mid = (lo + hi) / 2;
         build(nums, 2 * treeIndex + 1, lo, mid);
         build(nums, 2 * treeIndex + 2, mid + 1, hi);
