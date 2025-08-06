@@ -60,7 +60,6 @@ class SegmentTree {
         return Math.max(left, right);
     }
 }
-
 class Solution {
     public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
         List<Integer> basketList = new ArrayList<>();
