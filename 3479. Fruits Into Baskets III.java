@@ -7,8 +7,6 @@ class SegmentTree {
         this.tree = new int[n * 4];
         build(nums, 0, 0, n - 1);
     }
-
-    // Updates nums[i] to val
     public void update(int i, int val) {
         update(0, 0, n - 1, i, val);
     }
