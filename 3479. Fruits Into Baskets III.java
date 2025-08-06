@@ -10,8 +10,6 @@ class SegmentTree {
     public void update(int i, int val) {
         update(0, 0, n - 1, i, val);
     }
-
-    // Returns the first index i where baskets[i] >= target, or -1 if not found.
     public int queryFirst(int target) {
         return queryFirst(0, 0, n - 1, target);
     }
