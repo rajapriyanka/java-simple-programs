@@ -1,4 +1,3 @@
-import java.util.*;
 
 class SegmentTree {
     private final int n;
