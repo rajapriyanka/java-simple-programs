@@ -1,4 +1,3 @@
-
 class SegmentTree {
     private final int n;
     private final int[] tree;
