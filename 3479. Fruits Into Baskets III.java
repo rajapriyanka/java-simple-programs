@@ -1,7 +1,6 @@
 class SegmentTree {
     private final int n;
     private final int[] tree;
-
     public SegmentTree(List<Integer> nums) {
         this.n = nums.size();
         this.tree = new int[n * 4];
