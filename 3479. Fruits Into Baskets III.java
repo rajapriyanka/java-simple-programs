@@ -46,7 +46,7 @@ class SegmentTree {
             return -1;
 
         if (lo == hi) {
-            update(lo, -1);  // mark as used
+            update(lo, -1); 
             return lo;
         }
 
