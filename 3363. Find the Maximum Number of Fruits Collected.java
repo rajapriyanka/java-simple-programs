@@ -33,8 +33,7 @@ class Solution {
   }
   private int getBottomLeft(int[][] fruits) {
     final int n = fruits.length;
-    // dp[i][j] := the number of fruits collected from (n - 1, 0) to (i, j)
-    int[][] dp = new int[n][n];
+     int[][] dp = new int[n][n];
     dp[n - 1][0] = fruits[n - 1][0];
     for (int y = 0; y < n; ++y)
       for (int x = 0; x < n; ++x) {
