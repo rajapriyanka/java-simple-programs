@@ -31,7 +31,6 @@ class Solution {
       }
     return dp[n - 1][n - 1];
   }
-
   private int getBottomLeft(int[][] fruits) {
     final int n = fruits.length;
     // dp[i][j] := the number of fruits collected from (n - 1, 0) to (i, j)
