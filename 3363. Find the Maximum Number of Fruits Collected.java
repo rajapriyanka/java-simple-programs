@@ -4,7 +4,6 @@ class Solution {
     return getTopLeft(fruits) + getTopRight(fruits) + getBottomLeft(fruits) //
         - 2 * fruits[n - 1][n - 1];
   }
-
   private int getTopLeft(int[][] fruits) {
     final int n = fruits.length;
     int res = 0;
