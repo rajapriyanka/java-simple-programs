@@ -14,8 +14,7 @@ class Solution {
 
   private int getTopRight(int[][] fruits) {
     final int n = fruits.length;
-    // dp[i][j] := the number of fruits collected from (0, n - 1) to (i, j)
-    int[][] dp = new int[n][n];
+     int[][] dp = new int[n][n];
     dp[0][n - 1] = fruits[0][n - 1];
     for (int x = 0; x < n; ++x)
       for (int y = 0; y < n; ++y) {
