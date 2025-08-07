@@ -11,7 +11,6 @@ class Solution {
       res += fruits[i][i];
     return res;
   }
-
   private int getTopRight(int[][] fruits) {
     final int n = fruits.length;
      int[][] dp = new int[n][n];
