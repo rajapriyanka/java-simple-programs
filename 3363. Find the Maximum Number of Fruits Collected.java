@@ -1,3 +1,4 @@
+
 class Solution {
   public int maxCollectedFruits(int[][] fruits) {
     final int n = fruits.length;
