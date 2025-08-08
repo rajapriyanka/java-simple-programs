@@ -1,5 +1,4 @@
 class Solution {
-    // Cache for storing results of subproblems
     private double[][] memo = new double[200][200];
 
     // Entry method which adjusts servings (if necessary) and starts the depth-first search
