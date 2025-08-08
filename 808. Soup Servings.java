@@ -29,7 +29,7 @@ class Solution {
         );
 
         memo[a][b] = probability;
-        // Return the computed probability
+
         return probability;
     }
 }
