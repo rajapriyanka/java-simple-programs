@@ -6,7 +6,6 @@ class Solution {
         return n > 4800 ? 1.0 : dfs((n + 24) / 25, (n + 24) / 25);
     }
 
-    // Depth-first search to compute probability
     private double dfs(int a, int b) {
         // If both servings are not positive, it's a tie, return 0.5
         if (a <= 0 && b <= 0) {
