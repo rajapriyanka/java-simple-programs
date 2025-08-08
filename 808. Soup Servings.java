@@ -14,7 +14,6 @@ class Solution {
         if (a <= 0) {
             return 1.0;
         }
-        // If only B is depleted, B finished serving first, return 0
         if (b <= 0) {
             return 0;
         }
