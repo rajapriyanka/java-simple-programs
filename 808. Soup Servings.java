@@ -7,7 +7,7 @@ class Solution {
     }
 
     private double dfs(int a, int b) {
-        // If both servings are not positive, it's a tie, return 0.5
+      
         if (a <= 0 && b <= 0) {
             return 0.5;
         }
