@@ -1,7 +1,6 @@
 class Solution {
     private double[][] memo = new double[200][200];
 
-    // Entry method which adjusts servings (if necessary) and starts the depth-first search
     public double soupServings(int n) {
         // If n is larger than 4800, we assume probability is practically 1
         return n > 4800 ? 1.0 : dfs((n + 24) / 25, (n + 24) / 25);
