@@ -27,7 +27,7 @@ class Solution {
             dfs(a - 2, b - 2) + 
             dfs(a - 1, b - 3)
         );
-        // Store the computed probability in the memo cache
+
         memo[a][b] = probability;
         // Return the computed probability
         return probability;
