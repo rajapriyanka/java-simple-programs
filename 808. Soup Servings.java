@@ -17,7 +17,6 @@ class Solution {
         if (b <= 0) {
             return 0;
         }
-        // If result is already computed, return it from the memo cache
         if (memo[a][b] > 0) {
             return memo[a][b];
         }
