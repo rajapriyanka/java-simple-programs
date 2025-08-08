@@ -20,7 +20,7 @@ class Solution {
         if (memo[a][b] > 0) {
             return memo[a][b];
         }
-        // Recursively compute the probability considering all 4 possible operation
+
         double probability = 0.25 * (
             dfs(a - 4, b) + 
             dfs(a - 3, b - 1) + 
