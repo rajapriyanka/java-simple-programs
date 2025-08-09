@@ -15,7 +15,6 @@ class Solution {
     for (List<Character> row : rows)
       for (final char c : row)
         sb.append(c);
-
     return sb.toString();
   }
 }
