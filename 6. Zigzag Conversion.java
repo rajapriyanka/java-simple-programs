@@ -4,7 +4,6 @@ class Solution {
     List<Character>[] rows = new List[numRows];
     int k = 0;
     int direction = numRows == 1 ? 0 : -1;
-
     for (int i = 0; i < numRows; ++i)
       rows[i] = new ArrayList<>();
 
