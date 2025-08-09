@@ -6,7 +6,6 @@ class Solution {
     int direction = numRows == 1 ? 0 : -1;
     for (int i = 0; i < numRows; ++i)
       rows[i] = new ArrayList<>();
-
     for (final char c : s.toCharArray()) {
       rows[k].add(c);
       if (k == 0 || k == numRows - 1)
