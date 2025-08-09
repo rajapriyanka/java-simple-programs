@@ -12,7 +12,6 @@ class Solution {
         direction *= -1;
       k += direction;
     }
-
     for (List<Character> row : rows)
       for (final char c : row)
         sb.append(c);
