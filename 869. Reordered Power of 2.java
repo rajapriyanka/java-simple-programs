@@ -10,7 +10,6 @@ class Solution {
   }
   private int counter(int n) {
     int count = 0;
-
     for (; n > 0; n /= 10)
       count += Math.pow(10, n % 10);
     return count;
