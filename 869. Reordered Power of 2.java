@@ -1,4 +1,3 @@
-
 class Solution {
   public boolean reorderedPowerOf2(int n) {
     int count = counter(n);
