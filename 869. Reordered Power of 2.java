@@ -8,7 +8,6 @@ class Solution {
 
     return false;
   }
-
   private int counter(int n) {
     int count = 0;
 
