@@ -1,3 +1,4 @@
+
 class Solution {
   public int[] productQueries(int n, int[][] queries) {
     final int MOD = 1_000_000_007;
