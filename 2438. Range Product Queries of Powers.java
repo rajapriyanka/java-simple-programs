@@ -4,7 +4,6 @@ class Solution {
     final int MAX_BIT = 30;
     int[] ans = new int[queries.length];
     List<Integer> pows = new ArrayList<>();
-
     for (int i = 0; i < MAX_BIT; ++i)
       if ((n >> i & 1) == 1)
         pows.add(1 << i);
