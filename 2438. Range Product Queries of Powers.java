@@ -7,7 +7,6 @@ class Solution {
     for (int i = 0; i < MAX_BIT; ++i)
       if ((n >> i & 1) == 1)
         pows.add(1 << i);
-
     for (int i = 0; i < queries.length; ++i) {
       final int left = queries[i][0];
       final int right = queries[i][1];
