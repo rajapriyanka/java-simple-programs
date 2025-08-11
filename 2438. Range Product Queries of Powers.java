@@ -17,7 +17,6 @@ class Solution {
       }
       ans[i] = (int) prod;
     }
-
     return ans;
   }
 }
