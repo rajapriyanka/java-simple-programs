@@ -2,7 +2,7 @@ class Solution {
   public int numberOfWays(int n, int x) {
     final int MOD = 1_000_000_007;
     int[] dp = new int[n + 1];
-    int ax; // a^x
+    int ax;
     dp[0] = 1;
 
     for (int a = 1; (ax = (int) Math.pow(a, x)) <= n; ++a)
