@@ -1,3 +1,4 @@
+
 class Solution {
   public int numberOfWays(int n, int x) {
     final int MOD = 1_000_000_007;
