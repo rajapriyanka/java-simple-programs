@@ -9,7 +9,6 @@ class Solution {
         dp[i] += dp[i - ax];
         dp[i] %= MOD;
       }
-
     return dp[n];
   }
 }
