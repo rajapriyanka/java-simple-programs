@@ -1,7 +1,7 @@
 class Solution {
   public int numberOfWays(int n, int x) {
     final int MOD = 1_000_000_007;
-    // dp[i] := the number of ways to express i
+
     int[] dp = new int[n + 1];
     int ax; // a^x
 
