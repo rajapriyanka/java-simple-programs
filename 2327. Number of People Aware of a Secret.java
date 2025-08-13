@@ -13,7 +13,6 @@ class Solution {
       share %= MOD;
       dp[i] = (int) share;
     }
-
     int ans = 0;
     for (int i = n - forget; i < n; ++i)
       ans = (ans + dp[i]) % MOD;
