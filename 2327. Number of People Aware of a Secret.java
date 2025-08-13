@@ -16,7 +16,6 @@ class Solution {
       dp[i] = (int) share;
     }
 
-    // People before day `n - forget - 1` already forget the secret.
     int ans = 0;
     for (int i = n - forget; i < n; ++i)
       ans = (ans + dp[i]) % MOD;
