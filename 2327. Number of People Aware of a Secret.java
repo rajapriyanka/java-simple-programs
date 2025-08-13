@@ -3,7 +3,7 @@ class Solution {
     final int MOD = 1_000_000_007;
     long share = 0;
 
-    int[] dp = new int[n]; // Maps day i to i + 1.
+    int[] dp = new int[n]; 
     dp[0] = 1;
 
     for (int i = 1; i < n; ++i) {
