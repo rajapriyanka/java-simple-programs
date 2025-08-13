@@ -2,7 +2,6 @@ class Solution {
   public int peopleAwareOfSecret(int n, int delay, int forget) {
     final int MOD = 1_000_000_007;
     long share = 0;
-
     int[] dp = new int[n]; 
     dp[0] = 1;
 
