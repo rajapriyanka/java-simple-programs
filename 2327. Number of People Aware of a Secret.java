@@ -2,7 +2,7 @@ class Solution {
   public int peopleAwareOfSecret(int n, int delay, int forget) {
     final int MOD = 1_000_000_007;
     long share = 0;
-    // dp[i] := the number of people know the secret at day i
+
     int[] dp = new int[n]; // Maps day i to i + 1.
     dp[0] = 1;
 
