@@ -4,7 +4,6 @@ class Solution {
     long share = 0;
     int[] dp = new int[n]; 
     dp[0] = 1;
-
     for (int i = 1; i < n; ++i) {
       if (i - delay >= 0)
         share += dp[i - delay];
