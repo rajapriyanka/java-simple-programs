@@ -3,9 +3,7 @@ class Solution {
     dfs(root);
     return ans;
   }
-
   private int ans = 0;
-
   private Pair<Integer, Integer> dfs(TreeNode root) {
     if (root == null)
       return new Pair<>(0, 0);
