@@ -6,7 +6,6 @@ class Solution {
         return new int[] {numToIndex.get(target - nums[i]), i};
       numToIndex.put(nums[i], i);
     }
-
     throw new IllegalArgumentException();
   }
 }
