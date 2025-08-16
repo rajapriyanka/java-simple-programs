@@ -6,7 +6,6 @@ class Solution {
         ans[i] = '9';
         break;
       }
-
     return Integer.valueOf(String.valueOf(ans));
   }
 }
