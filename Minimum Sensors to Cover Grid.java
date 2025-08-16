@@ -6,4 +6,4 @@ class Solution {
         return rows * cols;
     }
 }
-©leetcode
+
