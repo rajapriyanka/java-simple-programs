@@ -1,4 +1,3 @@
-
 class Solution {
   public int maximum69Number(int num) {
     char[] ans = String.valueOf(num).toCharArray();
