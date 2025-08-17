@@ -8,12 +8,10 @@ class Solution {
     double windowSum = dp[0]; 
 
     for (int i = 1; i <= n; ++i) {
-      // The probability to get i points is
-      // P(i) = [P(i - 1) + P(i - 2) + ... + P(i - maxPts)] / maxPts
       dp[i] = windowSum / maxPts;
       if (i < k)
         windowSum += dp[i];
-      else // The game ends.
+      else 
         ans += dp[i];
       if (i - maxPts >= 0)
         windowSum -= dp[i - maxPts];
