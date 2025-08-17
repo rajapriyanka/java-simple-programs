@@ -12,7 +12,7 @@ class Solution {
         long delta = 0;
         for (int i = 0; i < k; i++) {
             if (i < k / 2) {
-                delta += -(long) strategy[i] * prices[i];  // turn to hold
+                delta += -(long) strategy[i] * prices[i]; 
             } else {
                 delta += ((long) 1 - strategy[i]) * prices[i];  // turn to sell
             }
