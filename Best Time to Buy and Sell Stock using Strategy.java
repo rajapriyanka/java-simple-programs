@@ -9,7 +9,6 @@ class Solution {
 
         long maxProfit = originalProfit;
 
-        // Step 2: Build initial window
         long delta = 0;
         for (int i = 0; i < k; i++) {
             if (i < k / 2) {
