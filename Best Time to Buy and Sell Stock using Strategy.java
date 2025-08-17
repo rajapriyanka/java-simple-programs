@@ -2,7 +2,6 @@ class Solution {
     public long maxProfit(int[] prices, int[] strategy, int k) {
         int n = prices.length;
 
-        // Step 1: Calculate original profit
         long originalProfit = 0;
         for (int i = 0; i < n; i++) {
             originalProfit += (long) strategy[i] * prices[i];
