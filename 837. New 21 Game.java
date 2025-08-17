@@ -1,8 +1,5 @@
 class Solution {
   public double new21Game(int n, int k, int maxPts) {
-    // When the game ends, the point is in [k..k - 1 maxPts].
-    //   P = 1, if n >= k - 1 + maxPts
-    //   P = 0, if n < k (note that the constraints already have k <= n)
     if (k == 0 || n >= k - 1 + maxPts)
       return 1.0;
 
