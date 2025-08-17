@@ -18,8 +18,6 @@ class Solution {
             }
         }
         maxProfit = Math.max(maxProfit, originalProfit + delta);
-
-        // Step 3: Slide window
         for (int start = 1; start + k <= n; start++) {
             // Remove old window's contribution at index (start-1)
             int outIdx = start - 1;
