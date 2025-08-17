@@ -14,7 +14,7 @@ class Solution {
             if (i < k / 2) {
                 delta += -(long) strategy[i] * prices[i]; 
             } else {
-                delta += ((long) 1 - strategy[i]) * prices[i];  // turn to sell
+                delta += ((long) 1 - strategy[i]) * prices[i];  
             }
         }
         maxProfit = Math.max(maxProfit, originalProfit + delta);
