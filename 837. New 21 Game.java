@@ -4,9 +4,8 @@ class Solution {
       return 1.0;
 
     double ans = 0.0;
-    double[] dp = new double[n + 1]; // dp[i] := the probability to have i points
     dp[0] = 1.0;
-    double windowSum = dp[0]; // P(i - 1) + P(i - 2) + ... + P(i - maxPts)
+    double windowSum = dp[0]; 
 
     for (int i = 1; i <= n; ++i) {
       // The probability to get i points is
