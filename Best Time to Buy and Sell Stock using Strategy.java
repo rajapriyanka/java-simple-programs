@@ -19,7 +19,6 @@ class Solution {
         }
         maxProfit = Math.max(maxProfit, originalProfit + delta);
         for (int start = 1; start + k <= n; start++) {
-            // Remove old window's contribution at index (start-1)
             int outIdx = start - 1;
             if (0 < k / 2) { // outgoing was in first half
                 delta -= -(long) strategy[outIdx] * prices[outIdx];
