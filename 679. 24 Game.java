@@ -8,7 +8,6 @@ class Solution {
   private boolean dfs(List<Double> nums) {
     if (nums.size() == 1)
       return Math.abs(nums.get(0) - 24.0) < 0.001;
-
     for (int i = 0; i < nums.size(); ++i)
       for (int j = i + 1; j < nums.size(); ++j)
         for (final double num : generate(nums.get(i), nums.get(j))) {
