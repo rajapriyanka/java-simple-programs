@@ -7,7 +7,6 @@ class Solution {
 
     return dfs(doubleNums);
   }
-
   private boolean dfs(List<Double> nums) {
     if (nums.size() == 1)
       return Math.abs(nums.get(0) - 24.0) < 0.001;
