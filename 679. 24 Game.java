@@ -1,7 +1,6 @@
 class Solution {
   public boolean judgePoint24(int[] nums) {
     List<Double> doubleNums = new ArrayList<>();
-
     for (final int num : nums)
       doubleNums.add((double) num);
 
