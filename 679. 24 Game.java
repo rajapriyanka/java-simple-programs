@@ -13,7 +13,7 @@ class Solution {
         for (final double num : generate(nums.get(i), nums.get(j))) {
           List<Double> nextRound = new ArrayList<>(List.of(num));
           for (int k = 0; k < nums.size(); ++k) {
-            if (k == i || k == j) // It is used in `generate()`.
+            if (k == i || k == j) 
               continue;
             nextRound.add(nums.get(k));
           }
