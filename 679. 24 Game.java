@@ -3,7 +3,6 @@ class Solution {
     List<Double> doubleNums = new ArrayList<>();
     for (final int num : nums)
       doubleNums.add((double) num);
-
     return dfs(doubleNums);
   }
   private boolean dfs(List<Double> nums) {
