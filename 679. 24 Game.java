@@ -20,7 +20,6 @@ class Solution {
           if (dfs(nextRound))
             return true;
         }
-
     return false;
   }
 
