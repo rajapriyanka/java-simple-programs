@@ -22,7 +22,6 @@ class Solution {
         }
     return false;
   }
-
   private double[] generate(double a, double b) {
     return new double[] {a * b, a / b, b / a, a + b, a - b, b - a};
   }
