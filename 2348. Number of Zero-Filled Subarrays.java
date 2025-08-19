@@ -7,7 +7,6 @@ class Solution {
         ans += i - indexBeforeZero;
       else
         indexBeforeZero = i;
-
     return ans;
   }
 }
