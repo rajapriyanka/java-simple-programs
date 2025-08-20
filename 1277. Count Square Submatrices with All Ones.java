@@ -1,3 +1,4 @@
+
 class Solution {
   public int countSquares(int[][] matrix) {
     for (int i = 0; i < matrix.length; ++i)
