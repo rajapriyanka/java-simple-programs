@@ -14,7 +14,6 @@ class Solution {
     }
     return ans;
   }
-
   private int count(int[] row) {
     int res = 0;
     int length = 0;
