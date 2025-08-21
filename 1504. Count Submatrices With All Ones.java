@@ -13,7 +13,6 @@ class Solution {
         ans += count(row);
       }
     }
-
     return ans;
   }
 
