@@ -3,7 +3,6 @@ class Solution {
     final int m = mat.length;
     final int n = mat[0].length;
     int ans = 0;
-
     for (int baseRow = 0; baseRow < m; ++baseRow) {
       int[] row = new int[n];
       Arrays.fill(row, 1);
