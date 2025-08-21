@@ -1,4 +1,3 @@
-
 class Solution {
   public int numSubmat(int[][] mat) {
     final int m = mat.length;
