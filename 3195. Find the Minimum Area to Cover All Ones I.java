@@ -12,7 +12,6 @@ class Solution {
           x2 = Math.max(x2, i);
           y2 = Math.max(y2, j);
         }
-
     return (x2 - x1 + 1) * (y2 - y1 + 1);
   }
 }
