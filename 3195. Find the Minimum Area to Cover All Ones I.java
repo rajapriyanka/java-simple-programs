@@ -1,5 +1,4 @@
 
-
 class Solution {
   public int minimumArea(int[][] grid) {
     int x1 = Integer.MAX_VALUE;
