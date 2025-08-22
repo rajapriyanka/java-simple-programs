@@ -4,7 +4,6 @@ class Solution {
     int y1 = Integer.MAX_VALUE;
     int x2 = 0;
     int y2 = 0;
-
     for (int i = 0; i < grid.length; ++i)
       for (int j = 0; j < grid[0].length; ++j)
         if (grid[i][j] == 1) {
