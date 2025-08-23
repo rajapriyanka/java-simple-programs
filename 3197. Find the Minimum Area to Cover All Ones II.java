@@ -21,7 +21,6 @@ class Solution {
         ans = Math.min(ans, left + /*top*/ minimumArea(grid, 0, i, j + 1, n - 1) +
                                 /*bottom*/ minimumArea(grid, i + 1, m - 1, j + 1, n - 1));
     }
-
     for (int j = 0; j < n; ++j) {
       final int right = minimumArea(grid, 0, m - 1, j, n - 1);
       for (int i = 0; i < m; ++i)
