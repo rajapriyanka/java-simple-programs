@@ -27,7 +27,6 @@ class Solution {
         ans = Math.min(ans, right + /*top*/ minimumArea(grid, 0, i, 0, j - 1) +
                                 /*bottom*/ minimumArea(grid, i + 1, m - 1, 0, j - 1));
     }
-
     for (int i1 = 0; i1 < m; ++i1)
       for (int i2 = i1 + 1; i2 < m; ++i2)
         ans = Math.min(ans, /*top*/ minimumArea(grid, 0, i1, 0, n - 1) +
