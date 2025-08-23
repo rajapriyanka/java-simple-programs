@@ -41,7 +41,6 @@ class Solution {
 
     return ans;
   }
-
   private int minimumArea(int[][] grid, int si, int ei, int sj, int ej) {
     int x1 = Integer.MAX_VALUE;
     int y1 = Integer.MAX_VALUE;
