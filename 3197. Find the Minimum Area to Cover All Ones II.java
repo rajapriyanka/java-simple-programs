@@ -3,7 +3,6 @@ class Solution {
     final int m = grid.length;
     final int n = grid[0].length;
     int ans = m * n;
-
     for (int i = 0; i < m; ++i) {
       final int top = minimumArea(grid, 0, i, 0, n - 1);
       for (int j = 0; j < n; ++j)
