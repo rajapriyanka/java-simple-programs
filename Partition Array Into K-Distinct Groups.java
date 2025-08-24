@@ -5,7 +5,7 @@ class Solution {
 
         if (n % k != 0) return false;
         
-        // Frequency map
+
         Map<Integer, Integer> freq = new HashMap<>();
         for (int num : nums) {
             freq.put(num, freq.getOrDefault(num, 0) + 1);
