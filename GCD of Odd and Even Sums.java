@@ -1,7 +1,7 @@
 class Solution {
     public int gcdOfOddEvenSums(int n) {
         int sumOdd = n * n;          
-        int sumEven = n * (n + 1);    // sum of first n even numbers
+        int sumEven = n * (n + 1);    
         return gcd(sumOdd, sumEven);
     }
 
