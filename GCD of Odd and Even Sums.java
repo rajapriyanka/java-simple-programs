@@ -4,7 +4,6 @@ class Solution {
         int sumEven = n * (n + 1);    
         return gcd(sumOdd, sumEven);
     }
-
     private int gcd(int a, int b) {
         if (b == 0) return a;
         return gcd(b, a % b);
