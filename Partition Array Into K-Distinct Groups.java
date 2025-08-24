@@ -2,7 +2,7 @@ class Solution {
     public boolean partitionArray(int[] nums, int k) {
         int n = nums.length;
         
-        // Check divisibility
+
         if (n % k != 0) return false;
         
         // Frequency map
