@@ -3,7 +3,7 @@ class Solution {
     final int m = matrix.length;
     final int n = matrix[0].length;
     int[] ans = new int[m * n];
-    int d = 1; // left-bottom -> right-top
+    int d = 1; 
     int row = 0;
     int col = 0;
 
