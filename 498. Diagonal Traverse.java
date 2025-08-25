@@ -11,7 +11,6 @@ class Solution {
       ans[i] = matrix[row][col];
       row -= d;
       col += d;
-      // out-of-bounds
       if (row == m) {
         row = m - 1;
         col += 2;
