@@ -6,7 +6,6 @@ class Solution {
     int d = 1; 
     int row = 0;
     int col = 0;
-
     for (int i = 0; i < m * n; ++i) {
       ans[i] = matrix[row][col];
       row -= d;
