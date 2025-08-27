@@ -1,4 +1,3 @@
-
 class Solution {
   public int lenOfVDiagonal(int[][] grid) {
     final int m = grid.length;
