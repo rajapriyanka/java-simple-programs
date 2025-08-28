@@ -9,7 +9,6 @@ class Solution {
         diag.putIfAbsent(key, new ArrayList<>());
         diag.get(key).add(grid[i][j]);
       }
-
     for (Map.Entry<Integer, List<Integer>> entry : diag.entrySet()) {
       List<Integer> values = entry.getValue();
       if (entry.getKey() < 0)
