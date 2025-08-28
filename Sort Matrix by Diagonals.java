@@ -3,7 +3,6 @@ class Solution {
     final int n = grid.length;
     int[][] ans = new int[n][n];
     Map<Integer, List<Integer>> diag = new HashMap<>();
-
     for (int i = 0; i < n; ++i)
       for (int j = 0; j < n; ++j) {
         final int key = i - j;
