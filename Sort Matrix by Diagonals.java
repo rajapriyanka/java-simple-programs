@@ -21,7 +21,6 @@ class Solution {
         final int key = i - j;
         ans[i][j] = diag.get(key).remove(diag.get(key).size() - 1);
       }
-
     return ans;
   }
 }
