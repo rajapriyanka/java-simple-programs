@@ -1,6 +1,6 @@
 class Solution {
   public long flowerGame(int n, int m) {
-    // Alice wins if x + y is odd, occurring when:    //   1. x is even and y is odd, or
+       //   1. x is even and y is odd, or
     //   2. y is even and x is odd.
     final int xEven = n / 2;
     final int yEven = m / 2;
