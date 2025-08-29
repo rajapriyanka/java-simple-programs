@@ -1,7 +1,7 @@
 class Solution {
   public long flowerGame(int n, int m) {
 
-    //   2. y is even and x is odd.
+
     final int xEven = n / 2;
     final int yEven = m / 2;
     final int xOdd = (n + 1) / 2;
