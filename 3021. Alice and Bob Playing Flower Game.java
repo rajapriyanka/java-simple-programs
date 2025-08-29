@@ -1,3 +1,4 @@
+
 class Solution {
   public long flowerGame(int n, int m) {
     final int xEven = n / 2;
