@@ -11,7 +11,6 @@ class Solution {
             !seen.add(c + "@box" + i / 3 + j / 3))
           return false;
       }
-
     return true;
   }
 }
