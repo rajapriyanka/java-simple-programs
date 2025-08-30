@@ -1,3 +1,4 @@
+
 class Solution {
   public boolean isValidSudoku(char[][] board) {
     Set<String> seen = new HashSet<>();
