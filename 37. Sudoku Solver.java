@@ -2,7 +2,6 @@ class Solution {
   public void solveSudoku(char[][] board) {
     dfs(board, 0);
   }
-
   private boolean dfs(char[][] board, int s) {
     if (s == 81)
       return true;
