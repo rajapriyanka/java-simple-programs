@@ -7,10 +7,8 @@ class Solution {
       return true;
     final int i = s / 9;
     final int j = s % 9;
-
     if (board[i][j] != '.')
       return dfs(board, s + 1);
-
     for (char c = '1'; c <= '9'; ++c)
       if (isValid(board, i, j, c)) {
         board[i][j] = c;
