@@ -5,7 +5,6 @@ class Solution {
   private boolean dfs(char[][] board, int s) {
     if (s == 81)
       return true;
-
     final int i = s / 9;
     final int j = s % 9;
 
