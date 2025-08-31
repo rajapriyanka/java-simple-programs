@@ -18,7 +18,6 @@ class Solution {
       }
     return false;
   }
-
   private boolean isValid(char[][] board, int row, int col, char c) {
     for (int i = 0; i < 9; ++i)
       if (board[i][col] == c || board[row][i] == c ||
