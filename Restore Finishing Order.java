@@ -1,4 +1,3 @@
-
 class Solution {
     public int[] recoverOrder(int[] order, int[] friends) {
         Set<Integer> friendSet = new HashSet<>();
