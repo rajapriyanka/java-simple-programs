@@ -16,7 +16,6 @@ class Solution {
           return true;
         board[i][j] = '.';
       }
-
     return false;
   }
 
