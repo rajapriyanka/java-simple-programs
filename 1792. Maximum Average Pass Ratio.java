@@ -17,8 +17,6 @@ class Solution {
       ratioSum += maxHeap.peek().pass / (double) maxHeap.poll().total;
     return ratioSum / classes.length;
   }
-
-  // Returns the extra pass ratio if a brilliant student joins.
   private double getExtraPassRatio(int pass, int total) {
     return (pass + 1) / (double) (total + 1) - pass / (double) total;
   }
