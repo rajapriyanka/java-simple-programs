@@ -7,7 +7,6 @@ class Solution {
       final int total = c[1];
       maxHeap.offer(new T(getExtraPassRatio(pass, total), pass, total));
     }
-
     for (int i = 0; i < extraStudents; ++i) {
       final int pass = maxHeap.peek().pass;
       final int total = maxHeap.poll().total;
