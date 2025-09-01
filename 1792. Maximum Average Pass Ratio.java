@@ -12,7 +12,6 @@ class Solution {
       final int total = maxHeap.poll().total;
       maxHeap.offer(new T(getExtraPassRatio(pass + 1, total + 1), pass + 1, total + 1));
     }
-
     double ratioSum = 0;
 
     while (!maxHeap.isEmpty())
