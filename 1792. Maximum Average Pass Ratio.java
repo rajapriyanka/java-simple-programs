@@ -20,6 +20,5 @@ class Solution {
   private double getExtraPassRatio(int pass, int total) {
     return (pass + 1) / (double) (total + 1) - pass / (double) total;
   }
-
   private record T(double extraPassRatio, int pass, int total){};
 }
