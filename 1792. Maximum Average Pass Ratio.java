@@ -15,7 +15,6 @@ class Solution {
     double ratioSum = 0;
     while (!maxHeap.isEmpty())
       ratioSum += maxHeap.peek().pass / (double) maxHeap.poll().total;
-
     return ratioSum / classes.length;
   }
 
