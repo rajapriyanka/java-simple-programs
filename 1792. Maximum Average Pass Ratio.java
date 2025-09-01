@@ -2,7 +2,6 @@ class Solution {
   public double maxAverageRatio(int[][] classes, int extraStudents) {
     PriorityQueue<T> maxHeap =
         new PriorityQueue<>((a, b) -> Double.compare(b.extraPassRatio, a.extraPassRatio));
-
     for (int[] c : classes) {
       final int pass = c[0];
       final int total = c[1];
