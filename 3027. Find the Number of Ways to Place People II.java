@@ -1,5 +1,4 @@
 class Solution {
-  // Same as 3025. Find the Number of Ways to Place People I
   public int numberOfPairs(int[][] points) {
     int ans = 0;
 
