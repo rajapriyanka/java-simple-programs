@@ -1,7 +1,6 @@
 class Solution {
   public int numberOfPairs(int[][] points) {
     int ans = 0;
-
     Arrays.sort(points, Comparator.comparingInt((int[] point) -> point[0])
                             .thenComparingInt((int[] point) -> - point[1]));
 
