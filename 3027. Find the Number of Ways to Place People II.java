@@ -12,7 +12,6 @@ class Solution {
           maxY = points[j][1];
         }
     }
-
     return ans;
   }
 }
