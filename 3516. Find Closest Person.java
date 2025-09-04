@@ -1,4 +1,3 @@
-
 class Solution {
   public int findClosest(int x, int y, int z) {
     final int xz = Math.abs(x - z);
