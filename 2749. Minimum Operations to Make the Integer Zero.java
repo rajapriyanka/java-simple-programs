@@ -3,7 +3,6 @@ class Solution {
    
 
 
-    // Note that for any number x, we can use "x's bit count" operations to make
     // x equal to 0. Additionally, we can also use x operations to deduct x by
     // 2^0 (x times), which also results in 0.
 
