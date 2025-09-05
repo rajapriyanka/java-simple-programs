@@ -3,7 +3,7 @@ class Solution {
    
 
 
-    // x equal to 0. Additionally, we can also use x operations to deduct x by
+
     // 2^0 (x times), which also results in 0.
 
     for (long ops = 0; ops <= 60; ++ops) {
