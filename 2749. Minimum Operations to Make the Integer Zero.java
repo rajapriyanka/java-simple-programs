@@ -4,7 +4,7 @@ class Solution {
 
 
 
-    // 2^0 (x times), which also results in 0.
+
 
     for (long ops = 0; ops <= 60; ++ops) {
       long target = num1 - ops * num2;
