@@ -1,6 +1,6 @@
 class Solution {
   public int makeTheIntegerZero(int num1, int num2) {
-    // If k operations are used, num1 - [(num2 + 2^{i_1}) + (num2 + 2^{i_2}) +
+   
     // ... + (num2 + 2^{i_k})] = 0. So, num1 - k * num2 = (2^{i_1} + 2^{i_2} +
     // ... + 2^{i_k}), where i_1, i_2, ..., i_k are in the range [0, 60].
     // Note that for any number x, we can use "x's bit count" operations to make
