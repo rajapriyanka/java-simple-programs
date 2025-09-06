@@ -8,8 +8,6 @@ class Solution {
     }
     return ans;
   }
-
-  // Returns the number of operations required for [1, n].
   private long getOperations(int n) {
     long res = 0;
     int ops = 0;
