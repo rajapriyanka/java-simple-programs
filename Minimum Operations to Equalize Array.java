@@ -1,4 +1,3 @@
-
 class Solution {
     public int minOperations(int[] nums) {
         boolean allEqual = true;
