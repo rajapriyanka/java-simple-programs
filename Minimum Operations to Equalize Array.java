@@ -8,8 +8,6 @@ class Solution {
             }
         }
         if (allEqual) return 0;
-
-        // Otherwise, we can always do it in 1 operation
         return 1;
     }
 }
