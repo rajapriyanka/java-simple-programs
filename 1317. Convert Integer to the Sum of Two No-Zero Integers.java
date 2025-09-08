@@ -1,3 +1,4 @@
+
 class Solution {
   public int[] getNoZeroIntegers(int n) {
     for (int A = 1; A < n; ++A) {
