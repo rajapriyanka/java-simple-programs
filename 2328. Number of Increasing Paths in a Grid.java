@@ -4,7 +4,6 @@ class Solution {
     final int n = grid[0].length;
     int ans = 0;
     Integer[][] mem = new Integer[m][n];
-
     for (int i = 0; i < m; ++i)
       for (int j = 0; j < n; ++j) {
         ans += countPaths(grid, i, j, mem);
