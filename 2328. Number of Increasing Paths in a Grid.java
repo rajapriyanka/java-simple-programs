@@ -18,7 +18,7 @@ class Solution {
     if (mem[i][j] != null)
       return mem[i][j];
 
-    mem[i][j] = 1; // The current cell contributes 1 length.
+    mem[i][j] = 1; 
 
     for (int[] dir : DIRS) {
       int x = i + dir[0];
