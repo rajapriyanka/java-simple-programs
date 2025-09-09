@@ -13,7 +13,6 @@ class Solution {
 
     return ans;
   }
-
   private static final int MOD = 1_000_000_007;
   private static final int[][] DIRS = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
   private int countPaths(int[][] grid, int i, int j, Integer[][] mem) {
