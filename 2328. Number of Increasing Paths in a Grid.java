@@ -27,7 +27,6 @@ class Solution {
       mem[i][j] += countPaths(grid, x, y, mem);
       mem[i][j] %= MOD;
     }
-
     return mem[i][j];
   }
 }
