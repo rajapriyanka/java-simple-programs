@@ -16,7 +16,6 @@ class Solution {
   private int countPaths(int[][] grid, int i, int j, Integer[][] mem) {
     if (mem[i][j] != null)
       return mem[i][j];
-
     mem[i][j] = 1; 
 
     for (int[] dir : DIRS) {
