@@ -16,8 +16,6 @@ class Solution {
 
   private static final int MOD = 1_000_000_007;
   private static final int[][] DIRS = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
-
-  // Returns the number of increasing paths starting from (i, j).
   private int countPaths(int[][] grid, int i, int j, Integer[][] mem) {
     if (mem[i][j] != null)
       return mem[i][j];
