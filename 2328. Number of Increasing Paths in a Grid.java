@@ -9,7 +9,6 @@ class Solution {
         ans += countPaths(grid, i, j, mem);
         ans %= MOD;
       }
-
     return ans;
   }
   private static final int MOD = 1_000_000_007;
