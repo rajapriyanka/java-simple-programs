@@ -14,7 +14,6 @@ class Solution {
       }
     }
 
-    // Find the most popular language.
     for (int u : needTeach)
       for (final int language : languageSets.get(u))
         languageCount.merge(language, 1, Integer::sum);
