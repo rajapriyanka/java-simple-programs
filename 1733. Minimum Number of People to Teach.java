@@ -19,7 +19,6 @@ class Solution {
     int maxCount = 0;
     for (int freq : languageCount.values())
       maxCount = Math.max(maxCount, freq);
-
     return needTeach.size() - maxCount;
   }
 
