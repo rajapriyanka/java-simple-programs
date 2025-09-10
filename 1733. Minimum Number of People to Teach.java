@@ -13,7 +13,6 @@ class Solution {
         needTeach.add(v);
       }
     }
-
     for (int u : needTeach)
       for (final int language : languageSets.get(u))
         languageCount.merge(language, 1, Integer::sum);
