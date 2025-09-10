@@ -21,8 +21,6 @@ class Solution {
       maxCount = Math.max(maxCount, freq);
     return needTeach.size() - maxCount;
   }
-
-  // Returns true if u can't talk with v.
   private boolean cantTalk(List<Set<Integer>> languageSets, int u, int v) {
     for (int language : languageSets.get(u))
       if (languageSets.get(v).contains(language))
