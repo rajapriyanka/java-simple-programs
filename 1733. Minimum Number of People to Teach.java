@@ -16,7 +16,6 @@ class Solution {
     for (int u : needTeach)
       for (final int language : languageSets.get(u))
         languageCount.merge(language, 1, Integer::sum);
-
     int maxCount = 0;
     for (int freq : languageCount.values())
       maxCount = Math.max(maxCount, freq);
