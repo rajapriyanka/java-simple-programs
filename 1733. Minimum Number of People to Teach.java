@@ -17,7 +17,6 @@ class Solution {
       for (final int language : languageSets.get(u))
         languageCount.merge(language, 1, Integer::sum);
 
-    // Teach the most popular language to people who don't understand.
     int maxCount = 0;
     for (int freq : languageCount.values())
       maxCount = Math.max(maxCount, freq);
