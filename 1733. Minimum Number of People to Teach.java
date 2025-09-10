@@ -3,11 +3,9 @@ class Solution {
     List<Set<Integer>> languageSets = new ArrayList<>();
     Set<Integer> needTeach = new HashSet<>();
     Map<Integer, Integer> languageCount = new HashMap<>();
-
     for (int[] language : languages)
       languageSets.add(new HashSet<>(Arrays.stream(language).boxed().toList()));
 
-    // Find friends that can't communicate.
     for (int[] friendship : friendships) {
       final int u = friendship[0] - 1;
       final int v = friendship[1] - 1;
