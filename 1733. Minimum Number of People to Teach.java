@@ -5,7 +5,6 @@ class Solution {
     Map<Integer, Integer> languageCount = new HashMap<>();
     for (int[] language : languages)
       languageSets.add(new HashSet<>(Arrays.stream(language).boxed().toList()));
-
     for (int[] friendship : friendships) {
       final int u = friendship[0] - 1;
       final int v = friendship[1] - 1;
