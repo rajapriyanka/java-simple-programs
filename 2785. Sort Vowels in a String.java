@@ -2,7 +2,6 @@ class Solution {
   public String sortVowels(String s) {
     StringBuilder sb = new StringBuilder();
     List<Character> vowels = new ArrayList<>();
-
     for (final char c : s.toCharArray())
       if (isVowel(c))
         vowels.add(c);
