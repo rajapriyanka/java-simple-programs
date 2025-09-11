@@ -5,7 +5,6 @@ class Solution {
     for (final char c : s.toCharArray())
       if (isVowel(c))
         vowels.add(c);
-
     Collections.sort(vowels);
 
     int i = 0; // vowels' index
