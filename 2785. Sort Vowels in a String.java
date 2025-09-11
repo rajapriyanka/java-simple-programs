@@ -6,7 +6,7 @@ class Solution {
       if (isVowel(c))
         vowels.add(c);
     Collections.sort(vowels);
-    int i = 0; // vowels' index
+    int i = 0; 
     for (final char c : s.toCharArray())
       sb.append(isVowel(c) ? vowels.get(i++) : c);
     return sb.toString();
