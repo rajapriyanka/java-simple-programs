@@ -1,4 +1,3 @@
-
 class Solution {
   public String sortVowels(String s) {
     StringBuilder sb = new StringBuilder();
