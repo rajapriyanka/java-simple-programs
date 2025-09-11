@@ -9,7 +9,6 @@ class Solution {
     int i = 0; // vowels' index
     for (final char c : s.toCharArray())
       sb.append(isVowel(c) ? vowels.get(i++) : c);
-
     return sb.toString();
   }
 
