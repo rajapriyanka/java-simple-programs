@@ -4,7 +4,7 @@ class Solution {
 
 
 
-    // (the last vowel).
+
     return s.chars().anyMatch(c -> isVowel((char) c));
   }
 
