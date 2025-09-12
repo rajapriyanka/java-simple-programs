@@ -3,7 +3,7 @@ class Solution {
 
 
 
-    // Alice picking the remaining entire string, or Bob couldn't pick at all
+
     // (the last vowel).
     return s.chars().anyMatch(c -> isVowel((char) c));
   }
