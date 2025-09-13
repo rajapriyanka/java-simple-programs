@@ -12,7 +12,6 @@ class Solution {
         maxConsonant = Math.max(maxConsonant, count[c - 'a']);
     return maxVowel + maxConsonant;
   }
-
   private boolean isVowel(char c) {
     return "aeiou".indexOf(c) != -1;
   }
