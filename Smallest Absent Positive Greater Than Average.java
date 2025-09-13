@@ -7,8 +7,6 @@ class Solution {
         }
 
         double avg = (double) sum / n;
-
-        // Put all numbers in a set for quick lookup
         Set<Integer> set = new HashSet<>();
         for (int num : nums) {
             set.add(num);
