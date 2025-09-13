@@ -11,8 +11,6 @@ class Solution {
         for (int num : nums) {
             set.add(num);
         }
-
-        // Start checking from ceil(avg + 1) since it should be strictly greater
         int candidate = (int) Math.floor(avg) + 1;
         while (set.contains(candidate) || candidate <= 0) {
             candidate++;
