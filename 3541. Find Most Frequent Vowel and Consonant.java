@@ -5,7 +5,6 @@ class Solution {
     int maxConsonant = 0;
     for (final char c : s.toCharArray())
       ++count[c - 'a'];
-
     for (final char c : s.toCharArray())
       if (isVowel(c))
         maxVowel = Math.max(maxVowel, count[c - 'a']);
