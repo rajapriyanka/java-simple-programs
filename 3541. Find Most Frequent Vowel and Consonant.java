@@ -1,4 +1,3 @@
-
 class Solution {
   public int maxFreqSum(String s) {
     int[] count = new int[26];
