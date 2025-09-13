@@ -6,7 +6,6 @@ class Solution {
             sum += num;
         }
 
-        // Calculate average
         double avg = (double) sum / n;
 
         // Put all numbers in a set for quick lookup
