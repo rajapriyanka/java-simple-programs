@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public int smallestAbsent(int[] nums) {
         int n = nums.length;
