@@ -2,8 +2,6 @@ class Solution {
     public int smallestAbsent(int[] nums) {
         int n = nums.length;
         long sum = 0;
-
-        // Calculate sum
         for (int num : nums) {
             sum += num;
         }
