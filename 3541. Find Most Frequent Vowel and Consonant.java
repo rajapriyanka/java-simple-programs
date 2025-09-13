@@ -10,7 +10,6 @@ class Solution {
         maxVowel = Math.max(maxVowel, count[c - 'a']);
       else
         maxConsonant = Math.max(maxConsonant, count[c - 'a']);
-
     return maxVowel + maxConsonant;
   }
 
