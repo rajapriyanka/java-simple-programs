@@ -3,7 +3,6 @@ class Solution {
     int[] count = new int[26];
     int maxVowel = 0;
     int maxConsonant = 0;
-
     for (final char c : s.toCharArray())
       ++count[c - 'a'];
 
