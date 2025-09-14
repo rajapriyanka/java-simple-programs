@@ -7,7 +7,6 @@ class Solution {
             int finish = start + duration;
             ans = Math.min(ans, finish);
         }
-        
-        return ans;
+      return ans;
     }
 }
