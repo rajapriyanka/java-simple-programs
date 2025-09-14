@@ -27,7 +27,6 @@ class Solution {
       sb.append(isVowel(c) ? '*' : Character.toLowerCase(c));
     return sb.toString();
   }
-
   private boolean isVowel(char c) {
     return "aeiouAEIOU".indexOf(c) != -1;
   }
