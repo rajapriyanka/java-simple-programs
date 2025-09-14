@@ -11,8 +11,6 @@ class Solution {
                 int waterDur = waterDuration[j];
                 int finishAfterLand = Math.max(waterStart, landStart + landDur) + waterDur;
                 int finishAfterWater = Math.max(landStart, waterStart + waterDur) + landDur;
-
-                // Update minimum finish time
                 minFinishTime = Math.min(minFinishTime, Math.min(finishAfterLand, finishAfterWater));
             }
         }
