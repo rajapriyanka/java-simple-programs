@@ -16,7 +16,6 @@ class Solution {
         ans.add(dict.get(vowelKey(query)));
       else
         ans.add("");
-
     return ans.toArray(new String[0]);
   }
 
