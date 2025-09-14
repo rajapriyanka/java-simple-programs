@@ -10,8 +10,6 @@ class Solution {
                 int waterStart = waterStartTime[j];
                 int waterDur = waterDuration[j];
                 int finishAfterLand = Math.max(waterStart, landStart + landDur) + waterDur;
-
-                // Case 2: water ride first
                 int finishAfterWater = Math.max(landStart, waterStart + waterDur) + landDur;
 
                 // Update minimum finish time
