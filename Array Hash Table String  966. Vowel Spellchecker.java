@@ -21,7 +21,6 @@ class Solution {
   private String lowerKey(final String word) {
     return "$" + word.toLowerCase();
   }
-
   private String vowelKey(final String word) {
     StringBuilder sb = new StringBuilder();
     for (final char c : word.toCharArray())
