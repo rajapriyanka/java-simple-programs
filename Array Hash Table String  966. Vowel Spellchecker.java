@@ -18,7 +18,6 @@ class Solution {
         ans.add("");
     return ans.toArray(new String[0]);
   }
-
   private String lowerKey(final String word) {
     return "$" + word.toLowerCase();
   }
