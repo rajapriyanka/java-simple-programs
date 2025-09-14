@@ -9,8 +9,6 @@ class Solution {
             for (int j = 0; j < waterStartTime.length; j++) {
                 int waterStart = waterStartTime[j];
                 int waterDur = waterDuration[j];
-
-                // Case 1: land ride first
                 int finishAfterLand = Math.max(waterStart, landStart + landDur) + waterDur;
 
                 // Case 2: water ride first
