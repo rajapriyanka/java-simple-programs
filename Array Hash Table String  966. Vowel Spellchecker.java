@@ -2,7 +2,6 @@ class Solution {
   public String[] spellchecker(String[] wordlist, String[] queries) {
     List<String> ans = new ArrayList<>();
     Map<String, String> dict = new HashMap<>();
-
     for (final String word : wordlist) {
       dict.putIfAbsent(word, word);
       dict.putIfAbsent(lowerKey(word), word);
