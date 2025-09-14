@@ -1,3 +1,4 @@
+
 class Solution {
   public String[] spellchecker(String[] wordlist, String[] queries) {
     List<String> ans = new ArrayList<>();
