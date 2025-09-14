@@ -7,7 +7,6 @@ class Solution {
       dict.putIfAbsent(lowerKey(word), word);
       dict.putIfAbsent(vowelKey(word), word);
     }
-
     for (final String query : queries)
       if (dict.containsKey(query))
         ans.add(dict.get(query));
