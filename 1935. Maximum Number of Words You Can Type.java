@@ -2,7 +2,6 @@ class Solution {
   public int canBeTypedWords(String text, String brokenLetters) {
     int ans = 0;
     boolean[] broken = new boolean[26];
-
     for (final char c : brokenLetters.toCharArray())
       broken[c - 'a'] = true;
 
