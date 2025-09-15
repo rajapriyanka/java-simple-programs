@@ -4,7 +4,6 @@ class Solution {
     boolean[] broken = new boolean[26];
     for (final char c : brokenLetters.toCharArray())
       broken[c - 'a'] = true;
-
     for (final String word : text.split(" "))
       ans += canBeTyped(word, broken);
 
