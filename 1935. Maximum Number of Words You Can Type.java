@@ -1,3 +1,4 @@
+
 class Solution {
   public int canBeTypedWords(String text, String brokenLetters) {
     int ans = 0;
