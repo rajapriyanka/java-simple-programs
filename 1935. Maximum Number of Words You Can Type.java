@@ -6,7 +6,6 @@ class Solution {
       broken[c - 'a'] = true;
     for (final String word : text.split(" "))
       ans += canBeTyped(word, broken);
-
     return ans;
   }
 
