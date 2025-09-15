@@ -8,7 +8,6 @@ class Solution {
       ans += canBeTyped(word, broken);
     return ans;
   }
-
   private int canBeTyped(final String word, boolean[] broken) {
     for (final char c : word.toCharArray())
       if (broken[c - 'a'])
