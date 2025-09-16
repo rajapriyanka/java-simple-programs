@@ -1,4 +1,3 @@
-
 class Solution {
   public List<Integer> replaceNonCoprimes(int[] nums) {
     LinkedList<Integer> ans = new LinkedList<>();
