@@ -1,7 +1,6 @@
 class Solution {
   public List<Integer> replaceNonCoprimes(int[] nums) {
     LinkedList<Integer> ans = new LinkedList<>();
-
     for (int num : nums) {
       while (!ans.isEmpty() && gcd(ans.getLast(), num) > 1)
         num = lcm(ans.removeLast(), num);
