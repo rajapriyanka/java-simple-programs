@@ -6,7 +6,6 @@ class Solution {
         num = lcm(ans.removeLast(), num);
       ans.addLast(num);
     }
-
     return ans;
   }
 
