@@ -23,7 +23,6 @@ class FoodRatings {
     return cuisineToRatingAndFoods.get(cuisine).first().getValue();
   }
 
-  // {cuisine: {(rating, food)}}
   Map<String, TreeSet<Pair<Integer, String>>> cuisineToRatingAndFoods = new HashMap<>();
   Map<String, String> foodToCuisine = new HashMap<>();
   Map<String, Integer> foodToRating = new HashMap<>();
