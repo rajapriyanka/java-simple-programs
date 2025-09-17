@@ -11,7 +11,6 @@ class FoodRatings {
       foodToRating.put(foods[i], ratings[i]);
     }
   }
-
   public void changeRating(String food, int newRating) {
     final String cuisine = foodToCuisine.get(food);
     final int oldRating = foodToRating.get(food);
