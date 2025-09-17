@@ -19,7 +19,6 @@ class FoodRatings {
     ratingAndFoods.add(new Pair<>(newRating, food));
     foodToRating.put(food, newRating);
   }
-
   public String highestRated(String cuisine) {
     return cuisineToRatingAndFoods.get(cuisine).first().getValue();
   }
