@@ -1,4 +1,3 @@
-
 class FoodRatings {
   public FoodRatings(String[] foods, String[] cuisines, int[] ratings) {
     for (int i = 0; i < foods.length; ++i) {
