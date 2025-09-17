@@ -22,7 +22,6 @@ class FoodRatings {
   public String highestRated(String cuisine) {
     return cuisineToRatingAndFoods.get(cuisine).first().getValue();
   }
-
   Map<String, TreeSet<Pair<Integer, String>>> cuisineToRatingAndFoods = new HashMap<>();
   Map<String, String> foodToCuisine = new HashMap<>();
   Map<String, Integer> foodToRating = new HashMap<>();
