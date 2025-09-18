@@ -38,7 +38,6 @@ class TaskManager {
     taskSet.remove(task);
     taskMap.remove(taskId);
   }
-
   public int execTop() {
     if (taskSet.isEmpty())
       return -1;
