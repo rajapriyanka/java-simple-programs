@@ -26,7 +26,6 @@ class TaskManager {
     taskMap.put(taskId, task);
     taskSet.add(task);
   }
-
   public void edit(int taskId, int newPriority) {
     Task task = taskMap.get(taskId);
     taskSet.remove(task);
