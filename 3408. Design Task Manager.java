@@ -15,7 +15,6 @@ class Task implements Comparable<Task> {
   }
 }
 class TaskManager {
-
   public TaskManager(List<List<Integer>> tasks) {
     taskMap = new HashMap<>();
     taskSet = new TreeSet<>();
