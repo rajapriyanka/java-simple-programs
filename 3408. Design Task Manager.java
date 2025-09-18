@@ -8,7 +8,6 @@ class Task implements Comparable<Task> {
     this.taskId = taskId;
     this.priority = priority;
   }
-
   @Override
   public int compareTo(Task other) {
     return this.priority == other.priority ? Integer.compare(other.taskId, this.taskId)
