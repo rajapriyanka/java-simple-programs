@@ -14,7 +14,6 @@ class Task implements Comparable<Task> {
                                            : Integer.compare(other.priority, this.priority);
   }
 }
-
 class TaskManager {
 
   public TaskManager(List<List<Integer>> tasks) {
