@@ -33,7 +33,6 @@ class TaskManager {
     taskSet.add(editedTask);
     taskMap.put(taskId, editedTask);
   }
-
   public void rmv(int taskId) {
     Task task = taskMap.get(taskId);
     taskSet.remove(task);
