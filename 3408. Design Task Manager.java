@@ -21,7 +21,6 @@ class TaskManager {
     for (List<Integer> task : tasks)
       add(task.get(0), task.get(1), task.get(2));
   }
-
   public void add(int userId, int taskId, int priority) {
     Task task = new Task(userId, taskId, priority);
     taskMap.put(taskId, task);
