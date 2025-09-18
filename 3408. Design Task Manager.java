@@ -46,7 +46,6 @@ class TaskManager {
     taskMap.remove(task.taskId);
     return task.userId;
   }
-
   private Map<Integer, Task> taskMap = new HashMap<>(); // {taskId: Task}
   private Set<Task> taskSet; // Stores tasks sorted by priority and taskId.
 }
