@@ -3,7 +3,6 @@ class Task implements Comparable<Task> {
   public int taskId;
   public int priority;
   public Task() {}
-
   public Task(int userId, int taskId, int priority) {
     this.userId = userId;
     this.taskId = taskId;
