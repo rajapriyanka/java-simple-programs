@@ -16,7 +16,6 @@ class Spreadsheet {
             if (Character.isDigit(term.charAt(0))) {
                 sum += Integer.parseInt(term);
             } else {
-                // Otherwise, treat it as a cell reference and get its value (default to 0 if not found)
                 sum += cellValues.getOrDefault(term, 0);
             }
         }
