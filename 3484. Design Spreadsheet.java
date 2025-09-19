@@ -12,8 +12,6 @@ class Spreadsheet {
     public int getValue(String formula) {
         int sum = 0;
         String[] terms = formula.substring(1).split("\\+");
-      
-        // Process each term in the formula
         for (String term : terms) {
             // Check if the term is a number or a cell reference
             if (Character.isDigit(term.charAt(0))) {
