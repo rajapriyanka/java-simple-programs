@@ -1,5 +1,5 @@
 class Spreadsheet {
-    // Map to store cell values, where key is cell name (e.g., "A1") and value is the integer value
+
     private Map<String, Integer> cellValues;
 
     /**
