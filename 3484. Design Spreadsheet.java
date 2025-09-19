@@ -3,12 +3,6 @@ class Spreadsheet {
     public Spreadsheet(int rows) {
         this.cellValues = new HashMap<>();
     }
-
-    /**
-     * Sets the value of a specific cell
-     * @param cell The cell identifier (e.g., "A1", "B2")
-     * @param value The integer value to store in the cell
-     */
     public void setCell(String cell, int value) {
         cellValues.put(cell, value);
     }
