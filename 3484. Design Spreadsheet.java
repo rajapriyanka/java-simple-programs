@@ -1,7 +1,6 @@
 class Spreadsheet {
 
     private Map<String, Integer> cellValues;
-
     public Spreadsheet(int rows) {
         this.cellValues = new HashMap<>();
     }
