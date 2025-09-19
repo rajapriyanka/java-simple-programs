@@ -11,8 +11,6 @@ class Spreadsheet {
     }
     public int getValue(String formula) {
         int sum = 0;
-      
-        // Remove the leading '=' and split by '+' to get individual terms
         String[] terms = formula.substring(1).split("\\+");
       
         // Process each term in the formula
