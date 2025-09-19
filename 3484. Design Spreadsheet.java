@@ -19,8 +19,7 @@ class Spreadsheet {
                 sum += cellValues.getOrDefault(term, 0);
             }
         }
-      
-        return sum;
+            return sum;
     }
 }
 
