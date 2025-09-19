@@ -2,10 +2,6 @@ class Spreadsheet {
 
     private Map<String, Integer> cellValues;
 
-    /**
-     * Constructor to initialize the spreadsheet with a given number of rows
-     * @param rows The number of rows in the spreadsheet (currently unused in this implementation)
-     */
     public Spreadsheet(int rows) {
         this.cellValues = new HashMap<>();
     }
