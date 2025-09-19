@@ -13,7 +13,6 @@ class Spreadsheet {
         int sum = 0;
         String[] terms = formula.substring(1).split("\\+");
         for (String term : terms) {
-            // Check if the term is a number or a cell reference
             if (Character.isDigit(term.charAt(0))) {
                 // If it starts with a digit, parse it as a number
                 sum += Integer.parseInt(term);
