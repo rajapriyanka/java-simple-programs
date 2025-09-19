@@ -6,11 +6,6 @@ class Spreadsheet {
     public void setCell(String cell, int value) {
         cellValues.put(cell, value);
     }
-
-    /**
-     * Resets (removes) a cell from the spreadsheet
-     * @param cell The cell identifier to reset
-     */
     public void resetCell(String cell) {
         cellValues.remove(cell);
     }
