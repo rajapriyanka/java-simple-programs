@@ -9,13 +9,6 @@ class Spreadsheet {
     public void resetCell(String cell) {
         cellValues.remove(cell);
     }
-
-    /**
-     * Evaluates a formula and returns the computed value
-     * Formula format: "=A1+B2+5" (starts with '=' and contains cell references and/or numbers separated by '+')
-     * @param formula The formula string to evaluate
-     * @return The computed sum of all values in the formula
-     */
     public int getValue(String formula) {
         int sum = 0;
       
