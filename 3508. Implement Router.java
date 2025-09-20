@@ -45,7 +45,6 @@ class Router {
     destinationTimestamps.computeIfAbsent(destination, k -> new ArrayList<>()).add(timestamp);
     return true;
   }
-
   public List<Integer> forwardPacket() {
     if (packetQueue.isEmpty())
       return Collections.emptyList();
