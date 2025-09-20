@@ -25,7 +25,6 @@ class Packet implements Comparable<Packet> {
     return source == packet.source && destination == packet.destination &&
         timestamp == packet.timestamp;
   }
-
   @Override
   public int hashCode() {
     return Objects.hash(source, destination, timestamp);
