@@ -53,7 +53,6 @@ class Router {
     processedPacketIndex.merge(nextPacket.destination, 1, Integer::sum);
     return Arrays.asList(nextPacket.source, nextPacket.destination, nextPacket.timestamp);
   }
-
   public int getCount(int destination, int startTime, int endTime) {
     if (!destinationTimestamps.containsKey(destination))
       return 0;
