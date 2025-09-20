@@ -62,7 +62,6 @@ class Router {
     final int upperBoundIndex = firstGreater(timestamps, lowerBoundIndex, endTime);
     return upperBoundIndex - lowerBoundIndex;
   }
-
   private final int memoryLimit;
   private final TreeSet<Packet> uniquePackets = new TreeSet<>();
   private final Queue<Packet> packetQueue = new LinkedList<>();
