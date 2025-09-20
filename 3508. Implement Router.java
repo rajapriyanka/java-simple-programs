@@ -34,7 +34,6 @@ class Router {
   public Router(int memoryLimit) {
     this.memoryLimit = memoryLimit;
   }
-
   public boolean addPacket(int source, int destination, int timestamp) {
     Packet packet = new Packet(source, destination, timestamp);
     if (uniquePackets.contains(packet))
