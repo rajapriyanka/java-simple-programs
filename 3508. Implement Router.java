@@ -79,7 +79,6 @@ class Router {
     }
     return l;
   }
-
   private int firstGreater(List<Integer> timestamps, int startIndex, int endTime) {
     int l = startIndex;
     int r = timestamps.size();
