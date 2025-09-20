@@ -30,7 +30,6 @@ class Packet implements Comparable<Packet> {
     return Objects.hash(source, destination, timestamp);
   }
 }
-
 class Router {
   public Router(int memoryLimit) {
     this.memoryLimit = memoryLimit;
