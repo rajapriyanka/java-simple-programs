@@ -7,7 +7,6 @@ class Packet implements Comparable<Packet> {
     this.destination = destination;
     this.timestamp = timestamp;
   }
-
   @Override
   public int compareTo(Packet other) {
     if (source != other.source)
