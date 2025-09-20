@@ -15,7 +15,6 @@ class Packet implements Comparable<Packet> {
       return Integer.compare(destination, other.destination);
     return Integer.compare(timestamp, other.timestamp);
   }
-
   @Override
   public boolean equals(Object o) {
     if (this == o)
