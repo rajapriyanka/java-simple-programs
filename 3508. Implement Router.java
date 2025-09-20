@@ -2,7 +2,6 @@ class Packet implements Comparable<Packet> {
   public int source;
   public int destination;
   public int timestamp;
-
   public Packet(int source, int destination, int timestamp) {
     this.source = source;
     this.destination = destination;
