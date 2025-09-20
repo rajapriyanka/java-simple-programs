@@ -67,7 +67,6 @@ class Router {
   private final Queue<Packet> packetQueue = new LinkedList<>();
   private final Map<Integer, List<Integer>> destinationTimestamps = new HashMap<>();
   private final Map<Integer, Integer> processedPacketIndex = new HashMap<>();
-
   private int firstGreaterEqual(List<Integer> timestamps, int startIndex, int startTime) {
     int l = startIndex;
     int r = timestamps.size();
