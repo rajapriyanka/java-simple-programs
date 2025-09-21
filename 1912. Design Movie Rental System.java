@@ -16,7 +16,6 @@ class MovieRentingSystem {
         .map(e -> e.shop)
         .collect(Collectors.toList());
   }
-
   public void rent(int shop, int movie) {
     final int price = shopAndMovieToPrice.get(new Pair<>(shop, movie));
     unrented.get(movie).remove(new Entry(price, shop, movie));
