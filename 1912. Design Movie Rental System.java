@@ -21,7 +21,6 @@ class MovieRentingSystem {
     unrented.get(movie).remove(new Entry(price, shop, movie));
     rented.add(new Entry(price, shop, movie));
   }
-
   public void drop(int shop, int movie) {
     final int price = shopAndMovieToPrice.get(new Pair<>(shop, movie));
     unrented.get(movie).add(new Entry(price, shop, movie));
