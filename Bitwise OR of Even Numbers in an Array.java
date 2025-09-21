@@ -3,7 +3,7 @@ class Solution {
         int result = 0;
         for (int num : nums) {
             if (num % 2 == 0) {  
-                result |= num;   // apply bitwise OR
+                result |= num;  
             }
         }
         return result;
