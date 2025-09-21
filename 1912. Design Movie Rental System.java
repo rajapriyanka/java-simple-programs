@@ -34,8 +34,6 @@ class MovieRentingSystem {
   private Comparator<Entry> comparator = Comparator.comparingInt(Entry::price)
                                              .thenComparingInt(Entry::shop)
                                              .thenComparingInt(Entry::movie);
-
-  // {movie: (price, shop)}
   private Map<Integer, Set<Entry>> unrented = new HashMap<>();
 
   // {(shop, movie): price}
