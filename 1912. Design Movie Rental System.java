@@ -9,7 +9,6 @@ class MovieRentingSystem {
       shopAndMovieToPrice.put(new Pair<>(shop, movie), price);
     }
   }
-
   public List<Integer> search(int movie) {
     return unrented.getOrDefault(movie, Collections.emptySet())
         .stream()
