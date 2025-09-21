@@ -29,7 +29,6 @@ class MovieRentingSystem {
   public List<List<Integer>> report() {
     return rented.stream().limit(5).map(e -> List.of(e.shop, e.movie)).collect(Collectors.toList());
   }
-
   private record Entry(int price, int shop, int movie) {}
 
   private Comparator<Entry> comparator = Comparator.comparingInt(Entry::price)
