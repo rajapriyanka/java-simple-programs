@@ -35,8 +35,6 @@ class MovieRentingSystem {
                                              .thenComparingInt(Entry::shop)
                                              .thenComparingInt(Entry::movie);
   private Map<Integer, Set<Entry>> unrented = new HashMap<>();
-
-  // {(shop, movie): price}
   private Map<Pair<Integer, Integer>, Integer> shopAndMovieToPrice = new HashMap<>();
 
   // (price, shop, movie)
