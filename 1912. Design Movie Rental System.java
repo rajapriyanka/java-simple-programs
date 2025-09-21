@@ -26,7 +26,6 @@ class MovieRentingSystem {
     unrented.get(movie).add(new Entry(price, shop, movie));
     rented.remove(new Entry(price, shop, movie));
   }
-
   public List<List<Integer>> report() {
     return rented.stream().limit(5).map(e -> List.of(e.shop, e.movie)).collect(Collectors.toList());
   }
