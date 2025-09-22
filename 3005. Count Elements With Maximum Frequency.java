@@ -3,7 +3,6 @@ class Solution {
     final int MAX = 100;
     int ans = 0;
     int[] count = new int[MAX + 1];
-
     for (final int num : nums)
       ++count[num];
 
