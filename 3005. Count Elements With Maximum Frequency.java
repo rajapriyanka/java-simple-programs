@@ -9,7 +9,6 @@ class Solution {
     for (final int freq : count)
       if (freq == maxFreq)
         ans += maxFreq;
-
     return ans;
   }
 }
