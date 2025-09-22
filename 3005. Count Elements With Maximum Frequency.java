@@ -5,7 +5,6 @@ class Solution {
     int[] count = new int[MAX + 1];
     for (final int num : nums)
       ++count[num];
-
     final int maxFreq = Arrays.stream(count).max().getAsInt();
 
     for (final int freq : count)
