@@ -1,4 +1,3 @@
-
 class Solution {
   public int maxFrequencyElements(int[] nums) {
     final int MAX = 100;
