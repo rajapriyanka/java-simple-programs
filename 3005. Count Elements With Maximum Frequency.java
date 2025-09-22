@@ -6,7 +6,6 @@ class Solution {
     for (final int num : nums)
       ++count[num];
     final int maxFreq = Arrays.stream(count).max().getAsInt();
-
     for (final int freq : count)
       if (freq == maxFreq)
         ans += maxFreq;
