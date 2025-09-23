@@ -1,3 +1,4 @@
+
 class Solution {
   public int compareVersion(String version1, String version2) {
     final String[] levels1 = version1.split("\\.");
