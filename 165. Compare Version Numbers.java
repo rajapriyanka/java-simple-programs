@@ -3,7 +3,6 @@ class Solution {
     final String[] levels1 = version1.split("\\.");
     final String[] levels2 = version2.split("\\.");
     final int length = Math.max(levels1.length, levels2.length);
-
     for (int i = 0; i < length; ++i) {
       final Integer v1 = i < levels1.length ? Integer.parseInt(levels1[i]) : 0;
       final Integer v2 = i < levels2.length ? Integer.parseInt(levels2[i]) : 0;
