@@ -10,7 +10,6 @@ class Solution {
       if (compare != 0)
         return compare;
     }
-
     return 0;
   }
 }
