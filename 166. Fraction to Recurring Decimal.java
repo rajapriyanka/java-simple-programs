@@ -10,7 +10,6 @@ class Solution {
     sb.append(n / d);
     if (n % d == 0)
       return sb.toString();
-
     sb.append(".");
     Map<Long, Integer> seen = new HashMap<>();
 
