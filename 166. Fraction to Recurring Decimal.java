@@ -8,7 +8,6 @@ class Solution {
     long n = Math.abs((long) numerator);
     long d = Math.abs((long) denominator);
     sb.append(n / d);
-
     if (n % d == 0)
       return sb.toString();
 
