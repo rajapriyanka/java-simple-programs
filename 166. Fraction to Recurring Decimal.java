@@ -22,7 +22,6 @@ class Solution {
       r *= 10;
       sb.append(r / d);
     }
-
     return sb.toString();
   }
 }
