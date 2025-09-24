@@ -12,7 +12,6 @@ class Solution {
       return sb.toString();
     sb.append(".");
     Map<Long, Integer> seen = new HashMap<>();
-
     for (long r = n % d; r > 0; r %= d) {
       if (seen.containsKey(r)) {
         sb.insert(seen.get(r), "(");
