@@ -1,4 +1,3 @@
-
 class Solution {
   public int minimumTotal(List<List<Integer>> triangle) {
     for (int i = triangle.size() - 2; i >= 0; --i)
