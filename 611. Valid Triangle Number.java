@@ -9,7 +9,6 @@ class Solution {
       int j = k - 1;
       while (i < j)
         if (nums[i] + nums[j] > nums[k]) {
-          // (nums[i + 1], nums[j], nums[k])
           // ...
           // (nums[j - 1], nums[j], nums[k])
           ans += j - i;
