@@ -4,7 +4,6 @@ class Solution {
       return 0;
     int ans = 0;
     Arrays.sort(nums);
-
     for (int k = nums.length - 1; k > 1; --k) {
       int i = 0;
       int j = k - 1;
