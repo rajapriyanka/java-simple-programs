@@ -2,7 +2,6 @@ class Solution {
   public int triangleNumber(int[] nums) {
     if (nums.length < 3)
       return 0;
-
     int ans = 0;
 
     Arrays.sort(nums);
