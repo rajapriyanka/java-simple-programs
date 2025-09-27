@@ -4,8 +4,6 @@ class Solution {
         for (char c : s.toCharArray()) {
             freq.put(c, freq.getOrDefault(c, 0) + 1);
         }
-
-        // Step 2: Group characters by frequency
         Map<Integer, List<Character>> groups = new HashMap<>();
         for (Map.Entry<Character, Integer> entry : freq.entrySet()) {
             int count = entry.getValue();
