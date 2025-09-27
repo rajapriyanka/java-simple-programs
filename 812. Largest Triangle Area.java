@@ -1,7 +1,6 @@
 class Solution {
   public double largestTriangleArea(int[][] points) {
     double ans = 0;
-
     for (int[] A : points)
       for (int[] B : points)
         for (int[] C : points)
