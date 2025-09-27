@@ -1,6 +1,5 @@
 class Solution {
     public String majorityFrequencyGroup(String s) {
-        // Step 1: Count frequency of each character
         Map<Character, Integer> freq = new HashMap<>();
         for (char c : s.toCharArray()) {
             freq.put(c, freq.getOrDefault(c, 0) + 1);
