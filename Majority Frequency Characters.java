@@ -14,7 +14,6 @@ class Solution {
         for (Map.Entry<Integer, List<Character>> entry : groups.entrySet()) {
             int count = entry.getKey();
             List<Character> chars = entry.getValue();
-
             if (chars.size() > bestSize || 
                (chars.size() == bestSize && count > bestFreq)) {
                 bestSize = chars.size();
