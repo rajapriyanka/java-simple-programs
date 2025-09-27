@@ -14,7 +14,6 @@ class Solution {
       if (i - maxPts >= 0)
         windowSum -= dp[i - maxPts];
     }
-
     return ans;
   }
 }
