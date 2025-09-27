@@ -1,4 +1,3 @@
-
 class Solution {
   public double largestTriangleArea(int[][] points) {
     double ans = 0;
