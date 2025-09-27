@@ -11,7 +11,6 @@ class Solution {
         }
         int bestSize = 0, bestFreq = 0;
         List<Character> bestGroup = new ArrayList<>();
-
         for (Map.Entry<Integer, List<Character>> entry : groups.entrySet()) {
             int count = entry.getKey();
             List<Character> chars = entry.getValue();
