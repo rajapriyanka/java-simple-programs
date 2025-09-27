@@ -5,7 +5,6 @@ class Solution {
     double ans = 0.0;
     dp[0] = 1.0;
     double windowSum = dp[0]; 
-
     for (int i = 1; i <= n; ++i) {
       dp[i] = windowSum / maxPts;
       if (i < k)
