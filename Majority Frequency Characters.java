@@ -22,8 +22,6 @@ class Solution {
                 bestGroup = chars;
             }
         }
-
-        // Step 4: Return string with characters
         StringBuilder result = new StringBuilder();
         for (char c : bestGroup) {
             result.append(c);
