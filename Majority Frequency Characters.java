@@ -9,8 +9,6 @@ class Solution {
             int count = entry.getValue();
             groups.computeIfAbsent(count, k -> new ArrayList<>()).add(entry.getKey());
         }
-
-        // Step 3: Find majority frequency group
         int bestSize = 0, bestFreq = 0;
         List<Character> bestGroup = new ArrayList<>();
 
