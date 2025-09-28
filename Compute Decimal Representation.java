@@ -1,3 +1,4 @@
+
 class Solution {
     public int[] decimalRepresentation(int n) {
         List<Integer> list = new ArrayList<>();
