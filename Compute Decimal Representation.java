@@ -10,8 +10,6 @@ class Solution {
             n /= 10;
             place *= 10;
         }
-
-        // so reverse it to get descending order.
         Collections.reverse(list);
 
         // Convert List<Integer> to int[]
