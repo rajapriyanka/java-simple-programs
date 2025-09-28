@@ -11,7 +11,6 @@ class Solution {
             place *= 10;
         }
 
-        // Currently list has values in reverse order (smallest place first),
         // so reverse it to get descending order.
         Collections.reverse(list);
 
