@@ -2,8 +2,6 @@ class Solution {
     public int[] decimalRepresentation(int n) {
         List<Integer> list = new ArrayList<>();
         int place = 1;
-
-        // Extract components using modulo
         while (n > 0) {
             int digit = n % 10;
             if (digit != 0) {
