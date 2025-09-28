@@ -11,7 +11,6 @@ class Solution {
             place *= 10;
         }
         Collections.reverse(list);
-
         return list.stream().mapToInt(i -> i).toArray();
     }
 }
