@@ -12,7 +12,6 @@ class Solution {
         }
         Collections.reverse(list);
 
-        // Convert List<Integer> to int[]
         return list.stream().mapToInt(i -> i).toArray();
     }
 }
