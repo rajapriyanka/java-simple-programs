@@ -2,7 +2,6 @@ class Solution {
   public int minScoreTriangulation(int[] values) {
     final int n = values.length;
     int[][] dp = new int[n][n];
-
     for (int j = 2; j < n; ++j)
       for (int i = j - 2; i >= 0; --i) {
         dp[i][j] = Integer.MAX_VALUE;
