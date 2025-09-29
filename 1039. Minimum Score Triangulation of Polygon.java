@@ -8,7 +8,6 @@ class Solution {
         for (int k = i + 1; k < j; ++k)
           dp[i][j] = Math.min(dp[i][j], dp[i][k] + values[i] * values[k] * values[j] + dp[k][j]);
       }
-
     return dp[0][n - 1];
   }
 }
