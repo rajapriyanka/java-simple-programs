@@ -1,3 +1,4 @@
+
 class Solution {
   public int triangularSum(int[] nums) {
     for (int sz = nums.length; sz > 0; --sz)
