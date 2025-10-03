@@ -1,4 +1,3 @@
-
 class Solution {
   public int trapRainWater(int[][] heightMap) {
     record T(int i, int j, int h) {}
