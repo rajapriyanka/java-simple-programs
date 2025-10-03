@@ -32,7 +32,7 @@ class Solution {
           continue;
         if (heightMap[x][y] < h) {
           ans += h - heightMap[x][y];
-          minHeap.offer(new T(x, y, h)); // Fill water in grid[x][y].
+          minHeap.offer(new T(x, y, h));
         } else {
           minHeap.offer(new T(x, y, heightMap[x][y]));
         }
