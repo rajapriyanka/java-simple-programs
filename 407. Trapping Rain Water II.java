@@ -39,7 +39,6 @@ class Solution {
         seen[x][y] = true;
       }
     }
-
     return ans;
   }
 }
