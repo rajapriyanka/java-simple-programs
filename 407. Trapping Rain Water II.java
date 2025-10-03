@@ -19,7 +19,6 @@ class Solution {
       seen[0][j] = true;
       seen[m - 1][j] = true;
     }
-
     while (!minHeap.isEmpty()) {
       final int i = minHeap.peek().i;
       final int j = minHeap.peek().j;
