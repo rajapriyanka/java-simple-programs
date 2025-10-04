@@ -1,4 +1,3 @@
-
 class Solution {
   public int maxArea(int[] height) {
     int ans = 0;
