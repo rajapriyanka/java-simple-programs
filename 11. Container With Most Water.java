@@ -3,7 +3,6 @@ class Solution {
     int ans = 0;
     int l = 0;
     int r = height.length - 1;
-
     while (l < r) {
       final int minHeight = Math.min(height[l], height[r]);
       ans = Math.max(ans, minHeight * (r - l));
