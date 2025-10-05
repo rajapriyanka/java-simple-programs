@@ -25,7 +25,6 @@ class Solution {
       for (int j = 0; j < n; ++j)
         if (seenP[i][j] && seenA[i][j])
           ans.add(new ArrayList<>(List.of(i, j)));
-
     return ans;
   }
 
