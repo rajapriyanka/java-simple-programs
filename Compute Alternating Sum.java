@@ -5,7 +5,7 @@ class Solution {
             if (i % 2 == 0) {
                 sum += nums[i];
             } else {
-                sum -= nums[i]; // subtract elements at odd indices
+                sum -= nums[i];
             }
         }
         return sum;
