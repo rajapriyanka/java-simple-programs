@@ -19,7 +19,6 @@ class Solution {
       seenP[0][j] = true;
       seenA[m - 1][j] = true;
     }
-
     bfs(heights, qP, seenP);
     bfs(heights, qA, seenA);
 
