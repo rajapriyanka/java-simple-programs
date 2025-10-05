@@ -27,7 +27,6 @@ class Solution {
           ans.add(new ArrayList<>(List.of(i, j)));
     return ans;
   }
-
   private static final int[][] DIRS = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 
   private void bfs(int[][] heights, Queue<Pair<Integer, Integer>> q, boolean[][] seen) {
