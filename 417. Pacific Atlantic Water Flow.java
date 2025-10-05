@@ -7,7 +7,6 @@ class Solution {
     Queue<Pair<Integer, Integer>> qA = new ArrayDeque<>();
     boolean[][] seenP = new boolean[m][n];
     boolean[][] seenA = new boolean[m][n];
-
     for (int i = 0; i < m; ++i) {
       qP.offer(new Pair<>(i, 0));
       qA.offer(new Pair<>(i, n - 1));
