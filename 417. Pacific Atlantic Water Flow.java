@@ -13,7 +13,6 @@ class Solution {
       seenP[i][0] = true;
       seenA[i][n - 1] = true;
     }
-
     for (int j = 0; j < n; ++j) {
       qP.offer(new Pair<>(0, j));
       qA.offer(new Pair<>(m - 1, j));
