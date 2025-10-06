@@ -8,7 +8,6 @@ class Solution {
     };
     boolean[][] seen = new boolean[n][n];
     seen[0][0] = true;
-
     while (!minHeap.isEmpty()) {
       final int height = minHeap.peek()[0];
       final int i = minHeap.peek()[1];
