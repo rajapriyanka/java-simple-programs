@@ -4,7 +4,7 @@ class Solution {
     final int n = grid.length;
     int ans = grid[0][0];
     Queue<int[]> minHeap = new PriorityQueue<>(Comparator.comparingInt(a -> a[0])) {
-      { offer(new int[] {grid[0][0], 0, 0}); } // (grid[i][j], i, j)
+      { offer(new int[] {grid[0][0], 0, 0}); } 
     };
     boolean[][] seen = new boolean[n][n];
     seen[0][0] = true;
