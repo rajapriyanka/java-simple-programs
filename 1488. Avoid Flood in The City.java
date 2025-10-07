@@ -9,8 +9,6 @@ class Solution {
             int lake = rains[day];
             if (lake > 0) {
                 if (lastRainedLakes.containsKey(lake)) {
-                    // This lake was already full, we need to dry it before today
-                    // Find the first sunny day after the last time it rained on this lake
                     Integer dryDay = sunnyDays.higher(lastRainedLakes.get(lake));
                   
                     if (dryDay == null) {
