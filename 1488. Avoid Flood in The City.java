@@ -11,7 +11,6 @@ class Solution {
                 if (lastRainedLakes.containsKey(lake)) {
                     Integer dryDay = sunnyDays.higher(lastRainedLakes.get(lake));
                     if (dryDay == null) {
-                        // No sunny day available to dry this lake - flooding occurs
                         return new int[0];
                     }
                   
