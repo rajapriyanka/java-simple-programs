@@ -13,8 +13,6 @@ class Solution {
                     if (dryDay == null) {
                         return new int[0];
                     }
-                  
-                    // Use this sunny day to dry the current lake
                     result[dryDay] = lake;
                     sunnyDays.remove(dryDay);
                 }
