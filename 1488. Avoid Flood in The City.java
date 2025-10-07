@@ -7,7 +7,6 @@ class Solution {
         Map<Integer, Integer> lastRainedLakes = new HashMap<>();
         for (int day = 0; day < n; day++) {
             int lake = rains[day];
-          
             if (lake > 0) {
                 // It's raining on this lake
                 if (lastRainedLakes.containsKey(lake)) {
