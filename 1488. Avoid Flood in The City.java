@@ -4,9 +4,6 @@ class Solution {
         int[] result = new int[n];
         Arrays.fill(result, -1);
         TreeSet<Integer> sunnyDays = new TreeSet<>();
-      
-        // Map to store the last occurrence index of each lake that was filled
-        // Key: lake number, Value: day index when it last rained on this lake
         Map<Integer, Integer> lastRainedLakes = new HashMap<>();
       
         for (int day = 0; day < n; day++) {
