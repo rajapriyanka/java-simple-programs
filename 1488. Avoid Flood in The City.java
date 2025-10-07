@@ -3,9 +3,6 @@ class Solution {
         int n = rains.length;
         int[] result = new int[n];
         Arrays.fill(result, -1);
-      
-        // TreeSet to store indices of sunny days (when rains[i] == 0)
-        // Using TreeSet for efficient search of the next available sunny day
         TreeSet<Integer> sunnyDays = new TreeSet<>();
       
         // Map to store the last occurrence index of each lake that was filled
