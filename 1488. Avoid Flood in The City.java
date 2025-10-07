@@ -19,7 +19,6 @@ class Solution {
                 lastRainedLakes.put(lake, day);
             } else {
                 sunnyDays.add(day);
-                // Temporarily set to 1 (can be any positive number if not used)
                 result[day] = 1;
             }
         }
