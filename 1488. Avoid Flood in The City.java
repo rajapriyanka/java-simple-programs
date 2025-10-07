@@ -2,7 +2,7 @@ class Solution {
     public int[] avoidFlood(int[] rains) {
         int n = rains.length;
         int[] result = new int[n];
-        // Initialize all days with -1 (default for rainy days)
+     
         Arrays.fill(result, -1);
       
         // TreeSet to store indices of sunny days (when rains[i] == 0)
