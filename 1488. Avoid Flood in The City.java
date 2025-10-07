@@ -5,7 +5,6 @@ class Solution {
         Arrays.fill(result, -1);
         TreeSet<Integer> sunnyDays = new TreeSet<>();
         Map<Integer, Integer> lastRainedLakes = new HashMap<>();
-      
         for (int day = 0; day < n; day++) {
             int lake = rains[day];
           
