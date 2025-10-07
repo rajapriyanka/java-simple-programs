@@ -16,7 +16,6 @@ class Solution {
                     result[dryDay] = lake;
                     sunnyDays.remove(dryDay);
                 }
-                // Update the last rained day for this lake
                 lastRainedLakes.put(lake, day);
             } else {
                 // It's a sunny day, add to available sunny days
