@@ -6,8 +6,6 @@ class Solution {
       ans[i] = potions.length - firstIndexSuccess(spells[i], potions, success);
     return ans;
   }
-
-  // Returns the first index i s.t. spell * potions[i] >= success.
   private int firstIndexSuccess(int spell, int[] potions, long success) {
     int l = 0;
     int r = potions.length;
