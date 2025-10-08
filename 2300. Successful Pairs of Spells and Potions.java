@@ -4,7 +4,6 @@ class Solution {
     Arrays.sort(potions);
     for (int i = 0; i < spells.length; ++i)
       ans[i] = potions.length - firstIndexSuccess(spells[i], potions, success);
-
     return ans;
   }
 
