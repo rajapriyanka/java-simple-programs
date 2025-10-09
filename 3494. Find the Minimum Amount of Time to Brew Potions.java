@@ -5,7 +5,6 @@ class Solution {
     for (int j = 1; j < mana.length; ++j) {
       long prevPotionDone = prevWizardDone;
       for (int i = skill.length - 2; i >= 0; --i) {
-
         // = max(end time for wizard i brewing potion j - 1,
         //       the earliest start time for wizard i + 1 brewing potion j
         //       (coming from previous iteration)
