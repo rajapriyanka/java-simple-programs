@@ -7,7 +7,7 @@ class Solution {
       for (int i = skill.length - 2; i >= 0; --i) {
 
 
-        //       - time for wizard i brewing potion j)
+
         prevPotionDone -= (long) skill[i + 1] * mana[j - 1];
         prevWizardDone = Math.max(prevPotionDone, prevWizardDone - (long) skill[i] * mana[j]);
       }
