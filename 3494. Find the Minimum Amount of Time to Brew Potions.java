@@ -10,7 +10,6 @@ class Solution {
       }
       prevWizardDone += sumSkill * mana[j];
     }
-
     return prevWizardDone;
   }
 }
