@@ -6,7 +6,6 @@ class Solution {
     List<Integer> uniqueDamages = getSortedUniqueDamages(count);
     final int n = uniqueDamages.size();
     long[][] dp = new long[n][2];
-
     for (int i = 0; i < n; ++i) {
       final int damage = uniqueDamages.get(i);
       if (i == 0) {
