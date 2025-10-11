@@ -3,7 +3,6 @@ class Solution {
     Map<Integer, Integer> count = new HashMap<>();
     for (final int damage : power)
       count.merge(damage, 1, Integer::sum);
-
     List<Integer> uniqueDamages = getSortedUniqueDamages(count);
     final int n = uniqueDamages.size();
     // dp[i][k] := the maximum damage using uniqueDamages[0..i], where k
