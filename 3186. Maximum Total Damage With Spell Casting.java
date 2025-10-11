@@ -5,8 +5,6 @@ class Solution {
       count.merge(damage, 1, Integer::sum);
     List<Integer> uniqueDamages = getSortedUniqueDamages(count);
     final int n = uniqueDamages.size();
-    // dp[i][k] := the maximum damage using uniqueDamages[0..i], where k
-    // indicates if the i-th damage is used
     long[][] dp = new long[n][2];
 
     for (int i = 0; i < n; ++i) {
