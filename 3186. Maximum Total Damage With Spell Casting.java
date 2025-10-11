@@ -24,7 +24,6 @@ class Solution {
         dp[i][1] += Math.max(dp[i - 3][0], dp[i - 3][1]);
       }
     }
-
     return Math.max(dp[n - 1][0], dp[n - 1][1]);
   }
 
