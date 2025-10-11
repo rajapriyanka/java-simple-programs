@@ -1,7 +1,6 @@
 class Solution {
   public long maximumTotalDamage(int[] power) {
     Map<Integer, Integer> count = new HashMap<>();
-
     for (final int damage : power)
       count.merge(damage, 1, Integer::sum);
 
