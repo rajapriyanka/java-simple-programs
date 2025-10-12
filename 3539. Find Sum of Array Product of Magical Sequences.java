@@ -34,7 +34,6 @@ class Solution {
         comb[i][j] = (comb[i - 1][j] + comb[i - 1][j - 1]) % MOD;
     return comb;
   }
-
   private long modPow(long x, long n) {
     if (n == 0)
       return 1;
