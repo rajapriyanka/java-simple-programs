@@ -5,7 +5,6 @@ class Solution {
     return dp(m, k, 0, 0, nums, mem, comb);
   }
   private static final int MOD = 1_000_000_007;
-
   private int dp(int m, int k, int i, int carry, int[] nums, Integer[][][][] mem, int[][] comb) {
     if (m < 0 || k < 0 || (m + Integer.bitCount(carry) < k))
       return 0;
