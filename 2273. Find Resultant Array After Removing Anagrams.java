@@ -8,7 +8,6 @@ class Solution {
       ans.add(words[i]);
       i = j;
     }
-
     return ans;
   }
 
