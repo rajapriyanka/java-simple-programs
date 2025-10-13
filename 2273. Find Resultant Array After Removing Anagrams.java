@@ -16,7 +16,6 @@ class Solution {
     int[] count = new int[26];
     for (final char c : a.toCharArray())
       ++count[c - 'a'];
-
     for (final char c : b.toCharArray())
       --count[c - 'a'];
 
