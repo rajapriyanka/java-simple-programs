@@ -1,4 +1,3 @@
-
 class Solution {
   public List<String> removeAnagrams(String[] words) {
     List<String> ans = new ArrayList<>();
