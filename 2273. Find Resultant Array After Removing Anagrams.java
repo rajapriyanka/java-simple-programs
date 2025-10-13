@@ -13,7 +13,6 @@ class Solution {
   private boolean isAnagram(final String a, final String b) {
     if (a.length() != b.length())
       return false;
-
     int[] count = new int[26];
 
     for (final char c : a.toCharArray())
