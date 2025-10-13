@@ -27,3 +27,4 @@ class Solution {
 
     return Arrays.stream(count).allMatch(c -> c == 0);
   }
+}
