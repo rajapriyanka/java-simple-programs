@@ -14,7 +14,6 @@ class Solution {
     if (a.length() != b.length())
       return false;
     int[] count = new int[26];
-
     for (final char c : a.toCharArray())
       ++count[c - 'a'];
 
