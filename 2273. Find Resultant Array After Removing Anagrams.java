@@ -18,7 +18,6 @@ class Solution {
       ++count[c - 'a'];
     for (final char c : b.toCharArray())
       --count[c - 'a'];
-
     return Arrays.stream(count).allMatch(c -> c == 0);
   }
 }
