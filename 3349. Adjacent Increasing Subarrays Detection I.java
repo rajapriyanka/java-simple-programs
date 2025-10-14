@@ -12,7 +12,6 @@ class Solution {
       if (increasing / 2 >= k || Math.min(prevIncreasing, increasing) >= k)
         return true;
     }
-
     return false;
   }
 }
