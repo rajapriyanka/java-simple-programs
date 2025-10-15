@@ -3,7 +3,6 @@ class Solution {
     int ans = 0;
     int increasing = 1;
     int prevIncreasing = 0;
-
     for (int i = 1; i < nums.size(); ++i) {
       if (nums.get(i) > nums.get(i - 1)) {
         ++increasing;
