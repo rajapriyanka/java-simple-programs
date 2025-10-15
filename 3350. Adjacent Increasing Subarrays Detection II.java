@@ -13,7 +13,6 @@ class Solution {
       ans = Math.max(ans, increasing / 2);
       ans = Math.max(ans, Math.min(prevIncreasing, increasing));
     }
-
     return ans;
   }
 }
