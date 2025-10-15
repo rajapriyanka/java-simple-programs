@@ -1,5 +1,4 @@
 class Solution {
-  // Similar to 3349. Adjacent Increasing Subarrays Detection I
   public int maxIncreasingSubarrays(List<Integer> nums) {
     int ans = 0;
     int increasing = 1;
