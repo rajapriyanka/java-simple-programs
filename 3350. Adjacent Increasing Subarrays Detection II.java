@@ -1,4 +1,3 @@
-
 class Solution {
   public int maxIncreasingSubarrays(List<Integer> nums) {
     int ans = 0;
