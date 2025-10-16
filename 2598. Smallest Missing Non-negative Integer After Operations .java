@@ -3,7 +3,6 @@ class Solution {
     Map<Integer, Integer> count = new HashMap<>();
     for (final int num : nums)
       count.merge((num % value + value) % value, 1, Integer::sum);
-
     for (int i = 0; i < nums.length; ++i) {
       if (count.getOrDefault(i % value, 0) == 0)
         return i;
