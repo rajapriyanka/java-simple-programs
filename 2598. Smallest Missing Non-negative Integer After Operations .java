@@ -8,7 +8,6 @@ class Solution {
         return i;
       count.merge(i % value, -1, Integer::sum);
     }
-
     return nums.length;
   }
 }
