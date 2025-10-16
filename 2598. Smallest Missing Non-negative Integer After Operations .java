@@ -1,7 +1,6 @@
 class Solution {
   public int findSmallestInteger(int[] nums, int value) {
     Map<Integer, Integer> count = new HashMap<>();
-
     for (final int num : nums)
       count.merge((num % value + value) % value, 1, Integer::sum);
 
