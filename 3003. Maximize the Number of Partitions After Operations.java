@@ -1,3 +1,4 @@
+
 class Solution {
   public int maxPartitionsAfterOperations(String s, int k) {
     Map<Long, Integer> mem = new HashMap<>();
