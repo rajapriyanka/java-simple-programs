@@ -11,8 +11,6 @@ class Solution {
     if (mem.containsKey(key))
       return mem.get(key);
     int res = getRes(s, i, canChange, mask, 1 << (s.charAt(i) - 'a'), k, mem);
-
-    // If allowed, explore the option to change the current letter.
     if (canChange)
       for (int j = 0; j < 26; ++j)
         res = Math.max(res, getRes(s, i, false, mask, 1 << j, k, mem));
