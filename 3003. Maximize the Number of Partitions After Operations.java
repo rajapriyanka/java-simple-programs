@@ -7,7 +7,6 @@ class Solution {
                                            int k, Map<Long, Integer> mem) {
     if (i == s.length())
       return 0;
-
     Long key = (long) i << 27 | (canChange ? 1 : 0) << 26 | mask;
     if (mem.containsKey(key))
       return mem.get(key);
