@@ -3,9 +3,6 @@ class Solution {
     Map<Long, Integer> mem = new HashMap<>();
     return maxPartitionsAfterOperations(s, 0, true, 0, k, mem) + 1;
   }
-  // Returns the maximum number of partitions of s[i..n), where `canChange` is
-  // true if we can still change a letter, and `mask` is the bitmask of the
-  // letters we've seen.
   private int maxPartitionsAfterOperations(final String s, int i, boolean canChange, int mask,
                                            int k, Map<Long, Integer> mem) {
     if (i == s.length())
