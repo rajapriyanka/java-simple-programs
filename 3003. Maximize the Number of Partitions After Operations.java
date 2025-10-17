@@ -18,7 +18,6 @@ class Solution {
     mem.put(key, res);
     return res;
   }
-
   private int getRes(final String s, int i, boolean nextCanChange, int mask, int newBit, int k,
                      Map<Long, Integer> mem) {
     final int newMask = mask | newBit;
