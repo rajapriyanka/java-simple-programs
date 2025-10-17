@@ -21,7 +21,7 @@ class Solution {
   private int getRes(final String s, int i, boolean nextCanChange, int mask, int newBit, int k,
                      Map<Long, Integer> mem) {
     final int newMask = mask | newBit;
-    if (Integer.bitCount(newMask) > k) // fresh start
+    if (Integer.bitCount(newMask) > k) 
       return 1 + maxPartitionsAfterOperations(s, i + 1, nextCanChange, newBit, k, mem);
     return maxPartitionsAfterOperations(s, i + 1, nextCanChange, newMask, k, mem);
   }
