@@ -10,8 +10,6 @@ class Solution {
     Long key = (long) i << 27 | (canChange ? 1 : 0) << 26 | mask;
     if (mem.containsKey(key))
       return mem.get(key);
-
-    // Initialize the result based on the current letter.
     int res = getRes(s, i, canChange, mask, 1 << (s.charAt(i) - 'a'), k, mem);
 
     // If allowed, explore the option to change the current letter.
