@@ -8,7 +8,6 @@ class Solution {
         occupied = Math.max(occupied + 1, num - k);
         ++ans;
       }
-
     return ans;
   }
 }
