@@ -2,7 +2,6 @@ class Solution {
   public String findLexSmallestString(String s, int a, int b) {
     ans = s;
     dfs(s, a, b, new HashSet<>());
-
     return ans;
   }
 
