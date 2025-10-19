@@ -8,7 +8,6 @@ class Solution {
   private void dfs(String s, int a, int b, Set<String> seen) {
     if (seen.contains(s))
       return;
-
     seen.add(s);
     if (ans.compareTo(s) > 0)
       ans = s;
