@@ -5,7 +5,6 @@ class Solution {
             set.add(num);
         }
 
-        // Start checking from the smallest multiple of k (i.e., k itself)
         int multiple = k;
         while (true) {
             if (!set.contains(multiple)) {
