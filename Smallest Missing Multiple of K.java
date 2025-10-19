@@ -7,7 +7,7 @@ class Solution {
         int multiple = k;
         while (true) {
             if (!set.contains(multiple)) {
-                return multiple; // Found the missing multiple
+                return multiple;
             }
             multiple += k; // Move to next multiple of k
         }
