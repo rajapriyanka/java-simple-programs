@@ -11,7 +11,6 @@ class Solution {
     seen.add(s);
     if (ans.compareTo(s) > 0)
       ans = s;
-
     dfs(add(s, a), a, b, seen);
     dfs(rotate(s, b), a, b, seen);
   }
