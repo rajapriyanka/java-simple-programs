@@ -20,7 +20,6 @@ class Solution {
       sb.setCharAt(i, (char) ('0' + (s.charAt(i) - '0' + a) % 10));
     return sb.toString();
   }
-
   private String rotate(final String s, int b) {
     final int n = s.length();
     return s.substring(n - b, n) + s.substring(0, n - b);
