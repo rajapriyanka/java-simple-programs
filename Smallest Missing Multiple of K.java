@@ -9,7 +9,7 @@ class Solution {
             if (!set.contains(multiple)) {
                 return multiple;
             }
-            multiple += k; // Move to next multiple of k
+            multiple += k; 
         }
     }
 }
