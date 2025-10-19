@@ -4,7 +4,6 @@ class Solution {
         for (int num : nums) {
             set.add(num);
         }
-
         int multiple = k;
         while (true) {
             if (!set.contains(multiple)) {
