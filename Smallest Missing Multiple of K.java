@@ -1,6 +1,5 @@
 class Solution {
     public int missingMultiple(int[] nums, int k) {
-        // Use a HashSet for O(1) lookup
         Set<Integer> set = new HashSet<>();
         for (int num : nums) {
             set.add(num);
