@@ -14,7 +14,6 @@ class Solution {
     dfs(add(s, a), a, b, seen);
     dfs(rotate(s, b), a, b, seen);
   }
-
   private String add(final String s, int a) {
     StringBuilder sb = new StringBuilder(s);
     for (int i = 1; i < sb.length(); i += 2)
