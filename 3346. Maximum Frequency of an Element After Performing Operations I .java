@@ -13,7 +13,6 @@ class Solution {
       candidates.add(num - k);
       candidates.add(num + k + 1);
     }
-
     for (final int num : candidates) {
       adjustable += line.getOrDefault(num, 0);
       final int countNum = count.getOrDefault(num, 0);
