@@ -19,7 +19,6 @@ class Solution {
       final int adjusted = adjustable - countNum;
       ans = Math.max(ans, countNum + Math.min(numOperations, adjusted));
     }
-
     return ans;
   }
 }
