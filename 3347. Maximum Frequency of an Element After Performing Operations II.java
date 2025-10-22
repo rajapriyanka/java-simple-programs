@@ -1,5 +1,4 @@
 class Solution {
-  // Same as 3346. Maximum Frequency of an Element After Performing Operations I
   public int maxFrequency(int[] nums, int k, int numOperations) {
     int ans = 1;
     int adjustable = 0;
