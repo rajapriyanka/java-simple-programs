@@ -5,7 +5,6 @@ class Solution {
     Map<Integer, Integer> count = new HashMap<>();
     TreeMap<Integer, Integer> line = new TreeMap<>();
     TreeSet<Integer> candidates = new TreeSet<>();
-
     for (final int num : nums) {
       count.merge(num, 1, Integer::sum);
       line.merge(num - k, 1, Integer::sum);
