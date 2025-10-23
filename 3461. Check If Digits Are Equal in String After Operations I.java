@@ -22,8 +22,6 @@ class Solution {
     };
     return lookup[mod2][mod5];
   }
-
-  // Returns (n, k) % prime.
   private int lucasTheorem(int n, int k, int prime) {
     int res = 1;
     while (n > 0 || k > 0) {
