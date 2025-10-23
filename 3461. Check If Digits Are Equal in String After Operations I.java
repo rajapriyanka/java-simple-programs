@@ -17,7 +17,7 @@ class Solution {
     final int mod2 = lucasTheorem(n, k, 2);
     final int mod5 = lucasTheorem(n, k, 5);
     int[][] lookup = {
-        {0, 6, 2, 8, 4}, // mod2 == 0
+        {0, 6, 2, 8, 4},
         {5, 1, 7, 3, 9}  // mod2 == 1
     };
     return lookup[mod2][mod5];
