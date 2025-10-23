@@ -11,7 +11,6 @@ class Solution {
       num2 += (coefficient * (s.charAt(i + 1) - '0')) % 10;
       num2 %= 10;
     }
-
     return num1 == num2;
   }
 
