@@ -13,8 +13,6 @@ class Solution {
     }
     return num1 == num2;
   }
-
-  // Returns (n, k) % 10.
   private int nCMOD10(int n, int k) {
     final int mod2 = lucasTheorem(n, k, 2);
     final int mod5 = lucasTheorem(n, k, 5);
