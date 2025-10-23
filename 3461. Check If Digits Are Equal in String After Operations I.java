@@ -34,8 +34,6 @@ class Solution {
     }
     return res;
   }
-
-  // Returns (n, k).
   private int nCk(int n, int k) {
     int res = 1;
     for (int i = 0; i < k; ++i) {
