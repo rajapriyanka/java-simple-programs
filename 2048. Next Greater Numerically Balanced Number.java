@@ -4,7 +4,6 @@ class Solution {
       ;
     return n;
   }
-
   private boolean isBalance(int num) {
     int[] count = new int[10];
     while (num > 0) {
