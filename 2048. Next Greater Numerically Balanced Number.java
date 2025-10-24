@@ -1,4 +1,3 @@
-
 class Solution {
   public int nextBeautifulNumber(int n) {
     while (!isBalance(++n))
