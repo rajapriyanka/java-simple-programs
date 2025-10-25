@@ -7,8 +7,6 @@ class Solution {
             if (revFirst.compareTo(smallest) < 0) {
                 smallest = revFirst;
             }
-
-            // Reverse last k characters
             String revLast = s.substring(0, n - k) + new StringBuilder(s.substring(n - k)).reverse().toString();
             if (revLast.compareTo(smallest) < 0) {
                 smallest = revLast;
