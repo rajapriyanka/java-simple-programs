@@ -12,7 +12,6 @@ class Solution {
                 smallest = revLast;
             }
         }
-
         return smallest;
     }
 }
