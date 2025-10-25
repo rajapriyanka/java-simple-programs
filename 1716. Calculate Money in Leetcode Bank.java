@@ -6,7 +6,6 @@ class Solution {
     final int remainingDays = trapezoid(1 + weeks, n % 7 + weeks);
     return (firstWeek + lastFullWeek) * weeks / 2 + remainingDays;
   }
-
   private int trapezoid(int a, int b) {
     return (a + b) * (b - a + 1) / 2;
   }
