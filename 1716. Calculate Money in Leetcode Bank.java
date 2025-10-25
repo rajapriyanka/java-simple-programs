@@ -7,7 +7,7 @@ class Solution {
     return (firstWeek + lastFullWeek) * weeks / 2 + remainingDays;
   }
 
-  // Returns sum(a..b).
+
   private int trapezoid(int a, int b) {
     return (a + b) * (b - a + 1) / 2;
   }
