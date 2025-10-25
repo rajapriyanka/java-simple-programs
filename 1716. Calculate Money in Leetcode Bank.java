@@ -1,3 +1,4 @@
+
 class Solution {
   public int totalMoney(int n) {
     final int weeks = n / 7;
