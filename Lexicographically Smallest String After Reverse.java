@@ -3,7 +3,6 @@ class Solution {
         String smallest = s;
         int n = s.length();
         for (int k = 1; k <= n; k++) {
-            // Reverse first k characters
             String revFirst = new StringBuilder(s.substring(0, k)).reverse().toString() + s.substring(k);
             if (revFirst.compareTo(smallest) < 0) {
                 smallest = revFirst;
