@@ -1,4 +1,3 @@
-
 class Solution {
   public int minNumberOperations(int[] target) {
     int ans = target[0];
