@@ -7,7 +7,6 @@ class Solution {
     for (final int num : nums)
       if (++count[num] == 2)
         ans[ansIndex++] = num;
-
     return ans;
   }
 }
