@@ -1,4 +1,3 @@
-
 class Solution {
   public int[] getSneakyNumbers(int[] nums) {
     final int MAX = 100;
