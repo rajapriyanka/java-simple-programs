@@ -7,7 +7,6 @@ class Solution {
         curr.next = curr.next.next;
       else
         curr = curr.next;
-
     return dummy.next;
   }
 }
