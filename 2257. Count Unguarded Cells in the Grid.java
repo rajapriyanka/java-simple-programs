@@ -43,7 +43,6 @@ class Solution {
         if (grid[i][j] == 0 && left[i][j] != 'G' && right[i][j] != 'G' && up[i][j] != 'G' &&
             down[i][j] != 'G')
           ++ans;
-
     return ans;
   }
 }
