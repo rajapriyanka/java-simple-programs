@@ -8,7 +8,6 @@ class Solution {
     char[][] down = new char[m][n];
     for (int[] guard : guards)
       grid[guard[0]][guard[1]] = 'G';
-
     for (int[] wall : walls)
       grid[wall[0]][wall[1]] = 'W';
 
