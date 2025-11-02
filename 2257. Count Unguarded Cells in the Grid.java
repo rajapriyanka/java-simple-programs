@@ -6,7 +6,6 @@ class Solution {
     char[][] right = new char[m][n];
     char[][] up = new char[m][n];
     char[][] down = new char[m][n];
-
     for (int[] guard : guards)
       grid[guard[0]][guard[1]] = 'G';
 
