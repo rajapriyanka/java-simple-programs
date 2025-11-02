@@ -10,7 +10,6 @@ class Solution {
       grid[guard[0]][guard[1]] = 'G';
     for (int[] wall : walls)
       grid[wall[0]][wall[1]] = 'W';
-
     for (int i = 0; i < m; ++i) {
       char lastCell = 0;
       for (int j = 0; j < n; ++j)
