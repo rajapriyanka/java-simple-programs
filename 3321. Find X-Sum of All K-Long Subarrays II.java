@@ -10,8 +10,6 @@ class Solution {
         for (int i = 0; i < n; i++) {
             int currentValue = nums[i];
             removeFromSets(currentValue);
-          
-            // Update frequency count for current value
             frequencyMap.merge(currentValue, 1, Integer::sum);
           
             // Add back with new frequency
