@@ -16,9 +16,6 @@ class Solution {
             if (windowStartIndex < 0) {
                 continue;
             }
-          
-            // Balance the sets to ensure topElements has exactly x elements (if possible)
-            // Move elements from remainingElements to topElements if needed
             while (!remainingElements.isEmpty() && topElements.size() < x) {
                 int[] element = remainingElements.pollLast();
                 currentSum += 1L * element[0] * element[1];  // frequency * value
