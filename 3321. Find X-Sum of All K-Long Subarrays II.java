@@ -23,11 +23,9 @@ class Solution {
             }
             while (topElements.size() > x) {
                 int[] element = topElements.pollFirst();
-                currentSum -= 1L * element[0] * element[1];  // frequency * value
+                currentSum -= 1L * element[0] * element[1]; 
                 remainingElements.add(element);
             }
-          
-            // Store the sum for current window
             result[windowStartIndex] = currentSum;
           
             // Remove the element going out of window
