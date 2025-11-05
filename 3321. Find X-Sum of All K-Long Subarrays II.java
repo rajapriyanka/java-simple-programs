@@ -58,7 +58,7 @@ class Solution {
         // Remove from appropriate set and update sum if needed
         if (topElements.contains(elementPair)) {
             topElements.remove(elementPair);
-            currentSum -= 1L * elementPair[0] * elementPair[1];  // frequency * value
+            currentSum -= 1L * elementPair[0] * elementPair[1];  
         } else {
             remainingElements.remove(elementPair);
         }
