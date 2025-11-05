@@ -12,8 +12,6 @@ class Solution {
             removeFromSets(currentValue);
             frequencyMap.merge(currentValue, 1, Integer::sum);
             addToSets(currentValue);
-          
-            // Check if we have a complete window of size k
             int windowStartIndex = i - k + 1;
             if (windowStartIndex < 0) {
                 continue;
