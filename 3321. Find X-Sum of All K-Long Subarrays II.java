@@ -1,5 +1,4 @@
 class Solution {
-    // TreeSet to maintain top X frequent elements (sorted by frequency desc, then value desc)
     private TreeSet<int[]> topElements = new TreeSet<>((a, b) -> 
         a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
   
