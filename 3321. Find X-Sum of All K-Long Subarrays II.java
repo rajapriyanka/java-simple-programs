@@ -34,11 +34,6 @@ class Solution {
       
         return result;
     }
-
-    /**
-     * Removes an element from either topElements or remainingElements set
-     * based on its current frequency
-     */
     private void removeFromSets(int value) {
         if (!frequencyMap.containsKey(value)) {
             return;
