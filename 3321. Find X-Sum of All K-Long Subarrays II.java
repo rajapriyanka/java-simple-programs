@@ -21,8 +21,6 @@ class Solution {
                 currentSum += 1L * element[0] * element[1];  
                 topElements.add(element);
             }
-          
-            // Move excess elements from topElements to remainingElements
             while (topElements.size() > x) {
                 int[] element = topElements.pollFirst();
                 currentSum -= 1L * element[0] * element[1];  // frequency * value
