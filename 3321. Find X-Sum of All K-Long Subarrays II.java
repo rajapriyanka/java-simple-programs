@@ -28,8 +28,6 @@ class Solution {
             }
             result[windowStartIndex] = currentSum;
             removeFromSets(nums[windowStartIndex]);
-          
-            // Decrease frequency count for element leaving the window
             frequencyMap.merge(nums[windowStartIndex], -1, Integer::sum);
           
             // Add back with updated frequency (or not at all if frequency becomes 0)
