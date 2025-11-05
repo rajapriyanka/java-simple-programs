@@ -7,7 +7,6 @@ class Solution {
     public long[] findXSum(int[] nums, int k, int x) {
         int n = nums.length;
         long[] result = new long[n - k + 1];
-      
         for (int i = 0; i < n; i++) {
             int currentValue = nums[i];
           
