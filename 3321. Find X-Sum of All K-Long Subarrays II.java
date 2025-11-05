@@ -4,7 +4,6 @@ class Solution {
     private TreeSet<int[]> remainingElements = new TreeSet<>(topElements.comparator());
     private Map<Integer, Integer> frequencyMap = new HashMap<>();
     private long currentSum;
-
     public long[] findXSum(int[] nums, int k, int x) {
         int n = nums.length;
         long[] result = new long[n - k + 1];
