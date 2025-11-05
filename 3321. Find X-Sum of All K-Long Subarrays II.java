@@ -11,8 +11,6 @@ class Solution {
             int currentValue = nums[i];
             removeFromSets(currentValue);
             frequencyMap.merge(currentValue, 1, Integer::sum);
-          
-            // Add back with new frequency
             addToSets(currentValue);
           
             // Check if we have a complete window of size k
