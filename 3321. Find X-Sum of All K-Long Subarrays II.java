@@ -18,7 +18,7 @@ class Solution {
             }
             while (!remainingElements.isEmpty() && topElements.size() < x) {
                 int[] element = remainingElements.pollLast();
-                currentSum += 1L * element[0] * element[1];  // frequency * value
+                currentSum += 1L * element[0] * element[1];  
                 topElements.add(element);
             }
           
