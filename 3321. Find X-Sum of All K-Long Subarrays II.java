@@ -38,11 +38,7 @@ class Solution {
         if (!frequencyMap.containsKey(value)) {
             return;
         }
-      
-        // Create pair [frequency, value] to search in sets
         int[] elementPair = new int[] {frequencyMap.get(value), value};
-      
-        // Remove from appropriate set and update sum if needed
         if (topElements.contains(elementPair)) {
             topElements.remove(elementPair);
             currentSum -= 1L * elementPair[0] * elementPair[1];  
@@ -50,24 +46,15 @@ class Solution {
             remainingElements.remove(elementPair);
         }
     }
-
-    /**
-     * Adds an element to either topElements or remainingElements set
-     * based on comparison with current minimum in topElements
-     */
     private void addToSets(int value) {
         if (!frequencyMap.containsKey(value)) {
             return;
         }
-      
-        // Create pair [frequency, value] for the element
         int[] elementPair = new int[] {frequencyMap.get(value), value};
-      
-        // Add to topElements if it's better than the minimum element there
         if (!topElements.isEmpty() && 
             topElements.comparator().compare(topElements.first(), elementPair) < 0) {
             topElements.add(elementPair);
-            currentSum += 1L * elementPair[0] * elementPair[1];  // frequency * value
+            currentSum += 1L * elementPair[0] * elementPair[1];  
         } else {
             remainingElements.add(elementPair);
         }
