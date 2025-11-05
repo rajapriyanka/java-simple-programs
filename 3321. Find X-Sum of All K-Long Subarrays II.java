@@ -27,8 +27,6 @@ class Solution {
                 remainingElements.add(element);
             }
             result[windowStartIndex] = currentSum;
-          
-            // Remove the element going out of window
             removeFromSets(nums[windowStartIndex]);
           
             // Decrease frequency count for element leaving the window
