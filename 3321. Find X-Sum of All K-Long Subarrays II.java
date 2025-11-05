@@ -9,8 +9,6 @@ class Solution {
         long[] result = new long[n - k + 1];
         for (int i = 0; i < n; i++) {
             int currentValue = nums[i];
-          
-            // Remove old frequency entry before updating
             removeFromSets(currentValue);
           
             // Update frequency count for current value
