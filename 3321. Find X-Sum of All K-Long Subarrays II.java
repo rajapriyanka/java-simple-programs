@@ -3,8 +3,6 @@ class Solution {
         a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
     private TreeSet<int[]> remainingElements = new TreeSet<>(topElements.comparator());
     private Map<Integer, Integer> frequencyMap = new HashMap<>();
-  
-    // Running sum of (value * frequency) for top X elements
     private long currentSum;
 
     public long[] findXSum(int[] nums, int k, int x) {
