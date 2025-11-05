@@ -2,8 +2,6 @@ class Solution {
     private TreeSet<int[]> topElements = new TreeSet<>((a, b) -> 
         a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
     private TreeSet<int[]> remainingElements = new TreeSet<>(topElements.comparator());
-  
-    // Map to track frequency count of each number in current window
     private Map<Integer, Integer> frequencyMap = new HashMap<>();
   
     // Running sum of (value * frequency) for top X elements
