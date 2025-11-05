@@ -1,8 +1,6 @@
 class Solution {
     private TreeSet<int[]> topElements = new TreeSet<>((a, b) -> 
         a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
-  
-    // TreeSet to maintain remaining elements not in top X
     private TreeSet<int[]> remainingElements = new TreeSet<>(topElements.comparator());
   
     // Map to track frequency count of each number in current window
