@@ -29,8 +29,6 @@ class Solution {
             result[windowStartIndex] = currentSum;
             removeFromSets(nums[windowStartIndex]);
             frequencyMap.merge(nums[windowStartIndex], -1, Integer::sum);
-          
-            // Add back with updated frequency (or not at all if frequency becomes 0)
             addToSets(nums[windowStartIndex]);
         }
       
