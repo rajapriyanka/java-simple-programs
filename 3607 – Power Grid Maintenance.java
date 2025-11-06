@@ -50,7 +50,6 @@ class Solution {
         if (parent[x] != x) parent[x] = find(parent[x], parent);
         return parent[x];
     }
-
     private void union(int a, int b, int[] parent, int[] size) {
         int pa = find(a, parent);
         int pb = find(b, parent);
