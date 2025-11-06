@@ -17,7 +17,6 @@ class Solution {
             map.putIfAbsent(p, new TreeSet<>());
             map.get(p).add(i);
         }
-
         List<Integer> result = new ArrayList<>();
 
         for (int[] q : queries) {
