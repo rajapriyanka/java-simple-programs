@@ -45,7 +45,6 @@ class Solution {
 
         return result.stream().mapToInt(i -> i).toArray();
     }
-
     private int find(int x, int[] parent) {
         if (parent[x] != x) parent[x] = find(parent[x], parent);
         return parent[x];
