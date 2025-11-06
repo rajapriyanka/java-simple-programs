@@ -34,7 +34,7 @@ class Solution {
                     }
                 }
 
-            } else {  // type 2 → go offline
+            } else {  
                 if (online[x]) {
                     online[x] = false;
                     int p = find(x, parent);
