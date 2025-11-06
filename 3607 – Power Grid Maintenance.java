@@ -6,8 +6,6 @@ class Solution {
             parent[i] = i;
             size[i] = 1;
         }
-
-        // Join connections
         for (int[] conn : connections) {
             union(conn[0], conn[1], parent, size);
         }
