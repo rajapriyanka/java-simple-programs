@@ -18,7 +18,6 @@ class Solution {
             map.get(p).add(i);
         }
         List<Integer> result = new ArrayList<>();
-
         for (int[] q : queries) {
             int type = q[0], x = q[1];
 
