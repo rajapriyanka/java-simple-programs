@@ -12,7 +12,6 @@ class Solution {
         Map<Integer, TreeSet<Integer>> map = new HashMap<>();
         boolean[] online = new boolean[c + 1];
         Arrays.fill(online, true);
-
         for (int i = 1; i <= c; i++) {
             int p = find(i, parent);
             map.putIfAbsent(p, new TreeSet<>());
