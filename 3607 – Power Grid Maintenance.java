@@ -20,8 +20,7 @@ class Solution {
         List<Integer> result = new ArrayList<>();
         for (int[] q : queries) {
             int type = q[0], x = q[1];
-
-            if (type == 1) {   // maintenance check
+            if (type == 1) {   
                 if (online[x]) {
                     result.add(x);
                 } else {
