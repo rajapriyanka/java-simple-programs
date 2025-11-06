@@ -9,8 +9,6 @@ class Solution {
         for (int[] conn : connections) {
             union(conn[0], conn[1], parent, size);
         }
-
-        // For each DSU root, maintain set of online stations
         Map<Integer, TreeSet<Integer>> map = new HashMap<>();
         boolean[] online = new boolean[c + 1];
         Arrays.fill(online, true);
