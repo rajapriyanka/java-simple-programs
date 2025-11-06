@@ -2,8 +2,6 @@ class Solution {
     public int[] processQueries(int c, int[][] connections, int[][] queries) {
         int[] parent = new int[c + 1];
         int[] size = new int[c + 1];
-
-        // DSU initialization
         for (int i = 1; i <= c; i++) {
             parent[i] = i;
             size[i] = 1;
