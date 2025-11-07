@@ -30,7 +30,6 @@ class Solution {
       if (i - r >= 0)
         power -= stations[i - r];
     }
-
     return true;
   }
 }
