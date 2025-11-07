@@ -23,8 +23,6 @@ class Solution {
         final long requiredPower = minPower - power;
         if (requiredPower > additionalStations)
           return false;
-        // Greedily plant `requiredPower` power stations in the farthest place
-        // to cover as many cities as possible.
         stations[Math.min(n - 1, i + r)] += requiredPower;
         additionalStations -= requiredPower;
         power += requiredPower;
