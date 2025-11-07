@@ -18,7 +18,7 @@ class Solution {
       power += stations[i];
     for (int i = 0; i < n; ++i) {
       if (i + r < n)
-        power += stations[i + r]; // `power` = sum(stations[i - r..i + r]).
+        power += stations[i + r]; 
       if (power < minPower) {
         final long requiredPower = minPower - power;
         // There're not enough stations to plant.
