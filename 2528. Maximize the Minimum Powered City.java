@@ -21,7 +21,6 @@ class Solution {
         power += stations[i + r]; 
       if (power < minPower) {
         final long requiredPower = minPower - power;
-        // There're not enough stations to plant.
         if (requiredPower > additionalStations)
           return false;
         // Greedily plant `requiredPower` power stations in the farthest place
