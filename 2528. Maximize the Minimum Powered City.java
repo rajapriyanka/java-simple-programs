@@ -2,7 +2,6 @@ class Solution {
   public long maxPower(int[] stations, int r, int k) {
     long left = Arrays.stream(stations).min().getAsInt();
     long right = Arrays.stream(stations).asLongStream().sum() + k + 1;
-
     while (left < right) {
       final long mid = (left + right) / 2;
       if (check(stations.clone(), r, k, mid))
