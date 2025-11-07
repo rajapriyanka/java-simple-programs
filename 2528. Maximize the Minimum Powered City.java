@@ -11,8 +11,6 @@ class Solution {
     }
     return left - 1;
   }
-
-  // Returns true if each city can have at least `minPower`.
   boolean check(int[] stations, int r, int additionalStations, long minPower) {
     final int n = stations.length;
     // Initilaize `power` as the 0-th city's power - stations[r].
