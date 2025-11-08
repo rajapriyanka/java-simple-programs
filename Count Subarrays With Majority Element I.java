@@ -9,8 +9,6 @@ class Solution {
                 if (nums[end] == target) freq++;
 
                 int length = end - start + 1;
-
-                // Check majority condition
                 if (freq * 2 > length) {
                     count++;
                 }
