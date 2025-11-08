@@ -2,7 +2,6 @@ class Solution {
     public int countMajoritySubarrays(int[] nums, int target) {
         int n = nums.length;
         int count = 0;
-
         for (int start = 0; start < n; start++) {
             int freq = 0;
             for (int end = start; end < n; end++) {
