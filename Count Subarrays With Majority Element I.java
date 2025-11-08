@@ -7,7 +7,6 @@ class Solution {
             int freq = 0;
             for (int end = start; end < n; end++) {
                 if (nums[end] == target) freq++;
-
                 int length = end - start + 1;
                 if (freq * 2 > length) {
                     count++;
