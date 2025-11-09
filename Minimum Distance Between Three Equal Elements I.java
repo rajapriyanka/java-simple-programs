@@ -6,8 +6,6 @@ class Solution {
         }
         int minDist = Integer.MAX_VALUE;
         boolean found = false;
-
-        // Check only elements that appear 3 or more times
         for (List<Integer> list : map.values()) {
             if (list.size() >= 3) {
                 found = true;
