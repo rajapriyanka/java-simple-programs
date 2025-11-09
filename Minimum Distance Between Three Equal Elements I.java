@@ -9,7 +9,6 @@ class Solution {
         for (List<Integer> list : map.values()) {
             if (list.size() >= 3) {
                 found = true;
-                // try every triplet
                 for (int a = 0; a < list.size(); a++) {
                     for (int b = a + 1; b < list.size(); b++) {
                         for (int c = b + 1; c < list.size(); c++) {
