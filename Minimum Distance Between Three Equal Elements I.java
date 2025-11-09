@@ -15,7 +15,6 @@ class Solution {
                             int i = list.get(a);
                             int j = list.get(b);
                             int k = list.get(c);
-
                             int distance = Math.abs(i - j) + Math.abs(j - k) + Math.abs(k - i);
                             minDist = Math.min(minDist, distance);
                         }
