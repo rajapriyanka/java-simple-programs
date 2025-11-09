@@ -4,7 +4,6 @@ class Solution {
         for (int i = 0; i < nums.length; i++) {
             map.computeIfAbsent(nums[i], x -> new ArrayList<>()).add(i);
         }
-
         int minDist = Integer.MAX_VALUE;
         boolean found = false;
 
