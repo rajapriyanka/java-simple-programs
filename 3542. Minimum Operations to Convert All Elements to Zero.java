@@ -11,7 +11,6 @@ class Solution {
         stack.push(num);
       }
     }
-
     return ans;
   }
 }
