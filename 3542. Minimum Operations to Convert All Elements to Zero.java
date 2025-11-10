@@ -3,7 +3,6 @@ class Solution {
     int ans = 0;
     Deque<Integer> stack = new ArrayDeque<>();
     stack.push(0);
-
     for (final int num : nums) {
       while (!stack.isEmpty() && stack.peek() > num)
         stack.pop();
