@@ -1,7 +1,7 @@
 class Solution {
   public int findMaxForm(String[] strs, int m, int n) {
     // dp[i][j] := the maximum size of the subset given i 0s and j 1s are
-    // available
+
     int[][] dp = new int[m + 1][n + 1];
 
     for (final String s : strs) {
