@@ -1,7 +1,6 @@
 class Solution {
   public int findMaxForm(String[] strs, int m, int n) {
     int[][] dp = new int[m + 1][n + 1];
-
     for (final String s : strs) {
       final int zeros = (int) s.chars().filter(c -> c == '0').count();
       final int ones = (int) s.length() - zeros;
