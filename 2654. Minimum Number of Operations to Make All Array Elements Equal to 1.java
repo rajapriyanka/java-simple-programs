@@ -5,7 +5,6 @@ class Solution {
     if (ones > 0)
       return n - ones;
     int minOps = Integer.MAX_VALUE;
-
     for (int i = 0; i < n; ++i) {
       int g = nums[i];
       for (int j = i + 1; j < n; ++j) {
