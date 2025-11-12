@@ -4,8 +4,6 @@ class Solution {
     final int ones = (int) Arrays.stream(nums).filter(num -> num == 1).count();
     if (ones > 0)
       return n - ones;
-
-    // the minimum operations to make the shortest subarray with a gcd == 1
     int minOps = Integer.MAX_VALUE;
 
     for (int i = 0; i < n; ++i) {
