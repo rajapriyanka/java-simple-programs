@@ -17,7 +17,6 @@ class Solution {
     }
     return minOps == Integer.MAX_VALUE ? -1 : minOps + n - 1;
   }
-
   private int gcd(int a, int b) {
     return b == 0 ? a : gcd(b, a % b);
   }
