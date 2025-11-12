@@ -1,3 +1,4 @@
+
 class Solution {
   public int minOperations(int[] nums) {
     final int n = nums.length;
