@@ -9,7 +9,7 @@ class Solution {
       int g = nums[i];
       for (int j = i + 1; j < n; ++j) {
         g = gcd(g, nums[j]);
-        if (g == 1) { // gcd(nums[i..j]) == 1
+        if (g == 1) {
           minOps = Math.min(minOps, j - i);
           break;
         }
