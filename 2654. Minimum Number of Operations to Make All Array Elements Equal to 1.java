@@ -15,9 +15,6 @@ class Solution {
         }
       }
     }
-
-    // After making the shortest subarray with `minOps`, need additional n - 1
-    // operations to make the other numbers to 1.
     return minOps == Integer.MAX_VALUE ? -1 : minOps + n - 1;
   }
 
