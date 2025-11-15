@@ -19,7 +19,6 @@ class Solution {
           ans += l - lastInvalidPos;
       }
     }
-
     return ans;
   }
 }
