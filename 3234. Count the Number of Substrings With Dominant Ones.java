@@ -1,8 +1,6 @@
 class Solution {
   public int numberOfSubstrings(String s) {
     int ans = 0;
-
-    // Iterate through all possible number of 0s.
     for (int zero = 0; zero + zero * zero <= s.length(); ++zero) {
       int lastInvalidPos = -1;
       int[] count = new int[2];
