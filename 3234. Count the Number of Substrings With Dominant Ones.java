@@ -8,7 +8,7 @@ class Solution {
         ++count[s.charAt(r) - '0'];
         for (; l < r; ++l)
           if (s.charAt(l) == '0' && count[0] > zero) {
-            --count[0]; // Remove an extra '0'.
+            --count[0]; 
             lastInvalidPos = l;
           } else if (s.charAt(l) == '1' && count[1] - 1 >= zero * zero) {
             --count[1]; // Remove an extra '1'.
