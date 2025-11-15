@@ -11,7 +11,7 @@ class Solution {
             --count[0]; 
             lastInvalidPos = l;
           } else if (s.charAt(l) == '1' && count[1] - 1 >= zero * zero) {
-            --count[1]; // Remove an extra '1'.
+            --count[1];
           } else {
             break; // Cannot remove more characters.
           }
