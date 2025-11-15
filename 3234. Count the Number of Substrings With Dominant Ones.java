@@ -6,8 +6,6 @@ class Solution {
       int[] count = new int[2];
       for (int l = 0, r = 0; r < s.length(); ++r) {
         ++count[s.charAt(r) - '0'];
-        // Try to shrink the window to maintain the "minimum" length of the
-        // valid substring.
         for (; l < r; ++l)
           if (s.charAt(l) == '0' && count[0] > zero) {
             --count[0]; // Remove an extra '0'.
