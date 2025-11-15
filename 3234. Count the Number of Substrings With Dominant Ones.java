@@ -13,7 +13,7 @@ class Solution {
           } else if (s.charAt(l) == '1' && count[1] - 1 >= zero * zero) {
             --count[1];
           } else {
-            break; // Cannot remove more characters.
+            break;
           }
         if (count[0] == zero && count[1] >= zero * zero)
           // Add valid substrings ending in s[r] to the answer. They are
