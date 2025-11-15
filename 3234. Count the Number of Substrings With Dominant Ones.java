@@ -16,8 +16,6 @@ class Solution {
             break;
           }
         if (count[0] == zero && count[1] >= zero * zero)
-          // Add valid substrings ending in s[r] to the answer. They are
-          // s[lastInvalidPos + 1..r], s[lastInvalidPos + 2..r], ..., s[l..r].
           ans += l - lastInvalidPos;
       }
     }
