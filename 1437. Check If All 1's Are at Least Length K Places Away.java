@@ -1,8 +1,6 @@
 class Solution {
     public boolean kLengthApart(int[] nums, int k) {
         int previousOneIndex = -(k + 1);
-      
-        // Iterate through the array to find all 1s
         for (int currentIndex = 0; currentIndex < nums.length; currentIndex++) {
             // Check if current element is 1
             if (nums[currentIndex] == 1) {
