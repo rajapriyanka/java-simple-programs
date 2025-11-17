@@ -9,8 +9,6 @@ class Solution {
                 previousOneIndex = currentIndex;
             }
         }
-      
-        // All 1s are at least k distance apart
         return true;
     }
 }
