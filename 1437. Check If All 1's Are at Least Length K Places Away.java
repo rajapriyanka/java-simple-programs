@@ -1,6 +1,5 @@
 class Solution {
     public boolean kLengthApart(int[] nums, int k) {
-        // This ensures the distance check passes for the first 1
         int previousOneIndex = -(k + 1);
       
         // Iterate through the array to find all 1s
