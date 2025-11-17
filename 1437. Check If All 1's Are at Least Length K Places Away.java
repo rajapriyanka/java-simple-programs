@@ -6,7 +6,6 @@ class Solution {
                 if (currentIndex - previousOneIndex - 1 < k) {
                     return false;
                 }
-                // Update the position of the previous 1
                 previousOneIndex = currentIndex;
             }
         }
