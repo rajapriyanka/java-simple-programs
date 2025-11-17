@@ -1,6 +1,5 @@
 class Solution {
     public boolean kLengthApart(int[] nums, int k) {
-        // Set to -(k+1) to handle the case when the first element is 1
         // This ensures the distance check passes for the first 1
         int previousOneIndex = -(k + 1);
       
