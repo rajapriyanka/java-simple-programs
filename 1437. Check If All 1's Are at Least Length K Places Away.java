@@ -3,7 +3,6 @@ class Solution {
         int previousOneIndex = -(k + 1);
         for (int currentIndex = 0; currentIndex < nums.length; currentIndex++) {
             if (nums[currentIndex] == 1) {
-                // Calculate distance between current 1 and previous 1
                 // Distance = currentIndex - previousOneIndex - 1 (excluding both endpoints)
                 if (currentIndex - previousOneIndex - 1 < k) {
                     // Distance is less than k, so return false
