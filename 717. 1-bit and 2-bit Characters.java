@@ -7,7 +7,6 @@ class Solution {
         i += 1;
       else
         i += 2;
-
     return i == n - 1;
   }
 }
