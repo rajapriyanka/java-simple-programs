@@ -1,4 +1,3 @@
-
 class Solution {
   public boolean isOneBitCharacter(int[] bits) {
     final int n = bits.length;
