@@ -4,8 +4,6 @@ class Solution {
         for (int num : nums) {
             numSet.add(num);
         }
-      
-
         while (numSet.contains(original)) {
 
             original <<= 1;
