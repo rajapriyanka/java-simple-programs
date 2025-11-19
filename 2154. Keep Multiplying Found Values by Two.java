@@ -5,7 +5,6 @@ class Solution {
             numSet.add(num);
         }
         while (numSet.contains(original)) {
-
             original <<= 1;
         }
       
