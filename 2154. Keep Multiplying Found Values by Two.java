@@ -1,7 +1,7 @@
 class Solution {
 
     public int findFinalValue(int[] nums, int original) {
-        // Create a HashSet to store all unique values from the array for O(1) lookup
+
         Set<Integer> numSet = new HashSet<>();
       
         // Add all elements from the array to the set
