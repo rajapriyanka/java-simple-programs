@@ -15,7 +15,7 @@ class Solution {
             original <<= 1;
         }
       
-        // Return the final value that is not present in the set
+
         return original;
     }
 }
