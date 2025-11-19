@@ -4,7 +4,7 @@ class Solution {
 
         Set<Integer> numSet = new HashSet<>();
       
-        // Add all elements from the array to the set
+
         for (int num : nums) {
             numSet.add(num);
         }
