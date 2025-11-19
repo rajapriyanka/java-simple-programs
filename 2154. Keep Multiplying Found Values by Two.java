@@ -1,13 +1,5 @@
 class Solution {
-  
-    /**
-     * Finds the final value after doubling the original value whenever it exists in the array.
-     * The process continues until the value is not found in the array.
-     * 
-     * @param nums     The input array of integers
-     * @param original The starting value to check and potentially double
-     * @return The final value after all doubling operations
-     */
+
     public int findFinalValue(int[] nums, int original) {
         // Create a HashSet to store all unique values from the array for O(1) lookup
         Set<Integer> numSet = new HashSet<>();
