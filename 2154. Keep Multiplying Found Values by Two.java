@@ -9,7 +9,7 @@ class Solution {
             numSet.add(num);
         }
       
-        // Keep doubling the original value while it exists in the set
+
         while (numSet.contains(original)) {
             // Double the original value using left shift operation (equivalent to multiplying by 2)
             original <<= 1;
