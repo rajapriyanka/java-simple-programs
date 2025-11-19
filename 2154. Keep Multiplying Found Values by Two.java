@@ -1,6 +1,5 @@
 class Solution {
     public int findFinalValue(int[] nums, int original) {
-
         Set<Integer> numSet = new HashSet<>();
       
 
