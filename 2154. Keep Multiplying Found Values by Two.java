@@ -7,8 +7,6 @@ class Solution {
         while (numSet.contains(original)) {
             original <<= 1;
         }
-      
-
         return original;
     }
 }
