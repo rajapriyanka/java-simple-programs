@@ -3,7 +3,6 @@ class Solution {
     int ans = 0;
     int mx = -1;
     int secondMax = -1;
-
     Arrays.sort(intervals, Comparator.comparingInt((int[] interval) -> interval[1])
                                .thenComparingInt((int[] interval) -> - interval[0]));
 
