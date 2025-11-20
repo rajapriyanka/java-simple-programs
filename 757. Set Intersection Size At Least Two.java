@@ -12,7 +12,7 @@ class Solution {
         continue;
       if (mx >= start) {
         secondMax = mx;
-        mx = end; // Add `end` to the set.
+        mx = end;
         ans += 1;
       } else {
         // The maximum and the second maximum can't satisfy.
