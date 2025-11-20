@@ -8,7 +8,6 @@ class Solution {
     for (int[] interval : intervals) {
       final int start = interval[0];
       final int end = interval[1];
-      // The maximum and the second maximum still satisfy.
       if (mx >= start && secondMax >= start)
         continue;
       if (mx >= start) {
