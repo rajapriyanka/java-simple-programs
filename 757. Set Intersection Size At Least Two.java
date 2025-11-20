@@ -11,7 +11,6 @@ class Solution {
       if (mx >= start && secondMax >= start)
         continue;
       if (mx >= start) {
-        // The maximum still satisfy.
         secondMax = mx;
         mx = end; // Add `end` to the set.
         ans += 1;
