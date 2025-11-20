@@ -15,7 +15,6 @@ class Solution {
         mx = end;
         ans += 1;
       } else {
-        // The maximum and the second maximum can't satisfy.
         mx = end;            // Add `end` to the set.
         secondMax = end - 1; // Add `end - 1` to the set.
         ans += 2;
