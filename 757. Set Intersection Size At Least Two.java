@@ -16,7 +16,7 @@ class Solution {
         ans += 1;
       } else {
         mx = end;           
-        secondMax = end - 1; // Add `end - 1` to the set.
+        secondMax = end - 1;
         ans += 2;
       }
     }
