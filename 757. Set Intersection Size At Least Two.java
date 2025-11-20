@@ -5,7 +5,6 @@ class Solution {
     int secondMax = -1;
     Arrays.sort(intervals, Comparator.comparingInt((int[] interval) -> interval[1])
                                .thenComparingInt((int[] interval) -> - interval[0]));
-
     for (int[] interval : intervals) {
       final int start = interval[0];
       final int end = interval[1];
