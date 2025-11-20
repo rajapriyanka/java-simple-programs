@@ -20,7 +20,6 @@ class Solution {
         ans += 2;
       }
     }
-
     return ans;
   }
 }
