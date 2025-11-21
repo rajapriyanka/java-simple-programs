@@ -13,7 +13,6 @@ class Solution {
     for (int i = 0; i < 26; ++i)
       if (first[i] < last[i])
         ans += s.substring(first[i] + 1, last[i]).chars().distinct().count();
-
     return ans;
   }
 }
