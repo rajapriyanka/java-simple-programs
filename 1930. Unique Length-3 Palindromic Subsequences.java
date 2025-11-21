@@ -10,7 +10,6 @@ class Solution {
       first[index] = Math.min(first[index], i);
       last[index] = i;
     }
-
     for (int i = 0; i < 26; ++i)
       if (first[i] < last[i])
         ans += s.substring(first[i] + 1, last[i]).chars().distinct().count();
