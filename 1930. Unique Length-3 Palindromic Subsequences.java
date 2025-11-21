@@ -3,7 +3,6 @@ class Solution {
     int ans = 0;
     int[] first = new int[26];
     int[] last = new int[26];
-
     Arrays.fill(first, s.length());
     Arrays.fill(last, -1);
 
