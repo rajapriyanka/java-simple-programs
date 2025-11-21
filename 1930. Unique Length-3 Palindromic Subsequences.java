@@ -5,7 +5,6 @@ class Solution {
     int[] last = new int[26];
     Arrays.fill(first, s.length());
     Arrays.fill(last, -1);
-
     for (int i = 0; i < s.length(); ++i) {
       final int index = s.charAt(i) - 'a';
       first[index] = Math.min(first[index], i);
