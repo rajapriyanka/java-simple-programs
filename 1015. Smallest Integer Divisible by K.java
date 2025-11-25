@@ -1,4 +1,3 @@
-
 class Solution {
   public int smallestRepunitDivByK(int k) {
     if (k % 10 != 1 && k % 10 != 3 && k % 10 != 7 && k % 10 != 9)
