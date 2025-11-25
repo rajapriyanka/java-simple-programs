@@ -4,7 +4,6 @@ class Solution {
       return -1;
     Set<Integer> seen = new HashSet<>();
     int n = 0;
-
     for (int length = 1; length <= k; ++length) {
       n = (n * 10 + 1) % k;
       if (n == 0)
