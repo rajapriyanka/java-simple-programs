@@ -12,7 +12,6 @@ class Solution {
         return -1;
       seen.add(n);
     }
-
     return -1;
   }
 }
