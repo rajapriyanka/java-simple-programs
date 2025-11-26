@@ -4,8 +4,6 @@ class Solution {
     return numberOfPaths(grid, 0, 0, 0, k, mem);
   }
   private static final int MOD = 1_000_000_007;
-
-  // Returns the number of paths to (i, j), where the sum / k == `sum`.
   private int numberOfPaths(int[][] grid, int i, int j, int sum, int k, Integer[][][] mem) {
     if (i == grid.length || j == grid[0].length)
       return 0;
