@@ -1,4 +1,3 @@
-
 class Solution {
   public int numberOfPaths(int[][] grid, int k) {
     Integer[][][] mem = new Integer[grid.length][grid[0].length][k];
