@@ -3,7 +3,6 @@ class Solution {
     Integer[][][] mem = new Integer[grid.length][grid[0].length][k];
     return numberOfPaths(grid, 0, 0, 0, k, mem);
   }
-
   private static final int MOD = 1_000_000_007;
 
   // Returns the number of paths to (i, j), where the sum / k == `sum`.
