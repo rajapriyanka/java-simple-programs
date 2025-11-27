@@ -2,7 +2,6 @@ class Solution {
   public long maxSubarraySum(int[] nums, int k) {
     long ans = Long.MIN_VALUE;
     long prefix = 0;
-    // minPrefix[i % k] := the minimum prefix sum of the first i numbers
     long[] minPrefix = new long[k];
     Arrays.fill(minPrefix, Long.MAX_VALUE / 2);
     minPrefix[k - 1] = 0;
