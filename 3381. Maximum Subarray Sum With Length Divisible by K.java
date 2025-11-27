@@ -5,7 +5,6 @@ class Solution {
     long[] minPrefix = new long[k];
     Arrays.fill(minPrefix, Long.MAX_VALUE / 2);
     minPrefix[k - 1] = 0;
-
     for (int i = 0; i < nums.length; ++i) {
       prefix += nums[i];
       ans = Math.max(ans, prefix - minPrefix[i % k]);
