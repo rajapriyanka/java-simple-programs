@@ -10,7 +10,6 @@ class Solution {
       ans = Math.max(ans, prefix - minPrefix[i % k]);
       minPrefix[i % k] = Math.min(minPrefix[i % k], prefix);
     }
-
     return ans;
   }
 }
