@@ -1,7 +1,6 @@
 class Solution {
   public int maxKDivisibleComponents(int n, int[][] edges, int[] values, int k) {
     List<Integer>[] graph = new List[n];
-
     for (int i = 0; i < n; i++)
       graph[i] = new ArrayList<>();
 
