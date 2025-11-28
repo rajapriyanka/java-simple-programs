@@ -3,7 +3,6 @@ class Solution {
     List<Integer>[] graph = new List[n];
     for (int i = 0; i < n; i++)
       graph[i] = new ArrayList<>();
-
     for (int[] edge : edges) {
       final int u = edge[0];
       final int v = edge[1];
