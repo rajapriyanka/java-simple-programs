@@ -18,7 +18,6 @@ class Solution {
     for (int v : graph[u])
       if (v != prev)
         treeSum += dfs(graph, v, u, values, k);
-
     if (treeSum % k == 0)
       ++ans;
     return treeSum;
