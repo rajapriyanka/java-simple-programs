@@ -15,7 +15,6 @@ class Solution {
   private int ans = 0;
   private long dfs(List<Integer>[] graph, int u, int prev, int[] values, int k) {
     long treeSum = values[u];
-
     for (int v : graph[u])
       if (v != prev)
         treeSum += dfs(graph, v, u, values, k);
