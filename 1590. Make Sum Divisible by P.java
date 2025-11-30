@@ -16,7 +16,6 @@ class Solution {
         ans = Math.min(ans, i - prefixToIndex.get(target));
       prefixToIndex.put(prefix, i);
     }
-
     return ans == nums.length ? -1 : ans;
   }
 }
