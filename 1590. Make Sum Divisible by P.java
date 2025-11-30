@@ -1,4 +1,3 @@
-
 class Solution {
   public int minSubarray(int[] nums, int p) {
     final long sum = Arrays.stream(nums).asLongStream().sum();
