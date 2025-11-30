@@ -4,7 +4,6 @@ class Solution {
     final int remainder = (int) (sum % p);
     if (remainder == 0)
       return 0;
-
     int ans = nums.length;
     int prefix = 0;
     Map<Integer, Integer> prefixToIndex = new HashMap<>();
