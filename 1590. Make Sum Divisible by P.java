@@ -8,7 +8,6 @@ class Solution {
     int prefix = 0;
     Map<Integer, Integer> prefixToIndex = new HashMap<>();
     prefixToIndex.put(0, -1);
-
     for (int i = 0; i < nums.length; ++i) {
       prefix += nums[i];
       prefix %= p;
