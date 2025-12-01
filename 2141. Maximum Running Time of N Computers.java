@@ -9,9 +9,6 @@ class Solution {
       sum -= batteries[i--];
       --n;
     }
-
-    // If the maximum battery <= average running time, it won't be waste, and so
-    // do smaller batteries.
     return sum / n;
   }
 }
