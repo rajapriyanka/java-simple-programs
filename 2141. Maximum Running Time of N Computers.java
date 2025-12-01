@@ -1,4 +1,3 @@
-
 class Solution {
   public long maxRunTime(int n, int[] batteries) {
     long sum = Arrays.stream(batteries).asLongStream().sum();
