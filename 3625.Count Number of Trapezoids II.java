@@ -21,7 +21,6 @@ class Solution {
                 cnt2.computeIfAbsent(p, _ -> new HashMap<>()).merge(k, 1, Integer::sum);
             }
         }
-
         int ans = 0;
         for (var e : cnt1.values()) {
             int s = 0;
