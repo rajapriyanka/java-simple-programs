@@ -3,7 +3,6 @@ class Solution {
         int n = points.length;
         Map<Double, Map<Double, Integer>> cnt1 = new HashMap<>(n * n);
         Map<Integer, Map<Double, Integer>> cnt2 = new HashMap<>(n * n);
-
         for (int i = 0; i < n; ++i) {
             int x1 = points[i][0], y1 = points[i][1];
             for (int j = 0; j < i; ++j) {
