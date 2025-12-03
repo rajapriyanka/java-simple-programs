@@ -1,3 +1,4 @@
+
 class Solution {
     public int countTrapezoids(int[][] points) {
         int n = points.length;
