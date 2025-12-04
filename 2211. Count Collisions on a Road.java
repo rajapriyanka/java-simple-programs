@@ -3,7 +3,6 @@ class Solution {
     int ans = 0;
     int l = 0;
     int r = directions.length() - 1;
-
     while (l < directions.length() && directions.charAt(l) == 'L')
       ++l;
 
