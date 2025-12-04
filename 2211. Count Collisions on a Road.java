@@ -1,4 +1,3 @@
-
 class Solution {
   public int countCollisions(String directions) {
     int ans = 0;
