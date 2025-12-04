@@ -10,7 +10,6 @@ class Solution {
     for (int i = l; i <= r; ++i)
       if (directions.charAt(i) != 'S')
         ++ans;
-
     return ans;
   }
 }
