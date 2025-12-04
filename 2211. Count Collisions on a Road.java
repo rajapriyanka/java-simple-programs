@@ -7,7 +7,6 @@ class Solution {
       ++l;
     while (r >= 0 && directions.charAt(r) == 'R')
       --r;
-
     for (int i = l; i <= r; ++i)
       if (directions.charAt(i) != 'S')
         ++ans;
