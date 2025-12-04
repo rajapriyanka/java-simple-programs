@@ -5,7 +5,6 @@ class Solution {
     int r = directions.length() - 1;
     while (l < directions.length() && directions.charAt(l) == 'L')
       ++l;
-
     while (r >= 0 && directions.charAt(r) == 'R')
       --r;
 
