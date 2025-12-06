@@ -6,7 +6,6 @@ class Solution {
         int n = nums.length;
         long[] dp = new long[n + 1];
         long[] prefix = new long[n + 2];  
-
         dp[0] = 1;
         prefix[1] = 1;   
 
