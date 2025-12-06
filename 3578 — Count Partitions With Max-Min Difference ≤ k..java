@@ -4,7 +4,6 @@ class Solution {
     static final long MOD = (long)1e9 + 7;
     public int countPartitions(int[] nums, int k) {
         int n = nums.length;
-
         long[] dp = new long[n + 1];
         long[] prefix = new long[n + 2];  
 
