@@ -2,7 +2,6 @@ import java.util.*;
 
 class Solution {
     static final long MOD = (long)1e9 + 7;
-
     public int countPartitions(int[] nums, int k) {
         int n = nums.length;
 
