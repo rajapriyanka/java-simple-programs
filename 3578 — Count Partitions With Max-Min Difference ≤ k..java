@@ -18,8 +18,6 @@ class Solution {
             while (!minq.isEmpty() && nums[minq.peekLast()] > nums[i])
                 minq.pollLast();
             minq.addLast(i);
-
-            // shrink window while invalid
             while (!minq.isEmpty() && !maxq.isEmpty() &&
                     nums[maxq.peekFirst()] - nums[minq.peekFirst()] > k) {
 
