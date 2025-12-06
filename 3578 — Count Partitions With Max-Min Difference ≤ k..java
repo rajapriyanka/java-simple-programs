@@ -26,7 +26,6 @@ class Solution {
                 left++;
             }
             long total = (prefix[i + 1] - prefix[left] + MOD) % MOD;
-
             dp[i + 1] = total;
             prefix[i + 2] = (prefix[i + 1] + dp[i + 1]) % MOD;
         }
