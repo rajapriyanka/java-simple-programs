@@ -11,7 +11,6 @@ class Solution {
         Deque<Integer> minq = new ArrayDeque<>();
         Deque<Integer> maxq = new ArrayDeque<>();
         int left = 0;
-
         for (int i = 0; i < n; i++) {
 
             // maintain max deque (decreasing)
