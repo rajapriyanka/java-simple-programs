@@ -8,7 +8,6 @@ class Solution {
         long[] prefix = new long[n + 2];  
         dp[0] = 1;
         prefix[1] = 1;   
-
         Deque<Integer> minq = new ArrayDeque<>();
         Deque<Integer> maxq = new ArrayDeque<>();
 
