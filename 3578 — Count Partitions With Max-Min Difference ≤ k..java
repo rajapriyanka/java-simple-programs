@@ -25,8 +25,6 @@ class Solution {
                 if (minq.peekFirst() == left) minq.pollFirst();
                 left++;
             }
-
-            // dp[i+1] = sum(dp[left] ... dp[i])
             long total = (prefix[i + 1] - prefix[left] + MOD) % MOD;
 
             dp[i + 1] = total;
