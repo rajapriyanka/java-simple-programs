@@ -15,8 +15,6 @@ class Solution {
             while (!maxq.isEmpty() && nums[maxq.peekLast()] < nums[i])
                 maxq.pollLast();
             maxq.addLast(i);
-
-            // maintain min deque (increasing)
             while (!minq.isEmpty() && nums[minq.peekLast()] > nums[i])
                 minq.pollLast();
             minq.addLast(i);
