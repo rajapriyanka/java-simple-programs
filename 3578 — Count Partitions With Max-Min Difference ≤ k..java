@@ -29,7 +29,6 @@ class Solution {
             dp[i + 1] = total;
             prefix[i + 2] = (prefix[i + 1] + dp[i + 1]) % MOD;
         }
-
         return (int)(dp[n] % MOD);
     }
 }
