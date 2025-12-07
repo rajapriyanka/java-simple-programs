@@ -9,7 +9,6 @@ class Solution {
       seen.add(s.charAt(i));
       prefix[i] = seen.size();
     }
-
     seen.clear();
 
     for (int i = n - 1; i >= 0; --i) {
