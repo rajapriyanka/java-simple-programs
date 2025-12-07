@@ -14,7 +14,6 @@ class Solution {
       seen.add(s.charAt(i));
       suffix[i] = seen.size();
     }
-
     for (int i = 0; i + 1 < n; ++i)
       if (prefix[i] == suffix[i + 1])
         ++ans;
