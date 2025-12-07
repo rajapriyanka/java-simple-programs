@@ -1,4 +1,3 @@
-
 class Solution {
   public int numSplits(String s) {
     final int n = s.length();
