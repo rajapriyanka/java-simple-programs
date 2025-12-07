@@ -5,7 +5,6 @@ class Solution {
     int[] prefix = new int[n];
     int[] suffix = new int[n];
     Set<Character> seen = new HashSet<>();
-
     for (int i = 0; i < n; ++i) {
       seen.add(s.charAt(i));
       prefix[i] = seen.size();
