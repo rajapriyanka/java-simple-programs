@@ -10,7 +10,6 @@ class Solution {
       prefix[i] = seen.size();
     }
     seen.clear();
-
     for (int i = n - 1; i >= 0; --i) {
       seen.add(s.charAt(i));
       suffix[i] = seen.size();
