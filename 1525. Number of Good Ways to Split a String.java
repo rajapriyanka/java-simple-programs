@@ -17,7 +17,6 @@ class Solution {
     for (int i = 0; i + 1 < n; ++i)
       if (prefix[i] == suffix[i + 1])
         ++ans;
-
     return ans;
   }
 }
