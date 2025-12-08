@@ -1,4 +1,3 @@
-
 class Solution {
   public int countTriples(int n) {
     int ans = 0;
