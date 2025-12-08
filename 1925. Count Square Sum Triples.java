@@ -8,7 +8,6 @@ class Solution {
       for (final int b : squared)
         if (squared.contains(a + b))
           ++ans;
-
     return ans;
   }
 }
