@@ -5,8 +5,6 @@ class Solution {
         for (int num : nums) {
             rightCounts.merge(num, 1, Integer::sum);
         }
-      
-        // Variable to store the total count of special triplets
         long totalCount = 0;
       
         // Modulo value for preventing integer overflow
