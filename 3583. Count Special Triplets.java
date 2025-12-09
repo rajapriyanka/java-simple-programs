@@ -14,8 +14,6 @@ class Solution {
             long rightCount = rightCounts.getOrDefault(targetValue, 0);
             long tripletCount = (leftCount * rightCount) % MOD;
             totalCount = (totalCount + tripletCount) % MOD;
-          
-            // Add current element to left counts (moving it from current position to left)
             leftCounts.merge(currentNum, 1, Integer::sum);
         }
       
