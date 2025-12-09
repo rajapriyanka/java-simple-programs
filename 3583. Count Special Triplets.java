@@ -16,8 +16,6 @@ class Solution {
             totalCount = (totalCount + tripletCount) % MOD;
             leftCounts.merge(currentNum, 1, Integer::sum);
         }
-      
-        // Return the final count as an integer
         return (int) totalCount;
     }
 }
