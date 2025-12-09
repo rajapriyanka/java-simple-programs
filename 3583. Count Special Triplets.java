@@ -13,8 +13,6 @@ class Solution {
             long leftCount = leftCounts.getOrDefault(targetValue, 0);
             long rightCount = rightCounts.getOrDefault(targetValue, 0);
             long tripletCount = (leftCount * rightCount) % MOD;
-          
-            // Add the count of triplets with current element as middle
             totalCount = (totalCount + tripletCount) % MOD;
           
             // Add current element to left counts (moving it from current position to left)
