@@ -7,8 +7,6 @@ class Solution {
         }
         long totalCount = 0;
         final int MOD = (int) 1e9 + 7;
-      
-        // Iterate through each element as the potential middle element of a triplet
         for (int currentNum : nums) {
             // Remove current element from right counts (moving it from right to current position)
             rightCounts.merge(currentNum, -1, Integer::sum);
