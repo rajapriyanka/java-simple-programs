@@ -8,7 +8,6 @@ class Solution {
         long totalCount = 0;
         final int MOD = (int) 1e9 + 7;
         for (int currentNum : nums) {
-            // Remove current element from right counts (moving it from right to current position)
             rightCounts.merge(currentNum, -1, Integer::sum);
           
             // Calculate the target value that should appear on both sides
