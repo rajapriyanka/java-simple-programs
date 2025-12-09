@@ -10,9 +10,6 @@ class Solution {
         for (int currentNum : nums) {
             rightCounts.merge(currentNum, -1, Integer::sum);
             int targetValue = currentNum * 2;
-          
-            // Count triplets where left and right elements both equal targetValue
-            // and current element is in the middle
             long leftCount = leftCounts.getOrDefault(targetValue, 0);
             long rightCount = rightCounts.getOrDefault(targetValue, 0);
             long tripletCount = (leftCount * rightCount) % MOD;
