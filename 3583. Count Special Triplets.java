@@ -1,6 +1,5 @@
 class Solution {
     public int specialTriplets(int[] nums) {
-        // Map to count occurrences of elements to the left of current position
         Map<Integer, Integer> leftCounts = new HashMap<>();
       
         // Map to count occurrences of elements to the right of current position
