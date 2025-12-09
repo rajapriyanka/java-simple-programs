@@ -6,8 +6,6 @@ class Solution {
             rightCounts.merge(num, 1, Integer::sum);
         }
         long totalCount = 0;
-      
-        // Modulo value for preventing integer overflow
         final int MOD = (int) 1e9 + 7;
       
         // Iterate through each element as the potential middle element of a triplet
