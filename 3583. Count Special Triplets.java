@@ -2,8 +2,6 @@ class Solution {
     public int specialTriplets(int[] nums) {
         Map<Integer, Integer> leftCounts = new HashMap<>();
         Map<Integer, Integer> rightCounts = new HashMap<>();
-      
-        // Initialize rightCounts with all elements from the array
         for (int num : nums) {
             rightCounts.merge(num, 1, Integer::sum);
         }
