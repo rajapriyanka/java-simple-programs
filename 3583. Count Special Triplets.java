@@ -9,9 +9,6 @@ class Solution {
         final int MOD = (int) 1e9 + 7;
         for (int currentNum : nums) {
             rightCounts.merge(currentNum, -1, Integer::sum);
-          
-            // Calculate the target value that should appear on both sides
-            // For this to be a special triplet, we need elements equal to 2 * currentNum
             int targetValue = currentNum * 2;
           
             // Count triplets where left and right elements both equal targetValue
