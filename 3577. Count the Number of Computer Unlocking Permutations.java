@@ -1,4 +1,3 @@
-
 class Solution {
     private static final long MOD = 1_000_000_007L;
     public int countPermutations(int[] complexity) {
