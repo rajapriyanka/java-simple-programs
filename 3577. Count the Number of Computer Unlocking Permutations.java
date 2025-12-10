@@ -1,6 +1,5 @@
 class Solution {
     private static final long MOD = 1_000_000_007L;
-
     public int countPermutations(int[] complexity) {
         int n = complexity.length;
         // If any complexity[i] <= complexity[0] for i>0, impossible
