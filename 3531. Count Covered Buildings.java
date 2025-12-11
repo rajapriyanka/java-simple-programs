@@ -17,7 +17,6 @@ class Solution {
       westernmost[y] = Math.min(westernmost[y], x);
       easternmost[y] = Math.max(easternmost[y], x);
     }
-
     for (int[] building : buildings) {
       final int x = building[0];
       final int y = building[1];
