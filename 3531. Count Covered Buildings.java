@@ -9,7 +9,6 @@ class Solution {
     Arrays.fill(southernmost, 0);
     Arrays.fill(westernmost, Integer.MAX_VALUE);
     Arrays.fill(easternmost, 0);
-
     for (int[] building : buildings) {
       final int x = building[0];
       final int y = building[1];
