@@ -24,7 +24,6 @@ class Solution {
           && westernmost[y] < x && x < easternmost[y])
         ++ans;
     }
-
     return ans;
   }
 }
