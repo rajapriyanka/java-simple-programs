@@ -33,8 +33,6 @@ class Solution {
         offlineQueue.offer(new OfflineUser(timestamp + 60, userId));
       }
     }
-
-    // Add the "ALL" mentions to all users.
     for (int userId = 0; userId < numberOfUsers; ++userId)
       ans[userId] += allMentionsCount;
 
