@@ -4,7 +4,6 @@ class Solution {
     int[] ans = new int[numberOfUsers];
     boolean[] online = new boolean[numberOfUsers];
     Arrays.fill(online, true);
-    // min-heap to track users that are offline
     Queue<OfflineUser> offlineQueue =
         new PriorityQueue<>(Comparator.comparingInt(OfflineUser::returnTimestamp));
     int allMentionsCount = 0;
