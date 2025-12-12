@@ -37,7 +37,6 @@ class Solution {
       ans[userId] += allMentionsCount;
     return ans;
   }
-
   private List<Integer> getUserIds(final String s) {
     List<Integer> integers = new ArrayList<>();
     for (String part : s.split(" "))
