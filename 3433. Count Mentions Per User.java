@@ -35,7 +35,6 @@ class Solution {
     }
     for (int userId = 0; userId < numberOfUsers; ++userId)
       ans[userId] += allMentionsCount;
-
     return ans;
   }
 
