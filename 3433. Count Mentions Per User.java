@@ -10,7 +10,6 @@ class Solution {
     events.sort(
         Comparator.comparingInt((List<String> event) -> Integer.parseInt(event.get(1)))
             .thenComparing((List<String> event) -> event.get(0), Comparator.reverseOrder()));
-
     for (List<String> event : events) {
       final String eventType = event.get(0);
       final int timestamp = Integer.parseInt(event.get(1));
