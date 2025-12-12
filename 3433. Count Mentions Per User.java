@@ -13,7 +13,6 @@ class Solution {
     for (List<String> event : events) {
       final String eventType = event.get(0);
       final int timestamp = Integer.parseInt(event.get(1));
-      // Bring users back online if their offline period has ended.
       while (!offlineQueue.isEmpty() && offlineQueue.peek().returnTimestamp <= timestamp)
         online[offlineQueue.poll().userId] = true;
       if (eventType.equals("MESSAGE")) {
