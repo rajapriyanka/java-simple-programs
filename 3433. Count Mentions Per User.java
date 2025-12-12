@@ -30,7 +30,6 @@ class Solution {
       } else if (eventType.equals("OFFLINE")) {
         final int userId = Integer.parseInt(event.get(2));
         online[userId] = false;
-        // Add to queue to bring back online after 60 units
         offlineQueue.offer(new OfflineUser(timestamp + 60, userId));
       }
     }
