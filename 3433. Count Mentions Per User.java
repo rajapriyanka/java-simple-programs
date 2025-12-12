@@ -1,3 +1,4 @@
+
 class Solution {
   public int[] countMentions(int numberOfUsers, List<List<String>> events) {
     record OfflineUser(int returnTimestamp, int userId) {}
