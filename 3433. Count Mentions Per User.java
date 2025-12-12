@@ -7,7 +7,6 @@ class Solution {
     Queue<OfflineUser> offlineQueue =
         new PriorityQueue<>(Comparator.comparingInt(OfflineUser::returnTimestamp));
     int allMentionsCount = 0;
-
     events.sort(
         Comparator.comparingInt((List<String> event) -> Integer.parseInt(event.get(1)))
             .thenComparing((List<String> event) -> event.get(0), Comparator.reverseOrder()));
