@@ -12,7 +12,6 @@ class Solution {
             }
         }
         validIndices.sort((index1, index2) -> {
-            // Compare business lines alphabetically
             int businessLineComparison = businessLine[index1].compareTo(businessLine[index2]);
             if (businessLineComparison != 0) {
                 return businessLineComparison;
