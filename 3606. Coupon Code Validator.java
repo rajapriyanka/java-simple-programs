@@ -24,14 +24,6 @@ class Solution {
         }
         return sortedCouponCodes;
     }
-
-    /**
-     * Checks if a coupon code contains only valid characters.
-     * Valid characters are letters, digits, and underscores.
-     * 
-     * @param couponCode The coupon code to validate
-     * @return true if the code is valid, false otherwise
-     */
     private boolean isValidCouponCode(String couponCode) {
         // Empty codes are invalid
         if (couponCode.isEmpty()) {
