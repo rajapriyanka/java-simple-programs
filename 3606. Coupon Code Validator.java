@@ -25,7 +25,6 @@ class Solution {
         return sortedCouponCodes;
     }
     private boolean isValidCouponCode(String couponCode) {
-        // Empty codes are invalid
         if (couponCode.isEmpty()) {
             return false;
         }
