@@ -5,7 +5,6 @@ class Solution {
             Arrays.asList("electronics", "grocery", "pharmacy", "restaurant")
         );
         for (int i = 0; i < code.length; i++) {
-            // Check if coupon is active, business line is allowed, and code format is valid
             if (isActive[i] && 
                 allowedBusinessLines.contains(businessLine[i]) && 
                 isValidCouponCode(code[i])) {
