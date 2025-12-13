@@ -4,8 +4,6 @@ class Solution {
         Set<String> allowedBusinessLines = new HashSet<>(
             Arrays.asList("electronics", "grocery", "pharmacy", "restaurant")
         );
-
-        // Iterate through all coupons to find valid ones
         for (int i = 0; i < code.length; i++) {
             // Check if coupon is active, business line is allowed, and code format is valid
             if (isActive[i] && 
