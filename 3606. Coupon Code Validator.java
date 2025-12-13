@@ -29,7 +29,6 @@ class Solution {
             return false;
         }
         for (char character : couponCode.toCharArray()) {
-            // Code must contain only alphanumeric characters or underscores
             if (!Character.isLetterOrDigit(character) && character != '_') {
                 return false;
             }
