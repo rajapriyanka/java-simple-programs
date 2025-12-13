@@ -1,12 +1,4 @@
 class Solution {
-    /**
-     * Validates and returns sorted coupon codes based on business line and activation status.
-     * 
-     * @param code Array of coupon codes to validate
-     * @param businessLine Array of business lines corresponding to each coupon
-     * @param isActive Array indicating whether each coupon is active
-     * @return List of valid coupon codes sorted by business line and then by code
-     */
     public List<String> validateCoupons(String[] code, String[] businessLine, boolean[] isActive) {
         // Store indices of valid coupons
         List<Integer> validIndices = new ArrayList<>();
