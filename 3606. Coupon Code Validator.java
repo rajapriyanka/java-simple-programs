@@ -1,6 +1,5 @@
 class Solution {
     public List<String> validateCoupons(String[] code, String[] businessLine, boolean[] isActive) {
-        // Store indices of valid coupons
         List<Integer> validIndices = new ArrayList<>();
       
         // Define allowed business lines
