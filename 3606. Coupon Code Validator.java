@@ -16,7 +16,6 @@ class Solution {
             if (businessLineComparison != 0) {
                 return businessLineComparison;
             }
-            // If business lines are the same, compare coupon codes alphabetically
             return code[index1].compareTo(code[index2]);
         });
 
