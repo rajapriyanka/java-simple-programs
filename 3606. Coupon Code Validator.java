@@ -11,8 +11,6 @@ class Solution {
                 validIndices.add(i);
             }
         }
-
-        // Sort valid coupon indices by business line first, then by coupon code
         validIndices.sort((index1, index2) -> {
             // Compare business lines alphabetically
             int businessLineComparison = businessLine[index1].compareTo(businessLine[index2]);
