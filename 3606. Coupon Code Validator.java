@@ -28,8 +28,6 @@ class Solution {
         if (couponCode.isEmpty()) {
             return false;
         }
-      
-        // Check each character in the code
         for (char character : couponCode.toCharArray()) {
             // Code must contain only alphanumeric characters or underscores
             if (!Character.isLetterOrDigit(character) && character != '_') {
