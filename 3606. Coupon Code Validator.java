@@ -22,7 +22,6 @@ class Solution {
         for (int index : validIndices) {
             sortedCouponCodes.add(code[index]);
         }
-      
         return sortedCouponCodes;
     }
 
