@@ -18,8 +18,6 @@ class Solution {
             }
             return code[index1].compareTo(code[index2]);
         });
-
-        // Build result list with sorted coupon codes
         List<String> sortedCouponCodes = new ArrayList<>();
         for (int index : validIndices) {
             sortedCouponCodes.add(code[index]);
