@@ -14,7 +14,6 @@ public class ReverseWordsSimple {
             }
             result += reversedWord + " ";
         }
-
         System.out.println("Reversed words sentence:");
         System.out.println(result.trim());
         sc.close();
