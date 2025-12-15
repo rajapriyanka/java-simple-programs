@@ -5,7 +5,6 @@ public class ReverseWordsSimple {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a sentence:");
         String sentence = sc.nextLine();
-
         String[] words = sentence.split(" ");
         String result = "";
 
