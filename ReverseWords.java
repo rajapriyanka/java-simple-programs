@@ -7,7 +7,6 @@ public class ReverseWordsSimple {
         String sentence = sc.nextLine();
         String[] words = sentence.split(" ");
         String result = "";
-
         for (String word : words) {
             String reversedWord = "";
             for (int i = word.length() - 1; i >= 0; i--) {
