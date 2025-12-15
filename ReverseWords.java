@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 public class ReverseWordsSimple {
     public static void main(String[] args) {
