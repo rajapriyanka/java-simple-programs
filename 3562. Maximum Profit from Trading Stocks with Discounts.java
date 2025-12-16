@@ -39,7 +39,6 @@ class Solution {
             dfs(v);
         }
         for (int parentBought = 0; parentBought <= 1; parentBought++) {
-
             int price = parentBought == 1 ? present[u] / 2 : present[u];
             int profit = future[u] - price;
 
