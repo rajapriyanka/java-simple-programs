@@ -5,7 +5,7 @@ class Solution {
     int B;
     List<Integer>[] tree;
     int[] present, future;
-    int[][][] dp; // dp[node][parentBought][budget]
+    int[][][] dp; 
 
     public int maxProfit(int n, int[] present, int[] future,
             int[][] hierarchy, int budget) {
