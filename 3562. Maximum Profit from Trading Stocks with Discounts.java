@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Solution {
     int B;
     List<Integer>[] tree;
