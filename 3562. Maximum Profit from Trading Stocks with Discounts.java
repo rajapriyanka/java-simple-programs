@@ -41,8 +41,6 @@ class Solution {
         for (int parentBought = 0; parentBought <= 1; parentBought++) {
             int price = parentBought == 1 ? present[u] / 2 : present[u];
             int profit = future[u] - price;
-
-            // Option 1: skip buying u
             int[] skip = new int[B + 1];
             for (int v : tree[u]) {
                 skip = merge(skip, dp[v][0]);
