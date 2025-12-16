@@ -3,7 +3,6 @@ class Solution {
     List<Integer>[] tree;
     int[] present, future;
     int[][][] dp; 
-
     public int maxProfit(int n, int[] present, int[] future,
             int[][] hierarchy, int budget) {
 
