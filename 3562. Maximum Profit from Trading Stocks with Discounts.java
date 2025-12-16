@@ -8,7 +8,6 @@ class Solution {
         this.B = budget;
         this.present = present;
         this.future = future;
-
         tree = new ArrayList[n];
         for (int i = 0; i < n; i++)
             tree[i] = new ArrayList<>();
