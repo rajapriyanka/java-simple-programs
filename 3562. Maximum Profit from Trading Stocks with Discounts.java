@@ -45,8 +45,6 @@ class Solution {
             for (int v : tree[u]) {
                 skip = merge(skip, dp[v][0]);
             }
-
-            // Option 2: buy u
             int[] take = new int[B + 1];
             Arrays.fill(take, Integer.MIN_VALUE / 2);
 
