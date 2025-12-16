@@ -16,7 +16,6 @@ class Solution {
         }
         dp = new int[n][2][B + 1];
         dfs(0);
-
         int ans = 0;
         for (int b = 0; b <= B; b++) {
             ans = Math.max(ans, dp[0][0][b]);
