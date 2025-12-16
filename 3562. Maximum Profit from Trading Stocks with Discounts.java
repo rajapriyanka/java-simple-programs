@@ -47,7 +47,6 @@ class Solution {
             }
             int[] take = new int[B + 1];
             Arrays.fill(take, Integer.MIN_VALUE / 2);
-
             if (price <= B) {
                 int[] base = new int[B + 1];
                 for (int v : tree[u]) {
@@ -57,8 +56,6 @@ class Solution {
                     take[b] = base[b - price] + profit;
                 }
             }
-
-            // Best of take / skip
             for (int b = 0; b <= B; b++) {
                 dp[u][parentBought][b] = Math.max(skip[b], take[b]);
             }
