@@ -5,7 +5,6 @@ class Solution {
     int[][][] dp; 
     public int maxProfit(int n, int[] present, int[] future,
             int[][] hierarchy, int budget) {
-
         this.B = budget;
         this.present = present;
         this.future = future;
