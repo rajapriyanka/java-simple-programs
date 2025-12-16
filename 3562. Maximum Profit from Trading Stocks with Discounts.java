@@ -38,7 +38,6 @@ class Solution {
         for (int v : tree[u]) {
             dfs(v);
         }
-
         for (int parentBought = 0; parentBought <= 1; parentBought++) {
 
             int price = parentBought == 1 ? present[u] / 2 : present[u];
