@@ -22,8 +22,6 @@ class Solution {
         }
         return ans;
     }
-
-    // Merge two knapsack arrays
     private int[] merge(int[] A, int[] B2) {
         int[] C = new int[B + 1];
         Arrays.fill(C, Integer.MIN_VALUE / 2);
