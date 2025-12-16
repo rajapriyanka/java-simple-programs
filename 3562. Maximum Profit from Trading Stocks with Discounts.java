@@ -34,7 +34,6 @@ class Solution {
         }
         return C;
     }
-
     private void dfs(int u) {
         for (int v : tree[u]) {
             dfs(v);
