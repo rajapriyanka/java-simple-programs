@@ -11,7 +11,6 @@ class Solution {
         tree = new ArrayList[n];
         for (int i = 0; i < n; i++)
             tree[i] = new ArrayList<>();
-
         for (int[] e : hierarchy) {
             tree[e[0] - 1].add(e[1] - 1);
         }
