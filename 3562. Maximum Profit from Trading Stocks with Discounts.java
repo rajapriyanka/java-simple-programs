@@ -25,7 +25,6 @@ class Solution {
     private int[] merge(int[] A, int[] B2) {
         int[] C = new int[B + 1];
         Arrays.fill(C, Integer.MIN_VALUE / 2);
-
         for (int i = 0; i <= B; i++) {
             if (A[i] < 0)
                 continue;
