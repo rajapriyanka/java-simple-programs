@@ -14,7 +14,6 @@ class Solution {
         for (int[] e : hierarchy) {
             tree[e[0] - 1].add(e[1] - 1);
         }
-
         dp = new int[n][2][B + 1];
 
         dfs(0);
