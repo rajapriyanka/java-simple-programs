@@ -16,7 +16,6 @@ class Solution {
                 best_buy = Math.max(best_buy, dp_prev[i - 1] - prices[i]);
                 best_short = Math.max(best_short, dp_prev[i - 1] + prices[i]);
             }
-
             long[] temp = dp_prev;
             dp_prev = dp_cur;
             dp_cur = temp;
