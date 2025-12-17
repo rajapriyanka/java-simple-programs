@@ -4,7 +4,6 @@ class Solution {
         if (n < 2 || k == 0) return 0;
         long[] dp_prev = new long[n];
         long[] dp_cur = new long[n];
-
         for (int t = 1; t <= k; t++) {
             long best_buy = -prices[0];
             long best_short = prices[0];
