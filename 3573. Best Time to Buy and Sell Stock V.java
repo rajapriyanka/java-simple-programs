@@ -8,7 +8,6 @@ class Solution {
             long best_buy = -prices[0];
             long best_short = prices[0];
             dp_cur[0] = 0;
-
             for (int i = 1; i < n; i++) {
                 long a = dp_cur[i - 1];
                 long b = best_buy + prices[i];
