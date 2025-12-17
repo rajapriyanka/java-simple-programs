@@ -20,7 +20,6 @@ class Solution {
             dp_prev = dp_cur;
             dp_cur = temp;
         }
-
         return dp_prev[n - 1];
     }
 }
