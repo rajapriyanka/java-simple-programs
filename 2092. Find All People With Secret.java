@@ -32,7 +32,6 @@ class UnionFind {
     return id[u] == u ? u : (id[u] = find(id[u]));
   }
 }
-
 class Solution {
   public List<Integer> findAllPeople(int n, int[][] meetings, int firstPerson) {
     List<Integer> ans = new ArrayList<>();
