@@ -27,7 +27,6 @@ class UnionFind {
   }
   private int[] id;
   private int[] rank;
-
   private int find(int u) {
     return id[u] == u ? u : (id[u] = find(id[u]));
   }
