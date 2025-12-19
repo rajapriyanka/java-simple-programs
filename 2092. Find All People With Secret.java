@@ -58,7 +58,6 @@ class Solution {
         if (!uf.connected(person, 0))
           uf.reset(person);
     }
-
     for (int i = 0; i < n; ++i)
       if (uf.connected(i, 0))
         ans.add(i);
