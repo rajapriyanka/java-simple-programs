@@ -25,7 +25,6 @@ class UnionFind {
   public void reset(int u) {
     id[u] = u;
   }
-
   private int[] id;
   private int[] rank;
 
