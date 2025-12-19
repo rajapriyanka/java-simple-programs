@@ -45,7 +45,6 @@ class Solution {
       timeToPairs.putIfAbsent(time, new ArrayList<>());
       timeToPairs.get(time).add(new Pair<>(x, y));
     }
-
     for (List<Pair<Integer, Integer>> pairs : timeToPairs.values()) {
       Set<Integer> peopleUnioned = new HashSet<>();
       for (Pair<Integer, Integer> pair : pairs) {
