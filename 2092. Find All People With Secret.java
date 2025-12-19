@@ -5,7 +5,6 @@ class UnionFind {
     for (int i = 0; i < n; ++i)
       id[i] = i;
   }
-
   public void unionByRank(int u, int v) {
     final int i = find(u);
     final int j = find(v);
