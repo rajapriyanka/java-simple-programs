@@ -22,7 +22,6 @@ class UnionFind {
   public boolean connected(int u, int v) {
     return find(u) == find(v);
   }
-
   public void reset(int u) {
     id[u] = u;
   }
