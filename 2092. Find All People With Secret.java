@@ -19,7 +19,6 @@ class UnionFind {
       ++rank[j];
     }
   }
-
   public boolean connected(int u, int v) {
     return find(u) == find(v);
   }
