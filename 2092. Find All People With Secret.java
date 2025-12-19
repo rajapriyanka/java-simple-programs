@@ -36,7 +36,6 @@ class Solution {
     List<Integer> ans = new ArrayList<>();
     UnionFind uf = new UnionFind(n);
     TreeMap<Integer, List<Pair<Integer, Integer>>> timeToPairs = new TreeMap<>();
-
     uf.unionByRank(0, firstPerson);
 
     for (int[] meeting : meetings) {
