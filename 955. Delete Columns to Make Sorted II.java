@@ -2,7 +2,6 @@ class Solution {
   public int minDeletionSize(String[] strs) {
     final int n = strs.length;
     int ans = 0;
-    // sorted[i] := true if strs[i] < strs[i + 1]
     boolean[] sorted = new boolean[n - 1];
 
     for (int j = 0; j < strs[0].length(); ++j) {
