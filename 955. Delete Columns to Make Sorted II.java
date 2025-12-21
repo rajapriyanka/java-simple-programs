@@ -3,7 +3,6 @@ class Solution {
     final int n = strs.length;
     int ans = 0;
     boolean[] sorted = new boolean[n - 1];
-
     for (int j = 0; j < strs[0].length(); ++j) {
       int i;
       for (i = 0; i + 1 < n; ++i)
