@@ -14,7 +14,6 @@ class Solution {
         for (i = 0; i + 1 < n; ++i)
           sorted[i] = sorted[i] || strs[i].charAt(j) < strs[i + 1].charAt(j);
     }
-
     return ans;
   }
 }
