@@ -10,7 +10,6 @@ class Solution {
           ++ans;
           break;
         }
-      // strslready compared each pair, so update the sorted array if needed.
       if (i + 1 == n)
         for (i = 0; i + 1 < n; ++i)
           sorted[i] = sorted[i] || strs[i].charAt(j) < strs[i + 1].charAt(j);
