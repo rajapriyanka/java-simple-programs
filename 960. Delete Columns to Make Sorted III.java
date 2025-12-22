@@ -7,7 +7,6 @@ class Solution {
       for (int j = 0; j < i; ++j)
         if (isSorted(strs, j, i))
           dp[i] = Math.max(dp[i], dp[j] + 1);
-
     return k - Arrays.stream(dp).max().getAsInt();
   }
 
