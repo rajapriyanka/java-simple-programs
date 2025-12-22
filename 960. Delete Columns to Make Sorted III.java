@@ -9,7 +9,6 @@ class Solution {
           dp[i] = Math.max(dp[i], dp[j] + 1);
     return k - Arrays.stream(dp).max().getAsInt();
   }
-
   private boolean isSorted(String[] strs, int j, int i) {
     for (final String s : strs)
       if (s.charAt(j) > s.charAt(i))
