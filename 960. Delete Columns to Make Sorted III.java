@@ -3,7 +3,6 @@ class Solution {
     final int k = strs[0].length();
     int[] dp = new int[k];
     Arrays.fill(dp, 1);
-
     for (int i = 1; i < k; ++i)
       for (int j = 0; j < i; ++j)
         if (isSorted(strs, j, i))
