@@ -1,4 +1,3 @@
-
 class Solution {
   public int minDeletionSize(String[] strs) {
     final int k = strs[0].length();
