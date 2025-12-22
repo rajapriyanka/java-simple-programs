@@ -1,7 +1,6 @@
 class Solution {
   public int minDeletionSize(String[] strs) {
     final int k = strs[0].length();
-    // dp[i] the length of LIS ending in strs[*][i]
     int[] dp = new int[k];
     Arrays.fill(dp, 1);
 
