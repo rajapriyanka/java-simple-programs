@@ -17,7 +17,6 @@ class Solution {
         ans = Math.max(ans, evt.value + maxValue);
       else
         maxValue = Math.max(maxValue, evt.value);
-
     return ans;
   }
 }
