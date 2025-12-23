@@ -11,7 +11,6 @@ class Solution {
       evts[i * 2] = new Event(start, value, 1);
       evts[i * 2 + 1] = new Event(end + 1, value, 0);
     }
-
     Arrays.sort(evts, Comparator.comparingInt(Event::time).thenComparingInt(Event::isStart));
 
     for (Event evt : evts)
