@@ -12,7 +12,6 @@ class Solution {
       evts[i * 2 + 1] = new Event(end + 1, value, 0);
     }
     Arrays.sort(evts, Comparator.comparingInt(Event::time).thenComparingInt(Event::isStart));
-
     for (Event evt : evts)
       if (evt.isStart == 1)
         ans = Math.max(ans, evt.value + maxValue);
