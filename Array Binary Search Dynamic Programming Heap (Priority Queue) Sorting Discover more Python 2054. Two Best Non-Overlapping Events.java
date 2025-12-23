@@ -4,7 +4,6 @@ class Solution {
     int ans = 0;
     int maxValue = 0;
     Event[] evts = new Event[events.length * 2];
-
     for (int i = 0; i < events.length; ++i) {
       final int start = events[i][0];
       final int end = events[i][1];
