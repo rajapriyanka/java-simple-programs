@@ -3,7 +3,6 @@ class Solution {
     final int appleSum = Arrays.stream(apple).sum();
     int capacitySum = 0;
     Arrays.sort(capacity);
-
     for (int i = 0; i < capacity.length; ++i) {
       capacitySum += capacity[capacity.length - 1 - i];
       if (capacitySum >= appleSum)
