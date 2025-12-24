@@ -8,7 +8,6 @@ class Solution {
       if (capacitySum >= appleSum)
         return i + 1;
     }
-
     return capacity.length;
   }
 }
