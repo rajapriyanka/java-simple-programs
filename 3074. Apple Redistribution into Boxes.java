@@ -1,3 +1,4 @@
+
 class Solution {
   public int minimumBoxes(int[] apple, int[] capacity) {
     final int appleSum = Arrays.stream(apple).sum();
