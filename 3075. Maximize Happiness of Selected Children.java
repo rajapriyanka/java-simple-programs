@@ -8,7 +8,6 @@ class Solution {
       ans += Math.max(0, happiness[i] - decremented);
       ++decremented;
     }
-
     return ans;
   }
 }
