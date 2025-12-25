@@ -1,3 +1,4 @@
+
 class Solution {
   public long maximumHappinessSum(int[] happiness, int k) {
     final int n = happiness.length;
