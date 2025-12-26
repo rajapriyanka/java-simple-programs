@@ -1,3 +1,4 @@
+
 class Solution {
   public int bestClosingTime(String customers) {
     int ans = 0;
