@@ -1,7 +1,6 @@
 class Solution {
   public int bestClosingTime(String customers) {
-    // Instead of computing the minimum penalty, we can compute the maximum profit.
-    int ans = 0;
+        int ans = 0;
     int profit = 0;
     int maxProfit = 0;
 
