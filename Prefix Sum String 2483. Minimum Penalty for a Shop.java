@@ -10,7 +10,6 @@ class Solution {
         ans = i + 1;
       }
     }
-
     return ans;
   }
 }
