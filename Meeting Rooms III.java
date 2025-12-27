@@ -6,7 +6,6 @@ class Solution {
     Queue<T> occupied =
         new PriorityQueue<>(Comparator.comparingLong(T::endTime).thenComparingInt(T::roomId));
     Queue<Integer> availableRoomIds = new PriorityQueue<>();
-
     for (int i = 0; i < n; ++i)
       availableRoomIds.offer(i);
 
