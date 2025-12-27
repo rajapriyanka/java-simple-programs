@@ -2,7 +2,6 @@ class Solution {
   public int mostBooked(int n, int[][] meetings) {
     record T(long endTime, int roomId) {}
     int[] count = new int[n];
-
     Arrays.sort(meetings, Comparator.comparingInt(meeting -> meeting[0]));
 
     Queue<T> occupied =
