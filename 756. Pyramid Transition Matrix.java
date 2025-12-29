@@ -1,7 +1,6 @@
 class Solution {
   public boolean pyramidTransition(String bottom, List<String> allowed) {
     Map<String, List<Character>> prefixToBlocks = new HashMap<>();
-
     for (final String a : allowed) {
       final String lowerBlocks = a.substring(0, 2);
       prefixToBlocks.putIfAbsent(lowerBlocks, new LinkedList<>());
