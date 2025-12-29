@@ -14,7 +14,6 @@ class Solution {
       return true;
     if (nextRow.length() + 1 == row.length())
       return dfs(nextRow, "", 0, prefixToBlocks);
-
     final String prefix = row.substring(i, i + 2);
 
     if (prefixToBlocks.containsKey(prefix))
