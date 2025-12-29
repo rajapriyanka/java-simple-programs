@@ -7,7 +7,6 @@ class Solution {
       prefixToBlocks.putIfAbsent(lowerBlocks, new LinkedList<>());
       prefixToBlocks.get(lowerBlocks).add(a.charAt(2));
     }
-
     return dfs(bottom, "", 0, prefixToBlocks);
   }
 
