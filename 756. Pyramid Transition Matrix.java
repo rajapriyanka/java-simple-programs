@@ -8,7 +8,6 @@ class Solution {
     }
     return dfs(bottom, "", 0, prefixToBlocks);
   }
-
   private boolean dfs(final String row, final String nextRow, int i,
                       Map<String, List<Character>> prefixToBlocks) {
     if (row.length() == 1)
