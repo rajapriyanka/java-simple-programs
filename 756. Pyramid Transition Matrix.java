@@ -19,7 +19,6 @@ class Solution {
       for (final char c : prefixToBlocks.get(prefix))
         if (dfs(row, nextRow + c, i + 1, prefixToBlocks))
           return true;
-
     return false;
   }
 }
