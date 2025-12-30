@@ -10,7 +10,6 @@ class Solution {
   }
   private boolean isMagic(int[][] grid, int i, int j) {
     String s = new String("");
-
     for (final int num : new int[] {0, 1, 2, 5, 8, 7, 6, 3})
       s += Integer.toString(grid[i + num / 3][j + num % 3]);
 
