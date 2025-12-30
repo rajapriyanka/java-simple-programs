@@ -1,3 +1,4 @@
+
 class Solution {
   public int numMagicSquaresInside(int[][] grid) {
     int ans = 0;
