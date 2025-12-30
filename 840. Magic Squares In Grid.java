@@ -8,7 +8,6 @@ class Solution {
             ++ans;
     return ans;
   }
-
   private boolean isMagic(int[][] grid, int i, int j) {
     String s = new String("");
 
