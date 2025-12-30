@@ -6,7 +6,6 @@ class Solution {
         if (grid[i][j] % 2 == 0 && grid[i + 1][j + 1] == 5)
           if (isMagic(grid, i, j))
             ++ans;
-
     return ans;
   }
 
