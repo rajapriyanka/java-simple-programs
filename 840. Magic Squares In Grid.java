@@ -1,7 +1,6 @@
 class Solution {
   public int numMagicSquaresInside(int[][] grid) {
     int ans = 0;
-
     for (int i = 0; i + 2 < grid.length; ++i)
       for (int j = 0; j + 2 < grid[0].length; ++j)
         if (grid[i][j] % 2 == 0 && grid[i + 1][j + 1] == 5)
