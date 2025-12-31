@@ -22,7 +22,6 @@ class Solution {
       final int y = cells[i][1] - 1;
       matrix[x][y] = 1;
     }
-
     Queue<Pair<Integer, Integer>> q = new ArrayDeque<>();
 
     for (int j = 0; j < col; ++j)
