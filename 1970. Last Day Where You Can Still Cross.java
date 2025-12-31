@@ -28,7 +28,6 @@ class Solution {
         q.offer(new Pair<>(0, j));
         matrix[0][j] = 1;
       }
-
     while (!q.isEmpty()) {
       final int i = q.peek().getKey();
       final int j = q.poll().getValue();
