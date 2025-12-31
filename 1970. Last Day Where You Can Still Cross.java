@@ -14,7 +14,6 @@ class Solution {
     }
     return ans;
   }
-
   private static final int[][] DIRS = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 
   private boolean canWalk(int day, int row, int col, int[][] cells) {
