@@ -23,7 +23,6 @@ class Solution {
       matrix[x][y] = 1;
     }
     Queue<Pair<Integer, Integer>> q = new ArrayDeque<>();
-
     for (int j = 0; j < col; ++j)
       if (matrix[0][j] == 0) {
         q.offer(new Pair<>(0, j));
