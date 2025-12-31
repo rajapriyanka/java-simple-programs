@@ -3,7 +3,6 @@ class Solution {
     int ans = 0;
     int l = 1;
     int r = cells.length - 1;
-
     while (l <= r) {
       final int m = (l + r) / 2;
       if (canWalk(m, row, col, cells)) {
