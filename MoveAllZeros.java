@@ -24,5 +24,4 @@ public class MoveAllZeros {
 		}
 		zeros(arr);
 	}
-
 }
