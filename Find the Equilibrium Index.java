@@ -22,7 +22,6 @@ public class EquilibriumIndex {
 			leftSum+=arr[i];
 		}
 		System.out.println("No equilibirum index found");
-
 	}
 
 }
