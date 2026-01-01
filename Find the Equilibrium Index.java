@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class EquilibriumIndex {
 
 	public static void main(String[] args) {
