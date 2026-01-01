@@ -23,5 +23,4 @@ public class EquilibriumIndex {
 		}
 		System.out.println("No equilibirum index found");
 	}
-
 }
