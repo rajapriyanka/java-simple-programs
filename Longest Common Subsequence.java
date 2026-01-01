@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 class Main {
     public static int LCS(String s1,String s2){
