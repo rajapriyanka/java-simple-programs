@@ -23,7 +23,6 @@ public class MoveAllZeros {
 			arr[i]= sc.nextInt();
 		}
 		zeros(arr);
-		
 	}
 
 }
