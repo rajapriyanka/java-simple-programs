@@ -3,7 +3,6 @@ class Solution {
     return dfs(root).lca;
   }
   private record T(TreeNode lca, int depth) {}
-
   private T dfs(TreeNode root) {
     if (root == null)
       return new T(null, 0);
