@@ -6,7 +6,6 @@ class Solution {
   private T dfs(TreeNode root) {
     if (root == null)
       return new T(null, 0);
-
     T left = dfs(root.left);
     T right = dfs(root.right);
     if (left.depth > right.depth)
