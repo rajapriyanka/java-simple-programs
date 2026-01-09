@@ -2,7 +2,6 @@ class Solution {
   public TreeNode subtreeWithAllDeepest(TreeNode root) {
     return dfs(root).lca;
   }
-
   private record T(TreeNode lca, int depth) {}
 
   private T dfs(TreeNode root) {
